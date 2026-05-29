@@ -63,6 +63,9 @@ padding:2px 7px;border-radius:6px;}
 .stars{color:#e9bd64;font-size:12px;letter-spacing:1px;}
 blockquote{margin:10px 0 8px;padding:8px 12px;border-left:3px solid var(--accent);
 background:#11141a;border-radius:0 8px 8px 0;font-size:14px;}
+.zh{margin:6px 0 8px;padding:8px 12px;border-left:3px solid #d2992b;
+background:#15130d;border-radius:0 8px 8px 0;font-size:13.5px;color:#e6d8b8;}
+.zh b{color:#e9bd64;font-weight:600;}
 a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
 .src{font-size:12px;}
 table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px;display:block;
@@ -101,6 +104,8 @@ def _card(m: Mention) -> str:
     themes = "".join(f'<span class="chip">{_esc(t)}</span>' for t in m.theme_tags)
     src = (f'<a class="src" href="{_esc(m.source_url)}" target="_blank" rel="noopener">来源 ↗</a>'
            if m.source_url else "")
+    zh = (f'<div class="zh"><b>中译：</b>{_esc(m.exact_quote_zh)}</div>'
+          if m.exact_quote_zh else "")
     return f"""<div class="card">
   <div class="row">
     <span class="co">{_esc(m.normalized_company_name)}</span>{ticker}
@@ -113,6 +118,7 @@ def _card(m: Mention) -> str:
     <span class="stars" title="投资相关性 {m.investment_relevance_score}/5">{_stars(m.investment_relevance_score)}</span>
   </div>
   <blockquote>{_esc(m.exact_quote)}</blockquote>
+  {zh}
   <div class="row"><span class="note">{_esc(m.source_type)} · 置信度 {m.confidence_score}/5</span> {src}</div>
 </div>"""
 

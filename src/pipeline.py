@@ -22,7 +22,7 @@ import csv
 import json
 from pathlib import Path
 
-from src import config, fetch_truth_social
+from src import config, fetch_truth_social, fetch_whitehouse
 from src.build_site import build_site
 from src.dedupe import dedupe
 from src.enrich_tickers import enrich, load_sec_index
@@ -32,6 +32,7 @@ from src.generate_report import write_report
 from src.models import Mention
 from src.normalize_companies import CompanyResolver
 from src.score_relevance import enrich_scoring
+from src.translate import translate_mentions
 
 
 def write_csv(mentions: list[Mention], path: Path) -> None:
@@ -89,6 +90,8 @@ def run(
     truth_since: str | None = None,
     truth_lookback_days: int = 60,
     truth_max: int | None = None,
+    whitehouse: bool = False,
+    whitehouse_max: int = 12,
     merge: bool = True,
     site_dir: Path | None = None,
 ) -> list[Mention]:
@@ -118,6 +121,13 @@ def run(
             s["_allow_fetch"] = allow_fetch
         sources.extend(ts_sources)
 
+    # 2b) White House spoken remarks (American Presidency Project)
+    if whitehouse:
+        wh_sources = fetch_whitehouse.get_sources(max_new=whitehouse_max)
+        for s in wh_sources:
+            s["_allow_fetch"] = allow_fetch
+        sources.extend(wh_sources)
+
     new_mentions = _process_sources(sources, resolver, sec_index)
     print(f"[pipeline] extracted {len(new_mentions)} company mention(s) this run")
 
@@ -132,6 +142,11 @@ def run(
         deduped = [m for m in deduped if m.confidence_score >= min_confidence]
         print(f"[pipeline] confidence filter (>= {min_confidence}): "
               f"{before} -> {len(deduped)}")
+
+    # 3b) Chinese translation of each quote (cached; only new quotes hit network)
+    n_translated = translate_mentions(deduped)
+    if n_translated:
+        print(f"[pipeline] translated {n_translated} new quote(s) to Chinese")
 
     # 4) write outputs
     csv_out = outputs_dir / config.CSV_OUT.name
@@ -171,6 +186,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
                    help="first-run backfill window when there is no saved state")
     p.add_argument("--truth-max", type=int, default=None,
                    help="cap number of posts processed (safety)")
+    # White House
+    p.add_argument("--whitehouse", action="store_true",
+                   help="ingest Trump's spoken White House remarks (APP archive)")
+    p.add_argument("--whitehouse-max", type=int, default=12,
+                   help="max new White House remarks to fetch per run")
     p.add_argument("--no-merge", action="store_true",
                    help="clean rebuild: ignore the previously written dataset")
     # Site
@@ -193,6 +213,8 @@ def main(argv: list[str] | None = None) -> None:
         truth_since=args.truth_since,
         truth_lookback_days=args.truth_lookback_days,
         truth_max=args.truth_max,
+        whitehouse=args.whitehouse,
+        whitehouse_max=args.whitehouse_max,
         merge=not args.no_merge,
         site_dir=args.site_dir,
     )

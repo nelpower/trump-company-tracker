@@ -42,6 +42,7 @@ class Mention:
     source_type: str = "other"
     source_quality: str = "medium"
     exact_quote: str = ""
+    exact_quote_zh: str = ""  # Chinese translation of the quote (per sentence)
     quote_context_before: str = ""
     quote_context_after: str = ""
     mentioned_company_raw: str = ""

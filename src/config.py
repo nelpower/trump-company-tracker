@@ -42,6 +42,7 @@ FIELDNAMES: list[str] = [
     "source_type",
     "source_quality",
     "exact_quote",
+    "exact_quote_zh",
     "quote_context_before",
     "quote_context_after",
     "mentioned_company_raw",

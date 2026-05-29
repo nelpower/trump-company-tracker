@@ -196,5 +196,6 @@ def get_sources(
 
     if update_state and recent:
         save_state({"last_created_at": max_seen,
-                    "updated_at": dt.datetime.utcnow().isoformat() + "Z"})
+                    "updated_at": dt.datetime.now(dt.timezone.utc)
+                    .strftime("%Y-%m-%dT%H:%M:%SZ")})
     return sources

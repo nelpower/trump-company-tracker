@@ -6,6 +6,10 @@ PyYAML>=6.0
 requests>=2.28
 beautifulsoup4>=4.11
 
+# Chinese translation of quotes (Google backend, no API key). If absent, the
+# exact_quote_zh field is simply left empty.
+deep-translator>=1.11
+
 # Dev / tests ---------------------------------------------------------------
 pytest>=7.0
 
