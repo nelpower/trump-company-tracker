@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-05-29 13:42　|　记录总数：**41***
+*生成时间：2026-05-29 22:13　|　记录总数：**39***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 2 |
 | 2025 | 10 |
-| 2026 | 28 |
+| 2026 | 26 |
 
 **按月份：**
 
@@ -26,26 +26,26 @@
 | 2025-07 | 2 |
 | 2025-12 | 6 |
 | 2026-01 | 4 |
-| 2026-02 | 7 |
-| 2026-03 | 6 |
-| 2026-04 | 5 |
+| 2026-02 | 8 |
+| 2026-03 | 2 |
+| 2026-04 | 6 |
 | 2026-05 | 6 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | Apple Inc. | AAPL | 11 |
-| 2 | The Boeing Company | BA | 6 |
+| 1 | Apple Inc. | AAPL | 10 |
+| 2 | The Boeing Company | BA | 5 |
 | 3 | NVIDIA Corporation | NVDA | 3 |
 | 4 | Dell Technologies Inc. | DELL | 3 |
 | 5 | Intel Corporation | INTC | 3 |
 | 6 | United States Steel Corporation | X | 2 |
 | 7 | QUALCOMM Incorporated | QCOM | 1 |
 | 8 | Micron Technology, Inc. | MU | 1 |
-| 9 | Oracle Corporation | ORCL | 1 |
-| 10 | Alphabet Inc. (Google) | GOOGL | 1 |
-| 11 | Lockheed Martin Corporation | LMT | 1 |
+| 9 | Palantir Technologies Inc. | PLTR | 1 |
+| 10 | Lockheed Martin Corporation | LMT | 1 |
+| 11 | Anthropic | — | 1 |
 | 12 | General Motors Company | GM | 1 |
 | 13 | Microsoft Corporation | MSFT | 1 |
 | 14 | Meta Platforms, Inc. | META | 1 |
@@ -59,9 +59,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 21 | 51% |
+| positive | 20 | 51% |
 | negative | 2 | 5% |
-| neutral | 16 | 39% |
+| neutral | 15 | 38% |
 | mixed | 2 | 5% |
 
 ## 4. 主题分布 (theme_tags)
@@ -70,25 +70,24 @@
 | --- | --- |
 | AI | 4 |
 | data_center | 1 |
-| defense | 11 |
+| defense | 10 |
 | energy | 2 |
-| manufacturing | 3 |
+| manufacturing | 2 |
 | semiconductor | 2 |
-| cloud | 1 |
 | aerospace | 9 |
-| infrastructure | 3 |
+| infrastructure | 2 |
 | consumer | 2 |
-| other | 20 |
+| other | 19 |
 
 ## 5. 政策角度分布 (policy_angle)
 
 | 政策角度 | 数量 |
 | --- | --- |
 | government_contract | 8 |
-| manufacturing_reshoring | 3 |
+| manufacturing_reshoring | 2 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 25 |
+| unknown | 24 |
 
 ## 6. 最近 30 天新增公司 mentions (相对运行日 2026-05-29)
 
@@ -106,10 +105,9 @@
 | 2026-04-21 | The Boeing Company | BA | 5 | positive | government_contract | Barack Hussein Obama gave them 1.7 Billion Dollars in "Green" Cash, flown in by a Boeing … | [link](https://truthsocial.com/@realDonaldTrump/116445317344745621) |
 | 2026-04-20 | The Boeing Company | BA | 5 | neutral | unknown | They actually gave $1.7 Billion Dollars in "GREEN" Cash, loaded into a Boeing 757, and fl… | [link](https://truthsocial.com/@realDonaldTrump/116438239629407600) |
 | 2026-04-17 | Apple Inc. | AAPL | 5 | neutral | unknown | Trump Effect: Apple Expands American Manufacturing Program with 4 Partners: https://www.b… | [link](https://truthsocial.com/@realDonaldTrump/116421668823698549) |
-| 2026-03-27 | Oracle Corporation | ORCL | 5 | positive | manufacturing_reshoring | As just a few examples of these new partnerships: Oracle will be building a $14 billion w… | [link](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami) |
-| 2026-03-27 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | unknown | We won the court case in about 1 hour, and Google Maps changed the name, and it's now the… | [link](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami) |
 | 2026-03-06 | The Boeing Company | BA | 5 | neutral | unknown | The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Ha… | [link](https://truthsocial.com/@realDonaldTrump/116184185735585906) |
 | 2026-03-06 | Lockheed Martin Corporation | LMT | 5 | neutral | unknown | The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Ha… | [link](https://truthsocial.com/@realDonaldTrump/116184185735585906) |
+| 2026-02-27 | Anthropic | — | 5 | neutral | unknown | Anthropic better get their act together, and be helpful during this phase out period, or … | [link](https://truthsocial.com/@realDonaldTrump/116144552969293195) |
 | 2026-02-01 | United States Steel Corporation | X | 5 | neutral | tariff | US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data ce… | [link](https://truthsocial.com/@realDonaldTrump/115995786512051662) |
 | 2026-01-12 | Microsoft Corporation | MSFT | 5 | neutral | unknown | First up is Microsoft, who my team has been working with, and which will make major chang… | [link](https://truthsocial.com/@realDonaldTrump/115884759090137876) |
 | 2026-01-08 | Intel Corporation | INTC | 5 | positive | unknown | Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged… | [link](https://truthsocial.com/@realDonaldTrump/115861537483492504) |
@@ -126,7 +124,7 @@
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：11 次，2025-02-24 ～ 2026-05-13
+- **提及次数 / 时间**：10 次，2025-02-24 ～ 2026-05-13
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -138,15 +136,15 @@
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：6 次，2016-12-06 ～ 2026-05-13
-- **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
+- **提及次数 / 时间**：5 次，2016-12-06 ～ 2026-05-13
+- **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure
 - **政策含义**：政府采购/合同
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；商品价格波动与政策反复风险；依赖立法拨款与执行节奏；投资含义需进一步确认
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；商品价格波动与政策反复风险；依赖立法拨款与执行节奏
 - **代表性原话**：
   - 2016-12-06：「Boeing is building a brand new 747 Air Force One for future presidents, but costs are out of control, more than $4 billion.」 — [来源](https://www.politifact.com/factchecks/2016/dec/06/donald-trump/fact-checking-donald-trumps-tweet-air-force-one-bo/)
   - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
-  - 2026-03-27：「Boeing is selling dozens of 737 airplanes in a deal valued at $4.8 billion and supporting approximately 20,000 U.S. jobs.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2026-04-20：「They actually gave $1.7 Billion Dollars in "GREEN" Cash, loaded into a Boeing 757, and flown to Iran for Iranian leadership to spend anyway they saw fit.」 — [来源](https://truthsocial.com/@realDonaldTrump/116438239629407600)
 
 ### Dell Technologies Inc.　（DELL，public）
 
@@ -205,16 +203,6 @@
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
 
-### Alphabet Inc. (Google)　（GOOGL，public）
-
-- **提及次数 / 时间**：1 次，2026-03-27 ～ 2026-03-27
-- **语境与情绪**：neutral；主题 defense、manufacturing
-- **政策含义**：暂不明确
-- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险
-- **代表性原话**：
-  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
-
 ### Amazon.com, Inc.　（AMZN，public）
 
 - **提及次数 / 时间**：1 次，2025-12-30 ～ 2025-12-30
@@ -224,6 +212,16 @@
 - **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖立法拨款与执行节奏
 - **代表性原话**：
   - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
+
+### Anthropic　（未上市/未知，private）
+
+- **提及次数 / 时间**：1 次，2026-02-27 ～ 2026-02-27
+- **语境与情绪**：neutral；主题 AI
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定
+- **代表性原话**：
+  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
 
 ### General Motors Company　（GM，public）
 
@@ -285,15 +283,15 @@
 - **代表性原话**：
   - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
 
-### Oracle Corporation　（ORCL，public）
+### Palantir Technologies Inc.　（PLTR，public）
 
-- **提及次数 / 时间**：1 次，2026-03-27 ～ 2026-03-27
-- **语境与情绪**：positive；主题 AI、cloud、infrastructure
-- **政策含义**：制造业回流
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；云计算与企业 IT 支出；基建相关材料/工程/设备（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；竞争激烈、资本开支高企；依赖立法拨款与执行节奏
+- **提及次数 / 时间**：1 次，2026-04-10 ～ 2026-04-10
+- **语境与情绪**：positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
 - **代表性原话**：
-  - 2026-03-27：「As just a few examples of these new partnerships: Oracle will be building a $14 billion worth of cloud computing and AI infrastructure in the Kingdom.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2026-04-10：「Palantir Technologies (PLTR) has proven to have great war fighting capabilities and equipment.」 — [来源](https://truthsocial.com/@realDonaldTrump/116380894672815869)
 
 ### QUALCOMM Incorporated　（QCOM，public）
 

@@ -271,3 +271,218 @@ companies:
     status: "public"
     sector: "Technology — Hardware"
     themes: ["data_center", "manufacturing"]
+
+  # ===================================================================== #
+  # AI ecosystem — added under the rule: company must have AI-related
+  # business. Tickers verified against SEC company_tickers.json.
+  # ===================================================================== #
+
+  # ---- AI chips / accelerators / IP ------------------------------------ #
+  - normalized: "Broadcom Inc."
+    aliases: ["Broadcom"]
+    ticker: "AVGO"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors — AI accelerators (custom ASIC) & networking"
+    themes: ["semiconductor", "AI", "data_center"]
+
+  - normalized: "Marvell Technology, Inc."
+    aliases: ["Marvell", "Marvell Technology"]
+    ticker: "MRVL"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors — custom AI silicon"
+    themes: ["semiconductor", "AI", "data_center"]
+
+  - normalized: "Arm Holdings plc"
+    # only the multi-word form: bare "Arm"/"ARM" collides with "arms"/"arm"
+    aliases: ["Arm Holdings", "ARM Holdings"]
+    ticker: "ARM"
+    exchange: "NASDAQ (ADR)"
+    status: "public"
+    sector: "Semiconductors — CPU IP for AI"
+    themes: ["semiconductor", "AI"]
+
+  - normalized: "Astera Labs, Inc."
+    aliases: ["Astera Labs", "Astera"]
+    ticker: "ALAB"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors — AI connectivity"
+    themes: ["semiconductor", "AI", "data_center"]
+
+  # ---- Semiconductor equipment (enables AI chips) ---------------------- #
+  - normalized: "ASML Holding N.V."
+    aliases: ["ASML"]
+    ticker: "ASML"
+    exchange: "NASDAQ (ADR)"
+    status: "public"
+    sector: "Semiconductor equipment — EUV lithography (AI chips)"
+    themes: ["semiconductor", "AI"]
+
+  - normalized: "Applied Materials, Inc."
+    aliases: ["Applied Materials"]
+    ticker: "AMAT"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductor equipment (AI chips)"
+    themes: ["semiconductor", "AI"]
+
+  - normalized: "Lam Research Corporation"
+    aliases: ["Lam Research"]
+    ticker: "LRCX"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductor equipment (AI chips)"
+    themes: ["semiconductor", "AI"]
+
+  - normalized: "KLA Corporation"
+    aliases: ["KLA Corporation", "KLA Corp", "KLA"]
+    ticker: "KLAC"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductor equipment / metrology (AI chips)"
+    themes: ["semiconductor", "AI"]
+
+  # ---- AI servers / networking / data-center power --------------------- #
+  - normalized: "Super Micro Computer, Inc."
+    aliases: ["Super Micro Computer", "Supermicro", "Super Micro"]
+    ticker: "SMCI"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "AI servers / hardware"
+    themes: ["AI", "data_center", "manufacturing"]
+
+  - normalized: "Arista Networks, Inc."
+    aliases: ["Arista Networks", "Arista"]
+    ticker: "ANET"
+    exchange: "NYSE"
+    status: "public"
+    sector: "AI data-center networking"
+    themes: ["AI", "data_center", "telecom"]
+
+  - normalized: "Vertiv Holdings Co"
+    aliases: ["Vertiv"]
+    ticker: "VRT"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Data-center power & cooling (AI build-out)"
+    themes: ["data_center", "AI", "energy"]
+
+  - normalized: "Cisco Systems, Inc."
+    aliases: ["Cisco", "Cisco Systems"]
+    ticker: "CSCO"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Networking — AI data center"
+    themes: ["AI", "data_center", "telecom"]
+
+  # ---- AI software / platforms ----------------------------------------- #
+  - normalized: "Palantir Technologies Inc."
+    aliases: ["Palantir"]
+    ticker: "PLTR"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "AI software / analytics (AIP)"
+    themes: ["AI", "defense"]
+
+  - normalized: "Salesforce, Inc."
+    aliases: ["Salesforce"]
+    ticker: "CRM"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Enterprise software — AI (Agentforce)"
+    themes: ["AI", "cloud"]
+
+  - normalized: "ServiceNow, Inc."
+    aliases: ["ServiceNow"]
+    ticker: "NOW"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Enterprise software — AI workflows"
+    themes: ["AI", "cloud"]
+
+  - normalized: "Snowflake Inc."
+    aliases: ["Snowflake"]
+    ticker: "SNOW"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Data cloud — AI (Cortex)"
+    themes: ["AI", "cloud", "data_center"]
+    ambiguous: true   # "snowflake" is a common (insult) word -> require capital
+
+  - normalized: "C3.ai, Inc."
+    aliases: ["C3.ai", "C3 AI"]   # NOT bare "AI" / "C3"
+    ticker: "AI"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Enterprise AI software"
+    themes: ["AI"]
+
+  - normalized: "Adobe Inc."
+    aliases: ["Adobe"]
+    ticker: "ADBE"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Software — generative AI (Firefly)"
+    themes: ["AI", "consumer"]
+    ambiguous: true   # "adobe" (mud brick) -> require capital
+
+  # ---- AI memory (HBM) — foreign-listed -------------------------------- #
+  - normalized: "SK hynix Inc."
+    aliases: ["SK Hynix", "SK hynix", "Hynix"]
+    ticker: "000660.KS"
+    exchange: "Korea (KRX)"
+    status: "public"
+    sector: "Semiconductors — HBM memory (AI)"
+    themes: ["semiconductor", "AI", "data_center"]
+
+  - normalized: "Samsung Electronics Co., Ltd."
+    aliases: ["Samsung Electronics", "Samsung"]
+    ticker: "005930.KS"
+    exchange: "Korea (KRX)"
+    status: "public"
+    sector: "Semiconductors — memory / foundry (AI)"
+    themes: ["semiconductor", "AI"]
+
+  # ---- AI model labs / platforms (private) ----------------------------- #
+  - normalized: "Anthropic"
+    aliases: ["Anthropic"]
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "Artificial Intelligence — frontier model lab"
+    themes: ["AI"]
+
+  - normalized: "xAI"
+    aliases: ["xAI"]
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "Artificial Intelligence — model lab"
+    themes: ["AI"]
+
+  - normalized: "Databricks, Inc."
+    aliases: ["Databricks"]
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "Data + AI platform"
+    themes: ["AI", "data_center", "cloud"]
+
+  - normalized: "Scale AI, Inc."
+    aliases: ["Scale AI"]   # NOT bare "Scale"
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "AI data infrastructure / labeling"
+    themes: ["AI"]
+
+  - normalized: "Mistral AI"
+    aliases: ["Mistral AI", "Mistral"]
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "Artificial Intelligence — model lab"
+    themes: ["AI"]
+    ambiguous: true   # "mistral" (the wind) -> require capital
