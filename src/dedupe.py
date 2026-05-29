@@ -29,37 +29,56 @@ def quote_similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, _norm(a), _norm(b)).ratio()
 
 
-def _rank(m: Mention) -> tuple[int, int, int]:
-    """Sort key for choosing the canonical record (higher is better)."""
+def _rank(m: Mention) -> tuple[int, int, int, str]:
+    """Sort key for choosing the canonical record (higher is better).
+
+    ``id`` is the final tiebreaker so the winner is deterministic regardless of
+    input order (important for stable, idempotent merge-mode re-runs).
+    """
     return (
         SOURCE_QUALITY_RANK.get(m.source_quality, 0),
         m.confidence_score,
         len(m.exact_quote or ""),
+        m.id,
     )
 
 
 def _merge_into(winner: Mention, loser: Mention) -> None:
-    """Fold a duplicate's provenance / extra context into the winner."""
+    """Fold a duplicate's provenance / extra context into the winner.
+
+    Idempotent: a note already present is not appended again, so re-running the
+    pipeline over an accumulated dataset does not grow notes without bound.
+    """
+    existing_notes = winner.notes or ""
     bits = []
     src = loser.source_title or loser.source_url or loser.source_type
     if src:
         url = f" ({loser.source_url})" if loser.source_url else ""
-        bits.append(f"Also reported by: {src}{url}")
+        prov = f"Also reported by: {src}{url}"
+        if prov not in existing_notes:
+            bits.append(prov)
     # keep any context the winner happens to be missing
     if not winner.quote_context_before and loser.quote_context_before:
         winner.quote_context_before = loser.quote_context_before
     if not winner.quote_context_after and loser.quote_context_after:
         winner.quote_context_after = loser.quote_context_after
-    if loser.notes:
+    if loser.notes and loser.notes not in existing_notes:
         bits.append(loser.notes)
     if bits:
         joined = " | ".join(bits)
-        winner.notes = f"{winner.notes} | {joined}".strip(" |") if winner.notes else joined
+        winner.notes = f"{existing_notes} | {joined}".strip(" |") if existing_notes else joined
 
 
 def dedupe(
     mentions: list[Mention], threshold: float = DEFAULT_THRESHOLD
 ) -> list[Mention]:
+    # Process in a deterministic order (by stable id) so the output does not
+    # depend on how existing+new records were concatenated — this is what makes
+    # merge-mode re-runs converge to a fixed point.
+    for m in mentions:
+        m.ensure_id()
+    mentions = sorted(mentions, key=lambda m: m.id)
+
     # First collapse exact-id duplicates. Identical id == identical
     # (date, company, quote), so we simply keep the first and drop the rest.
     # (No note-merging here: that would bloat notes on every idempotent re-run.
@@ -67,7 +86,6 @@ def dedupe(
     by_id: dict[str, Mention] = {}
     ordered: list[Mention] = []
     for m in mentions:
-        m.ensure_id()
         if m.id in by_id:
             continue
         by_id[m.id] = m
@@ -98,8 +116,10 @@ def dedupe(
                 _merge_into(winner, loser)
             result.append(winner)
 
-    # Stable, useful ordering: newest first, then company.
+    # Stable, useful ordering: newest first, then company, then id (tiebreaker
+    # so ties never reorder between runs).
     result.sort(
-        key=lambda m: (m.date or "", m.normalized_company_name), reverse=True
+        key=lambda m: (m.date or "", m.normalized_company_name, m.id),
+        reverse=True,
     )
     return result
