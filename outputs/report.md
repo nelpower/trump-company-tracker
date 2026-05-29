@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-05-29 20:14　|　记录总数：**36***
+*生成时间：2026-05-29 20:36　|　记录总数：**37***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 2 |
 | 2025 | 10 |
-| 2026 | 23 |
+| 2026 | 24 |
 
 **按月份：**
 
@@ -29,7 +29,7 @@
 | 2026-02 | 7 |
 | 2026-03 | 2 |
 | 2026-04 | 5 |
-| 2026-05 | 5 |
+| 2026-05 | 6 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -38,8 +38,8 @@
 | 1 | Apple Inc. | AAPL | 10 |
 | 2 | The Boeing Company | BA | 5 |
 | 3 | NVIDIA Corporation | NVDA | 3 |
-| 4 | Intel Corporation | INTC | 3 |
-| 5 | Dell Technologies Inc. | DELL | 2 |
+| 4 | Dell Technologies Inc. | DELL | 3 |
+| 5 | Intel Corporation | INTC | 3 |
 | 6 | United States Steel Corporation | X | 2 |
 | 7 | QUALCOMM Incorporated | QCOM | 1 |
 | 8 | Micron Technology, Inc. | MU | 1 |
@@ -57,10 +57,10 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 18 | 50% |
-| negative | 2 | 6% |
-| neutral | 14 | 39% |
-| mixed | 2 | 6% |
+| positive | 19 | 51% |
+| negative | 2 | 5% |
+| neutral | 14 | 38% |
+| mixed | 2 | 5% |
 
 ## 4. 主题分布 (theme_tags)
 
@@ -68,7 +68,7 @@
 | --- | --- |
 | AI | 3 |
 | data_center | 1 |
-| defense | 9 |
+| defense | 10 |
 | energy | 2 |
 | manufacturing | 2 |
 | semiconductor | 2 |
@@ -81,7 +81,7 @@
 
 | 政策角度 | 数量 |
 | --- | --- |
-| government_contract | 7 |
+| government_contract | 8 |
 | manufacturing_reshoring | 2 |
 | national_security | 3 |
 | tariff | 2 |
@@ -99,6 +99,7 @@
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-05-13 | NVIDIA Corporation | NVDA | 5 | positive | government_contract | RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was … | [link](https://truthsocial.com/@realDonaldTrump/116565073088871081) |
+| 2026-05-08 | Dell Technologies Inc. | DELL | 5 | positive | government_contract | And I want to thank the Dell family; it's a great family. | [link](https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/) |
 | 2026-04-21 | The Boeing Company | BA | 5 | positive | government_contract | Barack Hussein Obama gave them 1.7 Billion Dollars in "Green" Cash, flown in by a Boeing … | [link](https://truthsocial.com/@realDonaldTrump/116445317344745621) |
 | 2026-04-20 | The Boeing Company | BA | 5 | neutral | unknown | They actually gave $1.7 Billion Dollars in "GREEN" Cash, loaded into a Boeing 757, and fl… | [link](https://truthsocial.com/@realDonaldTrump/116438239629407600) |
 | 2026-04-17 | Apple Inc. | AAPL | 5 | neutral | unknown | Trump Effect: Apple Expands American Manufacturing Program with 4 Partners: https://www.b… | [link](https://truthsocial.com/@realDonaldTrump/116421668823698549) |
@@ -142,6 +143,18 @@
   - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
   - 2026-04-20：「They actually gave $1.7 Billion Dollars in "GREEN" Cash, loaded into a Boeing 757, and flown to Iran for Iranian leadership to spend anyway they saw fit.」 — [来源](https://truthsocial.com/@realDonaldTrump/116438239629407600)
 
+### Dell Technologies Inc.　（DELL，public）
+
+- **提及次数 / 时间**：3 次，2025-12-02 ～ 2026-05-08
+- **语境与情绪**：positive；主题 defense、other
+- **政策含义**：政府采购/合同
+- **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
+  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
+  - 2026-05-08：「And I want to thank the Dell family; it's a great family.」 — [来源](https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/)
+
 ### Intel Corporation　（INTC，public）
 
 - **提及次数 / 时间**：3 次，2025-12-08 ～ 2026-04-29
@@ -165,17 +178,6 @@
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
   - 2026-05-13：「RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was not invited to the incredible gathering of the World's Greatest Busine…」 — [来源](https://truthsocial.com/@realDonaldTrump/116565073088871081)
-
-### Dell Technologies Inc.　（DELL，public）
-
-- **提及次数 / 时间**：2 次，2025-12-02 ～ 2026-02-08
-- **语境与情绪**：positive；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
-  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
 
 ### United States Steel Corporation　（X，public）
 

@@ -102,6 +102,35 @@ sources:
       by a foreign company, in this case Nippon Steel of Japan. As President,
       I will block this deal from happening. Buyer Beware!!!
 
+  # 8) Dell — White House SPOKEN remarks at the Mother's Day Luncheon
+  #    (May 8 2026). Demonstrates the white_house / video-transcript channel,
+  #    which the Truth Social feed does NOT cover. High investment relevance is
+  #    set via override because the heuristic can't know the outcome: weeks
+  #    later Dell won a ~$9.7B Pentagon software contract.
+  - id: dell-wh-mothersday-2026-05-08
+    date: 2026-05-08
+    title: "Remarks at the Mother's Day Luncheon (White House)"
+    # Authoritative spoken-remarks transcript (Roll Call / Factbase).
+    url: "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/"
+    source_type: white_house
+    source_quality: high
+    verbatim_quote: true
+    manual_text_file: dell_mothersday_2026-05-08.txt
+    overrides:
+      "Dell Technologies Inc.":
+        sentiment_toward_company: positive
+        policy_angle: government_contract
+        theme_tags: ["defense"]
+        investment_relevance_score: 5
+        notes: >-
+          WH Mother's Day Luncheon spoken remarks (Roll Call/Factbase transcript).
+          Key line: "So, go out and buy a Dell, they're great." Context: the Dell
+          family pledged $6.25B to "Trump Accounts". INVESTMENT LEAD PLAYED OUT —
+          Dell won a ~$9.7B Pentagon software contract weeks later (CNBC
+          2026-05-27; WaPo 2026-05-28); Trump reportedly bought Dell stock in
+          Feb 2026, drawing ethics scrutiny. Reuters URL not confirmed; transcript
+          used as primary source.
+
   # 7) Nvidia — stock up "since Trump tariffs" (Truth Social, Jul 10 2025).
   - id: nvidia-ts-2025-07-10
     date: 2025-07-10

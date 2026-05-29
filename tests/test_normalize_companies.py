@@ -176,6 +176,25 @@ def test_theme_tags_come_from_content_not_sector(resolver):
     assert ms[0].investment_relevance_score <= 3
 
 
+def test_source_overrides_flow_through_extract(resolver):
+    # Curated high-value records (e.g. WH remarks with a known outcome) can
+    # override the heuristics via source["overrides"][company].
+    from src.score_relevance import enrich_scoring
+    src = {"id": "x", "date": "2026-05-08", "source_type": "white_house",
+           "source_quality": "high",
+           "text": "I want to thank the Dell family. Go out and buy a Dell!",
+           "overrides": {"Dell Technologies Inc.": {
+               "policy_angle": "government_contract",
+               "investment_relevance_score": 5,
+               "theme_tags": ["defense"]}}}
+    ms = extract_from_source(src, resolver)
+    d = [m for m in ms if m.normalized_company_name == "Dell Technologies Inc."][0]
+    enrich_scoring(d, src)
+    assert d.policy_angle == "government_contract"      # not overwritten
+    assert d.investment_relevance_score == 5
+    assert d.theme_tags == ["defense"]
+
+
 def test_semiconductor_content_scores_high(resolver):
     from src.score_relevance import enrich_scoring
     src = {"id": "i", "date": "2026-01-08", "source_type": "social_media",
