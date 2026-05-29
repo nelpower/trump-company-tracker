@@ -1,0 +1,115 @@
+# --------------------------------------------------------------------------- #
+# Source list for the tracker.
+#
+# Required fields per source:
+#   id             : unique slug (also used as a fallback manual-text filename)
+#   date           : YYYY-MM-DD (the date of the STATEMENT, not the article)
+#   source_type    : white_house | social_media | video_transcript | news |
+#                    company_release | other
+#   source_quality : official | high | medium | low
+#
+# Provide the text in ONE of these ways (checked in order):
+#   text:             inline (best for short social posts)
+#   manual_text_file: a file under data/raw/manual_texts/
+#   url:              fetched over HTTP if fetching is enabled (best-effort)
+#
+# Optional:
+#   title, speaker (default "Donald J. Trump"), url (always keep for provenance)
+#   verbatim_quote: true   -> the text is a direct quote (raises confidence cap)
+#   quote_uncertain: true  -> not sure it's verbatim (caps confidence at 3)
+#   overrides:             -> hand-set fields, e.g. curated sentiment. Use
+#                            "_all_" for all companies or the normalized name.
+#
+# NOTE: every quote below was verified against the cited source. The exact post
+# URLs for social-media items point to reputable outlets that reproduce the
+# verbatim quote (Trump's own accounts are not directly fetchable).
+# --------------------------------------------------------------------------- #
+
+sources:
+  # 1) TSMC — White House remarks (OFFICIAL). Paired with #2 to show dedupe.
+  - id: tsmc-wh-2025-03-03
+    date: 2025-03-03
+    title: "Remarks announcing TSMC's $100B U.S. investment (Roosevelt Room)"
+    url: "https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/"
+    source_type: white_house
+    source_quality: official
+    verbatim_quote: true
+    manual_text_file: tsmc_whitehouse_2025-03-03.txt
+
+  # 2) TSMC — same statement reported by CBS News (de-duped against #1).
+  - id: tsmc-cbs-2025-03-03
+    date: 2025-03-03
+    title: "Trump announces Taiwanese chip giant's $100 billion investment"
+    url: "https://www.cbsnews.com/news/tsmc-taiwan-semiconductor-chips-trump-100-billion/"
+    source_type: news
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      Today, Taiwan Semiconductor is announcing that they will be investing
+      at least $100 billion in new capital in the United States to build
+      state-of-the-art semiconductor manufacturing facilities.
+
+  # 3) Apple — $500B U.S. investment (Truth Social post, Feb 24 2025).
+  - id: apple-ts-2025-02-24
+    date: 2025-02-24
+    title: "Trump on Apple's $500 billion U.S. investment (Truth Social)"
+    url: "https://www.axios.com/2025/02/24/apple-investment-trump-tim-cook"
+    source_type: social_media
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      APPLE HAS JUST ANNOUNCED A RECORD 500 BILLION DOLLAR INVESTMENT IN THE
+      UNITED STATES OF AMERICA. THE REASON, FAITH IN WHAT WE ARE DOING,
+      WITHOUT WHICH, THEY WOULDN'T BE INVESTING TEN CENTS. THANK YOU TIM COOK
+      AND APPLE!!
+
+  # 4) Coca-Cola — cane sugar (Truth Social, Jul 16 2025). Low-relevance demo.
+  - id: coke-ts-2025-07-16
+    date: 2025-07-16
+    title: "Trump says Coca-Cola agreed to use cane sugar (Truth Social)"
+    url: "https://www.cbsnews.com/news/trump-coca-cola-real-cane-sugar-in-us-cola/"
+    source_type: social_media
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      I have been speaking to Coca-Cola about using REAL Cane Sugar in Coke in
+      the United States, and they have agreed to do so. I'd like to thank all
+      of those in authority at Coca-Cola. This will be a very good move by
+      them — You'll see. It's just better!
+
+  # 5) Boeing — Air Force One cost criticism (tweet, Dec 6 2016). Negative.
+  - id: boeing-tweet-2016-12-06
+    date: 2016-12-06
+    title: "Trump: cancel the Boeing Air Force One order (Twitter)"
+    url: "https://www.politifact.com/factchecks/2016/dec/06/donald-trump/fact-checking-donald-trumps-tweet-air-force-one-bo/"
+    source_type: social_media
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      Boeing is building a brand new 747 Air Force One for future presidents,
+      but costs are out of control, more than $4 billion. Cancel order!
+
+  # 6) U.S. Steel + Nippon Steel — opposition to the deal (Truth Social, Dec 2 2024).
+  - id: ussteel-ts-2024-12-02
+    date: 2024-12-02
+    title: "Trump vows to block Nippon Steel's bid for U.S. Steel (Truth Social)"
+    url: "https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html"
+    source_type: social_media
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      I am totally against the once great and powerful U.S. Steel being bought
+      by a foreign company, in this case Nippon Steel of Japan. As President,
+      I will block this deal from happening. Buyer Beware!!!
+
+  # 7) Nvidia — stock up "since Trump tariffs" (Truth Social, Jul 10 2025).
+  - id: nvidia-ts-2025-07-10
+    date: 2025-07-10
+    title: "Trump touts Nvidia stock gain (Truth Social)"
+    url: "https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html"
+    source_type: social_media
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      NVIDIA IS UP 47% SINCE TRUMP TARIFFS. USA is taking in Hundreds of
+      Billions of Dollars in Tariffs.

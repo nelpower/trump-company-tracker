@@ -1,0 +1,35 @@
+[project]
+name = "trump-company-tracker"
+version = "0.1.0"
+description = "Collect, normalize, dedupe and summarize Trump's public mentions of specific companies, for investment research."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+# Network fetching of source URLs (the MVP runs fine without these via
+# inline text / manual transcripts).
+fetch = ["requests>=2.28", "beautifulsoup4>=4.11"]
+# Optional NER to *discover* companies not yet in the alias table.
+# After install also run: python -m spacy download en_core_web_sm
+nlp = ["spacy>=3.5"]
+# Optional ticker validation.
+tickers = ["yfinance>=0.2"]
+# Notebook / ad-hoc analysis.
+notebook = ["pandas>=1.5", "jupyter"]
+dev = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+# Make `from src.x import y` work without installing the package.
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

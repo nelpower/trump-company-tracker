@@ -1,0 +1,22 @@
+# Core (required) ---------------------------------------------------------
+PyYAML>=6.0
+
+# Optional: HTTP fetching of source URLs. Without these the pipeline still
+# runs using inline text in sources.yaml and files in data/raw/manual_texts/.
+requests>=2.28
+beautifulsoup4>=4.11
+
+# Dev / tests ---------------------------------------------------------------
+pytest>=7.0
+
+# Optional extras (install only if you need them) ---------------------------
+# spaCy NER to discover companies not yet in company_aliases.yaml:
+#   pip install spacy && python -m spacy download en_core_web_sm
+# spacy>=3.5
+#
+# yfinance for ticker validation:
+# yfinance>=0.2
+#
+# pandas / jupyter for notebooks/exploration.ipynb:
+# pandas>=1.5
+# jupyter

@@ -1,0 +1,67 @@
+# Tokens that NER (or a careless alias) might surface as "ORG" but which are
+# NOT companies we want to track. Matched case-insensitively. Extend freely.
+#
+# This is the main guard against false positives such as treating "America",
+# "the White House" or "Truth" (from "Truth Social") as tradable companies.
+
+blacklist:
+  # Countries / geographies
+  - "America"
+  - "American"
+  - "United States"
+  - "United States of America"
+  - "USA"
+  - "U.S."
+  - "U.S.A."
+  - "China"
+  - "Russia"
+  - "Japan"
+  - "Taiwan"
+  - "Mexico"
+  - "Canada"
+  - "Europe"
+  - "European Union"
+  - "EU"
+  - "Arizona"
+
+  # Government / institutions
+  - "White House"
+  - "the White House"
+  - "Congress"
+  - "Senate"
+  - "House"
+  - "House of Representatives"
+  - "Supreme Court"
+  - "Pentagon"
+  - "State Department"
+  - "Treasury"
+  - "Federal Reserve"
+  - "the Fed"
+  - "FBI"
+  - "CIA"
+  - "FDA"
+  - "SEC"
+  - "DOJ"
+  - "NATO"
+  - "United Nations"
+  - "UN"
+
+  # Politics
+  - "Republican"
+  - "Republicans"
+  - "Democrat"
+  - "Democrats"
+  - "GOP"
+  - "Republican Party"
+  - "Democratic Party"
+
+  # Easily-confused common words / Trump-specific noise
+  - "Truth"            # avoid matching "Truth Social" as a company called "Truth"
+  - "Truth Social"     # platform; map manually to Trump Media (DJT) if desired
+  - "God"
+  - "Make America Great Again"
+  - "MAGA"
+  - "Big Tech"
+  - "Wall Street"
+  - "Main Street"
+  - "Silicon Valley"

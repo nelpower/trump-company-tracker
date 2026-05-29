@@ -1,0 +1,273 @@
+# Company alias / normalization table.
+#
+# Each entry defines ONE canonical company. `aliases` are matched against text
+# case-insensitively with word boundaries (whitespace-flexible). Longer aliases
+# are preferred over shorter ones, so "Hewlett Packard Enterprise" wins over a
+# bare "HP".
+#
+# Fields:
+#   normalized : canonical display name (the value written to output)
+#   aliases    : surface forms to match (include the canonical name itself)
+#   ticker     : primary exchange ticker, "" if none / unknown. NEVER guess.
+#   exchange   : listing venue, "" if private/unknown
+#   status     : public | private | subsidiary | unknown
+#   sector     : free-text sector label
+#   themes     : default theme_tags applied when this company is mentioned
+#
+# Maintenance: add new companies here. To stop a token from being treated as a
+# company, add it to blacklist.yaml instead of removing it here.
+
+companies:
+  # ---- Mega-cap tech ---------------------------------------------------- #
+  - normalized: "Apple Inc."
+    aliases: ["Apple", "Apple Inc", "Apple Inc."]
+    ticker: "AAPL"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Technology — Consumer Electronics"
+    themes: ["consumer", "manufacturing"]
+    ambiguous: true   # "apple" the fruit -> require a capital letter
+
+  - normalized: "Microsoft Corporation"
+    aliases: ["Microsoft", "Microsoft Corp", "MSFT"]
+    ticker: "MSFT"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Technology — Software"
+    themes: ["cloud", "AI"]
+
+  - normalized: "Alphabet Inc. (Google)"
+    aliases: ["Alphabet", "Google", "Google LLC"]
+    ticker: "GOOGL"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Technology — Internet"
+    themes: ["AI", "cloud"]
+
+  - normalized: "Amazon.com, Inc."
+    aliases: ["Amazon", "Amazon.com", "AWS"]
+    ticker: "AMZN"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Technology — E-commerce / Cloud"
+    themes: ["cloud", "consumer"]
+    # Trump frequently links books "on Amazon" — those are sales links, not
+    # commentary about the company. Drop them.
+    suppress_context: ["book", "must read", "bookstore", "paperback",
+                       "hardcover", "memoir", "bestseller", "audiobook",
+                       "amazon.com", "/dp/", "order your copy"]
+
+  - normalized: "Meta Platforms, Inc."
+    aliases: ["Meta", "Meta Platforms", "Facebook"]
+    ticker: "META"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Technology — Internet"
+    themes: ["AI", "consumer"]
+    ambiguous: true   # "meta" the prefix -> require a capital letter
+
+  - normalized: "International Business Machines (IBM)"
+    aliases: ["IBM", "International Business Machines"]
+    ticker: "IBM"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Technology — IT Services"
+    themes: ["AI", "cloud"]
+
+  - normalized: "Oracle Corporation"
+    aliases: ["Oracle", "Oracle Corp"]
+    ticker: "ORCL"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Technology — Software / Cloud"
+    themes: ["cloud", "AI", "data_center"]
+    ambiguous: true   # "oracle" the noun -> require a capital letter
+
+  # ---- Semiconductors / AI hardware ------------------------------------- #
+  - normalized: "NVIDIA Corporation"
+    aliases: ["Nvidia", "NVIDIA", "Nvidia Corp"]
+    ticker: "NVDA"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors"
+    themes: ["semiconductor", "AI", "data_center"]
+
+  - normalized: "Intel Corporation"
+    aliases: ["Intel", "Intel Corp"]
+    ticker: "INTC"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors"
+    themes: ["semiconductor", "manufacturing"]
+    ambiguous: true   # "intel" = intelligence -> require a capital letter
+
+  - normalized: "Advanced Micro Devices, Inc."
+    aliases: ["AMD", "Advanced Micro Devices"]
+    ticker: "AMD"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors"
+    themes: ["semiconductor", "AI"]
+
+  - normalized: "QUALCOMM Incorporated"
+    aliases: ["Qualcomm"]
+    ticker: "QCOM"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors"
+    themes: ["semiconductor", "telecom"]
+
+  - normalized: "Micron Technology, Inc."
+    aliases: ["Micron", "Micron Technology"]
+    ticker: "MU"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Semiconductors — Memory"
+    themes: ["semiconductor"]
+
+  - normalized: "Taiwan Semiconductor Manufacturing Company (TSMC)"
+    aliases:
+      ["TSMC", "Taiwan Semiconductor", "Taiwan Semiconductor Manufacturing"]
+    ticker: "TSM"
+    exchange: "NYSE (ADR)"
+    status: "public"
+    sector: "Semiconductors — Foundry"
+    themes: ["semiconductor", "manufacturing"]
+
+  # ---- AI / cloud infra (incl. private) --------------------------------- #
+  - normalized: "OpenAI"
+    aliases: ["OpenAI"]
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "Artificial Intelligence"
+    themes: ["AI", "data_center"]
+
+  - normalized: "CoreWeave, Inc."
+    aliases: ["CoreWeave"]
+    ticker: "CRWV"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Cloud / AI Infrastructure"
+    themes: ["AI", "data_center", "cloud"]
+
+  - normalized: "SoftBank Group Corp."
+    aliases: ["SoftBank", "Softbank", "SoftBank Group"]
+    ticker: "9984.T"
+    exchange: "Tokyo"
+    status: "public"
+    sector: "Conglomerate / Investment"
+    themes: ["AI", "data_center"]
+
+  # ---- Defense / aerospace ---------------------------------------------- #
+  - normalized: "The Boeing Company"
+    aliases: ["Boeing", "Boeing Co"]
+    ticker: "BA"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Aerospace & Defense"
+    themes: ["aerospace", "defense", "manufacturing"]
+
+  - normalized: "Lockheed Martin Corporation"
+    aliases: ["Lockheed Martin", "Lockheed"]
+    ticker: "LMT"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Aerospace & Defense"
+    themes: ["defense", "aerospace"]
+
+  - normalized: "SpaceX"
+    aliases: ["SpaceX", "Space X"]
+    ticker: ""
+    exchange: ""
+    status: "private"
+    sector: "Aerospace — Launch"
+    themes: ["aerospace", "defense"]
+
+  # ---- Autos ------------------------------------------------------------ #
+  - normalized: "Tesla, Inc."
+    aliases: ["Tesla"]
+    ticker: "TSLA"
+    exchange: "NASDAQ"
+    status: "public"
+    sector: "Automotive — EV"
+    themes: ["auto", "energy"]
+
+  - normalized: "Ford Motor Company"
+    # "Ford Motor" (not bare "Ford") to avoid matching the surname (e.g. a
+    # person named Ford). Add "Ford" here only if you accept that trade-off.
+    aliases: ["Ford Motor", "Ford Motor Company"]
+    ticker: "F"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Automotive"
+    themes: ["auto", "manufacturing"]
+
+  - normalized: "General Motors Company"
+    aliases: ["General Motors", "GM"]
+    ticker: "GM"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Automotive"
+    themes: ["auto", "manufacturing"]
+    ambiguous: true   # bare "gm" lowercase is noise -> require capitals (GM)
+
+  # ---- Industrials / materials ------------------------------------------ #
+  - normalized: "United States Steel Corporation"
+    aliases: ["U.S. Steel", "US Steel", "United States Steel", "U. S. Steel"]
+    ticker: "X"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Steel / Materials"
+    themes: ["manufacturing"]
+
+  - normalized: "Nippon Steel Corporation"
+    aliases: ["Nippon Steel"]
+    ticker: "5401.T"
+    exchange: "Tokyo"
+    status: "public"
+    sector: "Steel / Materials"
+    themes: ["manufacturing"]
+
+  # ---- Telecom ---------------------------------------------------------- #
+  - normalized: "Nokia Corporation"
+    aliases: ["Nokia"]
+    ticker: "NOK"
+    exchange: "NYSE (ADR)"
+    status: "public"
+    sector: "Telecom Equipment"
+    themes: ["telecom"]
+
+  # ---- Consumer --------------------------------------------------------- #
+  - normalized: "The Coca-Cola Company"
+    aliases: ["Coca-Cola", "Coca Cola"]  # "Coke" omitted: collides with coal coke
+    ticker: "KO"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Consumer Staples — Beverages"
+    themes: ["consumer"]
+
+  # ---- HP split: keep HP Inc. and HPE distinct -------------------------- #
+  - normalized: "HP Inc."
+    aliases: ["HP Inc", "HP Inc.", "Hewlett-Packard", "Hewlett Packard"]
+    ticker: "HPQ"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Technology — PCs / Printers"
+    themes: ["consumer", "manufacturing"]
+
+  - normalized: "Hewlett Packard Enterprise Company"
+    aliases: ["Hewlett Packard Enterprise", "HPE"]
+    ticker: "HPE"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Technology — Enterprise IT"
+    themes: ["cloud", "data_center"]
+
+  - normalized: "Dell Technologies Inc."
+    aliases: ["Dell", "Dell Technologies", "Dell Computer", "Dell Inc"]
+    ticker: "DELL"
+    exchange: "NYSE"
+    status: "public"
+    sector: "Technology — Hardware"
+    themes: ["data_center", "manufacturing"]
