@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-05-29 14:16　|　记录总数：**44***
+*生成时间：2026-05-30 06:45　|　记录总数：**46***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 2 |
 | 2025 | 10 |
-| 2026 | 31 |
+| 2026 | 33 |
 
 **按月份：**
 
@@ -28,7 +28,7 @@
 | 2026-01 | 4 |
 | 2026-02 | 8 |
 | 2026-03 | 7 |
-| 2026-04 | 6 |
+| 2026-04 | 8 |
 | 2026-05 | 6 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -37,16 +37,16 @@
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 11 |
 | 2 | The Boeing Company | BA | 6 |
-| 3 | NVIDIA Corporation | NVDA | 3 |
-| 4 | Dell Technologies Inc. | DELL | 3 |
+| 3 | Dell Technologies Inc. | DELL | 4 |
+| 4 | NVIDIA Corporation | NVDA | 3 |
 | 5 | Intel Corporation | INTC | 3 |
-| 6 | Lockheed Martin Corporation | LMT | 2 |
-| 7 | United States Steel Corporation | X | 2 |
-| 8 | QUALCOMM Incorporated | QCOM | 1 |
-| 9 | Micron Technology, Inc. | MU | 1 |
-| 10 | Palantir Technologies Inc. | PLTR | 1 |
-| 11 | Oracle Corporation | ORCL | 1 |
-| 12 | Alphabet Inc. (Google) | GOOGL | 1 |
+| 6 | Alphabet Inc. (Google) | GOOGL | 2 |
+| 7 | Lockheed Martin Corporation | LMT | 2 |
+| 8 | United States Steel Corporation | X | 2 |
+| 9 | QUALCOMM Incorporated | QCOM | 1 |
+| 10 | Micron Technology, Inc. | MU | 1 |
+| 11 | Palantir Technologies Inc. | PLTR | 1 |
+| 12 | Oracle Corporation | ORCL | 1 |
 | 13 | Anthropic | — | 1 |
 | 14 | General Motors Company | GM | 1 |
 | 15 | Microsoft Corporation | MSFT | 1 |
@@ -60,10 +60,10 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 22 | 50% |
-| negative | 2 | 5% |
-| neutral | 18 | 41% |
-| mixed | 2 | 5% |
+| positive | 23 | 50% |
+| negative | 2 | 4% |
+| neutral | 19 | 41% |
+| mixed | 2 | 4% |
 
 ## 4. 主题分布 (theme_tags)
 
@@ -79,7 +79,7 @@
 | aerospace | 9 |
 | infrastructure | 3 |
 | consumer | 2 |
-| other | 21 |
+| other | 23 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -89,9 +89,9 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 28 |
+| unknown | 30 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-05-29)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-05-30)
 
 | 公司 | 首次提及日期 |
 | --- | --- |
@@ -153,7 +153,7 @@
 
 ### Dell Technologies Inc.　（DELL，public）
 
-- **提及次数 / 时间**：3 次，2025-12-02 ～ 2026-05-08
+- **提及次数 / 时间**：4 次，2025-12-02 ～ 2026-05-08
 - **语境与情绪**：positive；主题 defense、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -161,7 +161,7 @@
 - **代表性原话**：
   - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
-  - 2026-05-08：「And I want to thank the Dell family; it's a great family.」 — [来源](https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/)
+  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### Intel Corporation　（INTC，public）
 
@@ -186,6 +186,17 @@
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
   - 2026-05-13：「RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was not invited to the incredible gathering of the World's Greatest Busine…」 — [来源](https://truthsocial.com/@realDonaldTrump/116565073088871081)
+
+### Alphabet Inc. (Google)　（GOOGL，public）
+
+- **提及次数 / 时间**：2 次，2026-03-27 ～ 2026-04-16
+- **语境与情绪**：neutral；主题 defense、manufacturing、other
+- **政策含义**：暂不明确
+- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### Lockheed Martin Corporation　（LMT，public）
 
@@ -218,16 +229,6 @@
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-
-### Alphabet Inc. (Google)　（GOOGL，public）
-
-- **提及次数 / 时间**：1 次，2026-03-27 ～ 2026-03-27
-- **语境与情绪**：neutral；主题 defense、manufacturing
-- **政策含义**：暂不明确
-- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险
-- **代表性原话**：
-  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
 
 ### Amazon.com, Inc.　（AMZN，public）
 
