@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-01 09:56　|　记录总数：**49***
+*生成时间：2026-06-01 10:14　|　记录总数：**51***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -12,8 +12,8 @@
 | --- | --- |
 | 2016 | 1 |
 | 2024 | 2 |
-| 2025 | 10 |
-| 2026 | 36 |
+| 2025 | 11 |
+| 2026 | 37 |
 
 **按月份：**
 
@@ -24,9 +24,10 @@
 | 2025-02 | 1 |
 | 2025-03 | 1 |
 | 2025-07 | 2 |
+| 2025-08 | 1 |
 | 2025-12 | 6 |
 | 2026-01 | 7 |
-| 2026-02 | 8 |
+| 2026-02 | 9 |
 | 2026-03 | 7 |
 | 2026-04 | 8 |
 | 2026-05 | 6 |
@@ -37,9 +38,9 @@
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 12 |
 | 2 | The Boeing Company | BA | 6 |
-| 3 | NVIDIA Corporation | NVDA | 4 |
-| 4 | Dell Technologies Inc. | DELL | 4 |
-| 5 | Intel Corporation | INTC | 4 |
+| 3 | NVIDIA Corporation | NVDA | 5 |
+| 4 | Intel Corporation | INTC | 5 |
+| 5 | Dell Technologies Inc. | DELL | 4 |
 | 6 | Alphabet Inc. (Google) | GOOGL | 2 |
 | 7 | Lockheed Martin Corporation | LMT | 2 |
 | 8 | United States Steel Corporation | X | 2 |
@@ -60,9 +61,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 25 | 51% |
+| positive | 26 | 51% |
 | negative | 2 | 4% |
-| neutral | 20 | 41% |
+| neutral | 21 | 41% |
 | mixed | 2 | 4% |
 
 ## 4. 主题分布 (theme_tags)
@@ -74,7 +75,7 @@
 | defense | 11 |
 | energy | 2 |
 | manufacturing | 4 |
-| semiconductor | 2 |
+| semiconductor | 4 |
 | cloud | 1 |
 | aerospace | 9 |
 | infrastructure | 3 |
@@ -89,7 +90,7 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 33 |
+| unknown | 35 |
 
 ## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-01)
 
@@ -113,11 +114,13 @@
 | 2026-03-06 | The Boeing Company | BA | 5 | neutral | unknown | The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Ha… | [link](https://truthsocial.com/@realDonaldTrump/116184185735585906) |
 | 2026-03-06 | Lockheed Martin Corporation | LMT | 5 | neutral | unknown | The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Ha… | [link](https://truthsocial.com/@realDonaldTrump/116184185735585906) |
 | 2026-02-27 | Anthropic | — | 5 | neutral | unknown | Anthropic better get their act together, and be helpful during this phase out period, or … | [link](https://truthsocial.com/@realDonaldTrump/116144552969293195) |
+| 2026-02-20 | Intel Corporation | INTC | 5 | neutral | unknown | For 30 years—longer—they made chip, chip, chip, and they put our companies—Intel would be… | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1274) |
 | 2026-02-01 | United States Steel Corporation | X | 5 | neutral | tariff | US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data ce… | [link](https://truthsocial.com/@realDonaldTrump/115995786512051662) |
 | 2026-01-12 | Microsoft Corporation | MSFT | 5 | neutral | unknown | First up is Microsoft, who my team has been working with, and which will make major chang… | [link](https://truthsocial.com/@realDonaldTrump/115884759090137876) |
 | 2026-01-08 | Intel Corporation | INTC | 5 | positive | unknown | Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged… | [link](https://truthsocial.com/@realDonaldTrump/115861537483492504) |
 | 2025-12-30 | Amazon.com, Inc. | AMZN | 5 | neutral | unknown | Amazon to invest up to $50B to build AI infrastructure for US government agencies: https:… | [link](https://truthsocial.com/@realDonaldTrump/115810597668691530) |
 | 2025-12-08 | NVIDIA Corporation | NVDA | 5 | positive | national_security | I have informed President Xi, of China, that the United States will allow NVIDIA to ship … | [link](https://truthsocial.com/@realDonaldTrump/115686072737425841) |
+| 2025-08-11 | NVIDIA Corporation | NVDA | 5 | positive | unknown | And I deal with Jensen, who is a great guy, and Nvidia. | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272) |
 | 2025-07-10 | NVIDIA Corporation | NVDA | 5 | positive | tariff | NVIDIA IS UP 47% SINCE TRUMP TARIFFS. | [link](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html) |
 | 2025-03-03 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 5 | positive | manufacturing_reshoring | Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billi… | [link](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/) |
 | 2025-02-24 | Apple Inc. | AAPL | 5 | positive | manufacturing_reshoring | APPLE HAS JUST ANNOUNCED A RECORD 500 BILLION DOLLAR INVESTMENT IN THE UNITED STATES OF A… | [link](https://www.axios.com/2025/02/24/apple-investment-trump-tim-cook) |
@@ -151,21 +154,9 @@
   - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
   - 2026-03-27：「Boeing is selling dozens of 737 airplanes in a deal valued at $4.8 billion and supporting approximately 20,000 U.S. jobs.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
 
-### Dell Technologies Inc.　（DELL，public）
-
-- **提及次数 / 时间**：4 次，2025-12-02 ～ 2026-05-08
-- **语境与情绪**：positive；主题 defense、other
-- **政策含义**：政府采购/合同
-- **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
-- **代表性原话**：
-  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
-  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
-  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
-
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：4 次，2025-12-08 ～ 2026-04-29
+- **提及次数 / 时间**：5 次，2025-12-08 ～ 2026-04-29
 - **语境与情绪**：neutral、positive；主题 other、semiconductor
 - **政策含义**：暂不明确
 - **可能投资线索**：提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -177,15 +168,27 @@
 
 ### NVIDIA Corporation　（NVDA，public）
 
-- **提及次数 / 时间**：4 次，2025-07-10 ～ 2026-05-13
-- **语境与情绪**：positive；主题 aerospace、defense、other
+- **提及次数 / 时间**：5 次，2025-07-10 ～ 2026-05-13
+- **语境与情绪**：positive；主题 aerospace、defense、other、semiconductor
 - **政策含义**：政府采购/合同、国家安全、关税
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
+  - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-  - 2026-01-13：「As soon as we went in, Apple went in, Nvidia went in, a lot of smart people went in.」 — [来源](https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in)
+
+### Dell Technologies Inc.　（DELL，public）
+
+- **提及次数 / 时间**：4 次，2025-12-02 ～ 2026-05-08
+- **语境与情绪**：positive；主题 defense、other
+- **政策含义**：政府采购/合同
+- **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
+  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
+  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
