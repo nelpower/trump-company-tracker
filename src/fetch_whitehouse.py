@@ -6,7 +6,7 @@ authoritative archive of presidential *Spoken Addresses and Remarks* with full
 transcripts — that is what we scrape here.
 
     listings: presidency.ucsb.edu/documents/app-categories/presidential/{
-              spoken-addresses-and-remarks, news-conferences}  (see CATEGORY_SLUGS)
+              spoken-addresses-and-remarks, news-conferences, interviews}
     doc page: .field-docs-content (transcript), .field-docs-person (speaker),
               .date-display-single (date)
 
@@ -30,21 +30,30 @@ from src.config import DEFAULT_SPEAKER, PROCESSED_DIR
 
 BASE = "https://www.presidency.ucsb.edu"
 LISTING_BASE = BASE + "/documents/app-categories/presidential/"
-# Categories with the clean "The President." / "Q." speaker format, so we can
-# safely keep ONLY Trump's words. (APP "interviews" use a "Name:" colon format
-# we can't reliably attribute, so they're intentionally excluded — curate
-# notable interviews by hand, like the Intel gaggle, until a dedicated
-# interview parser exists.)
+# All scanned via trump_only(), which keeps ONLY Trump's words in either the
+# period format (remarks/pressers: "The President."/"Q.") or the colon format
+# (interviews: "The President:"/"Sanger:"), and skips anything it can't attribute.
 CATEGORY_SLUGS = [
     "spoken-addresses-and-remarks",   # speeches, gaggles, exchanges with reporters
     "news-conferences",               # formal press conferences
+    "interviews",                     # TV / print interviews
 ]
 STATE_PATH = PROCESSED_DIR / "whitehouse_state.json"
 USER_AGENT = "Mozilla/5.0 (compatible; trump-company-tracker/0.3; research)"
 
 # Speaker labels that introduce a segment in APP transcripts.
+#  * remarks / news conferences use a PERIOD format:  "The President." / "Q."
+#  * interviews use a COLON format:                    "The President:" / "Sanger:"
 _SPEAKER_SPLIT = re.compile(r"(\bThe President\.|\bQ\.)")
 _DATE_LEAD = re.compile(r"([A-Z][a-z]+ \d{1,2}, \d{4})")
+# A speaker label is a short proper-noun phrase before ": ", and only at a turn
+# boundary (start of text or after sentence-ending . ? !) so a normal sentence
+# word like "...Boeing." isn't swallowed into the next speaker's label.
+_COLON_LABEL = re.compile(
+    r"(?:(?<=[.?!])\s+|^)([A-Z][A-Za-z.'’\-]{1,20}(?:\s[A-Z][A-Za-z.'’\-]{1,20}){0,3}):\s")
+_TRUMP_LABEL = re.compile(
+    r"^(the president(?:-elect)?|president trump|donald(?: j\.?)? trump|mr\.? trump|trump)$",
+    re.I)
 
 
 def _get(url: str, timeout: int = 30) -> str | None:
@@ -155,6 +164,36 @@ def trump_segments(content: str) -> str:
     return joined
 
 
+def _colon_segments(content: str) -> tuple[list[str], set[str]]:
+    """Split a colon-format transcript into Trump-only segments + all labels seen."""
+    parts = _COLON_LABEL.split(content)
+    segs: list[str] = []
+    labels: set[str] = set()
+    i = 1
+    while i < len(parts):
+        label = parts[i].strip()
+        text = parts[i + 1] if i + 1 < len(parts) else ""
+        labels.add(label)
+        if _TRUMP_LABEL.match(label):
+            segs.append(text.strip())
+        i += 2
+    return segs, labels
+
+
+def trump_only(content: str) -> str:
+    """Return ONLY Trump's words, across both transcript formats. Fail-safe:
+    for a multi-speaker dialogue we never fall back to the full text (which would
+    attribute reporters'/interviewers' words to Trump); we skip instead ("")."""
+    if not content:
+        return ""
+    if "The President." in content:                 # period dialogue (remarks/presser)
+        return trump_segments(content)
+    segs, labels = _colon_segments(content)
+    if len(labels) >= 2:                            # colon dialogue (interview)
+        return re.sub(r"\s+", " ", " ".join(s for s in segs if s)).strip()
+    return re.sub(r"\s+", " ", content).strip()     # monologue / formal speech (all Trump)
+
+
 def get_sources(
     max_items: int = 25, max_new: int = 12, update_state: bool = True
 ) -> list[dict]:
@@ -174,7 +213,7 @@ def get_sources(
         seen.add(slug)  # mark fetched (even non-Trump) so we don't refetch
         if not doc:
             continue
-        text = trump_segments(doc["content"]) or doc["content"]
+        text = trump_only(doc["content"])   # fail-safe: "" if not attributable
         if not text:
             continue
         out.append({

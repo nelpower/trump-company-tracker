@@ -18,6 +18,29 @@ def test_trump_segments_empty():
     assert wh.trump_segments("") == ""
 
 
+def test_trump_only_period_format():
+    content = ("The President. We love Boeing. Q. What about Intel? "
+               "The President. Intel is great.")
+    out = wh.trump_only(content)
+    assert "We love Boeing." in out and "Intel is great." in out
+    assert "What about Intel?" not in out
+
+
+def test_trump_only_colon_interview_keeps_only_trump():
+    content = ("Sanger: What about Boeing and Intel? The President: I love Boeing. "
+               "Sanger: And Nvidia? The President: Nvidia is great.")
+    out = wh.trump_only(content)
+    assert "I love Boeing." in out and "Nvidia is great." in out
+    assert "What about Boeing and Intel?" not in out   # interviewer dropped
+    assert "And Nvidia?" not in out
+
+
+def test_trump_only_monologue_passthrough():
+    # no speaker labels -> a formal address, all Trump's words
+    content = "Today we celebrate American manufacturing and Boeing."
+    assert "Boeing" in wh.trump_only(content)
+
+
 def test_parse_date():
     assert wh._parse_date("April 13, 2026") == "2026-04-13"
     assert wh._parse_date("May 8, 2026") == "2026-05-08"

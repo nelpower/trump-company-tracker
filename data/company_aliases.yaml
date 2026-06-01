@@ -27,6 +27,7 @@ companies:
     sector: "Technology — Consumer Electronics"
     themes: ["consumer", "manufacturing"]
     ambiguous: true   # "apple" the fruit -> require a capital letter
+    suppress_context: ["red apple"]   # "Red Apple Group" (J. Catsimatidis) != Apple Inc.
 
   - normalized: "Microsoft Corporation"
     aliases: ["Microsoft", "Microsoft Corp", "MSFT"]
