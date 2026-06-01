@@ -142,3 +142,18 @@ sources:
     text: >-
       NVIDIA IS UP 47% SINCE TRUMP TARIFFS. USA is taking in Hundreds of
       Billions of Dollars in Tariffs.
+
+  # 9) Intel / Apple / Nvidia — press gaggle on the U.S. 10% Intel stake
+  #    (Joint Base Andrews, Jan 13 2026). NOT a Truth Social post — caught via
+  #    press reporting (the channel the auto-feed misses).
+  - id: intel-stake-gaggle-2026-01-13
+    date: 2026-01-13
+    title: "Trump on the U.S. 10% Intel stake (press gaggle, Joint Base Andrews)"
+    url: "https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in"
+    source_type: news
+    source_quality: high
+    verbatim_quote: true
+    text: >-
+      Intel came to see me; they needed help. And I said I'll help you, but I
+      want 10% of your company to go to the United States of America. As soon as
+      we went in, Apple went in, Nvidia went in, a lot of smart people went in.
