@@ -1,0 +1,89 @@
+# Trump's personal stock transactions, curated from his OGE Form 278-T periodic
+# transaction reports.
+#
+# IMPORTANT:
+#  * Amounts are DISCLOSED RANGES (OGE bands), not exact dollar figures.
+#  * This is a curated AI-relevant / large-trade subset of the 3,642 Q1-2026
+#    transactions (Form 278-T certified 2026-05-08, received by OGE 2026-05-12).
+#  * Periodic data (~quarterly, 30-45 day lag) — top up when a new 278-T is filed.
+#  * date_note marks entries where only the month/quarter is known (exact day is
+#    in the filing).
+#
+# Fields: date ticker company action amount [unsolicited] [date_note] note source_url
+
+trades:
+  - date: 2026-02-10
+    ticker: DELL
+    company: "Dell Technologies Inc."
+    action: buy
+    amount: "$1M–$5M"
+    note: "早于 5 月白宫『go out and buy a Dell』背书,且 Dell 5/27 拿下 ~$9.7B Pentagon 合同"
+    source_url: "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html"
+
+  - date: 2026-03-02
+    ticker: AAPL
+    company: "Apple Inc."
+    action: buy
+    amount: "$1M–$5M"
+    unsolicited: true
+    note: "3 月共买入约 $2M–$7.2M(含 5 笔 unsolicited);与其力挺『Apple $500B 美国投资』同期"
+    source_url: "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html"
+
+  - date: 2026-03-25
+    ticker: MU
+    company: "Micron Technology, Inc."
+    action: buy
+    amount: "$50K–$100K"
+    unsolicited: true
+    note: "次日在 Fox 称 Micron 是『最火的公司之一』"
+    source_url: "https://lasvegassun.com/news/2026/may/16/trump-draws-ethics-scrutiny-over-aggressive-big-te/"
+
+  - date: 2026-02-10
+    ticker: PLTR
+    company: "Palantir Technologies Inc."
+    action: sell
+    amount: "至多 $5M"
+    note: "2 月起两周内多笔卖出;Q1 另有买入 $247K–$630K。此前曾在 Truth Social 力挺 Palantir"
+    source_url: "https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html"
+
+  - date: 2026-02-10
+    ticker: MSFT
+    company: "Microsoft Corporation"
+    action: sell
+    amount: "$5M–$25M"
+    note: "2/10 当日大举卖出 MSFT/AMZN/META,为 Q1 四大卖单之列"
+    source_url: "https://www.capitoltrades.com/articles/3700-trades-half-a-billion-dollars-inside-trump-s-q1-stock-spree-2026-05-18"
+
+  - date: 2026-02-10
+    ticker: AMZN
+    company: "Amazon.com, Inc."
+    action: sell
+    amount: "$5M–$25M"
+    note: "2/10 四大卖单之列"
+    source_url: "https://www.capitoltrades.com/articles/3700-trades-half-a-billion-dollars-inside-trump-s-q1-stock-spree-2026-05-18"
+
+  - date: 2026-02-10
+    ticker: META
+    company: "Meta Platforms, Inc."
+    action: sell
+    amount: "$5M–$25M"
+    note: "2/10 四大卖单之列"
+    source_url: "https://www.capitoltrades.com/articles/3700-trades-half-a-billion-dollars-inside-trump-s-q1-stock-spree-2026-05-18"
+
+  - date: 2026-02-01
+    date_note: "2026 年 2 月"
+    ticker: NVDA
+    company: "NVIDIA Corporation"
+    action: buy
+    amount: "$1M–$5M"
+    note: "软件/科技股回调期间逢低买入"
+    source_url: "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html"
+
+  - date: 2026-01-15
+    date_note: "2026 Q1 初"
+    ticker: ORCL
+    company: "Oracle Corporation"
+    action: buy
+    amount: "数百万美元"
+    note: "买入时点与其政府帮 Oracle 推进 TikTok 美国运营协议大致同期"
+    source_url: "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html"

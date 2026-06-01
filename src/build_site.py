@@ -123,8 +123,31 @@ def _card(m: Mention) -> str:
 </div>"""
 
 
-def build_html(mentions: list[Mention], run_date: dt.date | None = None) -> str:
+def _trade_card(t) -> str:
+    buy = t.action == "buy"
+    cls = "pos" if buy else "neg"
+    label = "买入" if buy else "卖出"
+    tk = f'<span class="tk">{_esc(t.ticker)}</span>' if t.ticker else ""
+    uns = '<span class="chip">unsolicited</span>' if getattr(t, "unsolicited", False) else ""
+    note = f'<div class="note" style="margin-top:8px">{_esc(t.note)}</div>' if t.note else ""
+    src = (f'<a class="src" href="{_esc(t.source_url)}" target="_blank" rel="noopener">来源 ↗</a>'
+           if t.source_url else "")
+    return f"""<div class="card">
+  <div class="row">
+    <span class="badge {cls}">{label}</span>
+    <span class="co">{_esc(t.company)}</span>{tk}
+    <span class="date">{_esc(t.date_note or t.date)}</span>
+  </div>
+  <div class="row" style="margin-top:6px"><span class="chip">金额 {_esc(t.amount)}</span>{uns}</div>
+  {note}
+  <div class="row" style="margin-top:6px">{src}</div>
+</div>"""
+
+
+def build_html(mentions: list[Mention], run_date: dt.date | None = None,
+               trades: list | None = None) -> str:
     run_date = run_date or dt.datetime.utcnow().date()
+    trades = trades or []
     dated = [(m, _parse_date(m.date)) for m in mentions]
     dated = [(m, d) for m, d in dated if d]
     dated.sort(key=lambda x: x[1], reverse=True)
@@ -159,7 +182,17 @@ def build_html(mentions: list[Mention], run_date: dt.date | None = None) -> str:
       f'<div class="stat"><div class="n">{total}</div><div class="l">总记录</div></div>'
       f'<div class="stat"><div class="n">{len(companies)}</div><div class="l">涉及公司</div></div>'
       f'<div class="stat"><div class="n">{week_count}</div><div class="l">近 7 天</div></div>'
+      f'<div class="stat"><div class="n">{len(trades)}</div><div class="l">本人交易</div></div>'
       '</div>')
+
+    # --- Trump's personal trades (OGE 278-T) ---
+    if trades:
+        A(f"<h2>💰 川普个人交易披露（OGE）· {len(trades)} 笔</h2>")
+        A('<div class="disc">⚠️ 来自 Trump 的 OGE Form 278-T 申报。<b>金额为披露区间</b>(非精确值);'
+          '此为 2026 Q1 的 AI 相关/大额交易<b>策展子集</b>(全季共 3,642 笔),约每季度更新。'
+          '交易由其信托执行,时点与其公开言论/政策的关联仅供观察,不构成因果或投资建议。</div>')
+        for t in trades:
+            A(_trade_card(t))
 
     # --- today / latest ---
     A(f"<h2>{_esc(latest_label)}</h2>")
@@ -195,11 +228,19 @@ def build_html(mentions: list[Mention], run_date: dt.date | None = None) -> str:
         cur = last_of.get(m.normalized_company_name)
         if cur is None or d > cur:
             last_of[m.normalized_company_name] = d
-    A("<h2>按公司</h2>")
-    A("<table><tr><th>公司</th><th>Ticker</th><th>提及次数</th><th>最近一次</th></tr>")
+    trades_by_co: dict[str, list] = {}
+    for t in trades:
+        trades_by_co.setdefault(t.company, []).append(t)
+    A("<h2>按公司（提及 × 本人交易）</h2>")
+    A("<table><tr><th>公司</th><th>Ticker</th><th>提及次数</th><th>最近一次</th>"
+      "<th>本人交易(OGE)</th></tr>")
     for name, cnt in counter.most_common():
+        tl = trades_by_co.get(name, [])
+        tcell = "；".join(
+            f'{"🟢买" if x.action == "buy" else "🔴卖"} {_esc(x.amount)}·{_esc(x.date_note or x.date)}'
+            for x in tl) or "—"
         A(f"<tr><td>{_esc(name)}</td><td>{_esc(ticker_of.get(name,'') or '—')}</td>"
-          f"<td>{cnt}</td><td>{_esc(last_of.get(name,''))}</td></tr>")
+          f"<td>{cnt}</td><td>{_esc(last_of.get(name,''))}</td><td>{tcell}</td></tr>")
     A("</table>")
 
     A('<footer>'
@@ -215,11 +256,12 @@ def build_site(
     mentions: list[Mention],
     site_dir: Path = SITE_DIR,
     run_date: dt.date | None = None,
+    trades: list | None = None,
 ) -> Path:
     site_dir = Path(site_dir)
     site_dir.mkdir(parents=True, exist_ok=True)
     (site_dir / "index.html").write_text(
-        build_html(mentions, run_date), encoding="utf-8"
+        build_html(mentions, run_date, trades), encoding="utf-8"
     )
     with (site_dir / "data.jsonl").open("w", encoding="utf-8") as fh:
         for m in mentions:

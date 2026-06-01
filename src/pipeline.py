@@ -33,6 +33,7 @@ from src.models import Mention
 from src.normalize_companies import CompanyResolver
 from src.score_relevance import enrich_scoring
 from src.translate import translate_mentions
+from src.trades import load_trades
 
 
 def write_csv(mentions: list[Mention], path: Path) -> None:
@@ -157,8 +158,10 @@ def run(
     outs = [csv_out, jsonl_out, report_out]
 
     if site_dir is not None:
-        index = build_site(deduped, Path(site_dir))
+        trades = load_trades()
+        index = build_site(deduped, Path(site_dir), trades=trades)
         outs.append(index)
+        print(f"[pipeline] overlaid {len(trades)} curated Trump trade(s)")
 
     print(f"[pipeline] dataset now {len(deduped)} record(s)")
     print("[pipeline] wrote:\n  " + "\n  ".join(str(p) for p in outs))
