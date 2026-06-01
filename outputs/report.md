@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-01 10:14　|　记录总数：**51***
+*生成时间：2026-06-01 10:38　|　记录总数：**65***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -11,22 +11,25 @@
 | 年份 | mentions |
 | --- | --- |
 | 2016 | 1 |
-| 2024 | 2 |
-| 2025 | 11 |
-| 2026 | 37 |
+| 2024 | 4 |
+| 2025 | 22 |
+| 2026 | 38 |
 
 **按月份：**
 
 | 月份 | mentions |
 | --- | --- |
 | 2016-12 | 1 |
+| 2024-10 | 2 |
 | 2024-12 | 2 |
-| 2025-02 | 1 |
+| 2025-02 | 7 |
 | 2025-03 | 1 |
+| 2025-04 | 1 |
+| 2025-05 | 4 |
 | 2025-07 | 2 |
 | 2025-08 | 1 |
 | 2025-12 | 6 |
-| 2026-01 | 7 |
+| 2026-01 | 8 |
 | 2026-02 | 9 |
 | 2026-03 | 7 |
 | 2026-04 | 8 |
@@ -36,35 +39,35 @@
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | Apple Inc. | AAPL | 12 |
-| 2 | The Boeing Company | BA | 6 |
-| 3 | NVIDIA Corporation | NVDA | 5 |
-| 4 | Intel Corporation | INTC | 5 |
+| 1 | Apple Inc. | AAPL | 15 |
+| 2 | The Boeing Company | BA | 8 |
+| 3 | Intel Corporation | INTC | 6 |
+| 4 | NVIDIA Corporation | NVDA | 5 |
 | 5 | Dell Technologies Inc. | DELL | 4 |
-| 6 | Alphabet Inc. (Google) | GOOGL | 2 |
-| 7 | Lockheed Martin Corporation | LMT | 2 |
-| 8 | United States Steel Corporation | X | 2 |
-| 9 | QUALCOMM Incorporated | QCOM | 1 |
-| 10 | Micron Technology, Inc. | MU | 1 |
-| 11 | Palantir Technologies Inc. | PLTR | 1 |
-| 12 | Oracle Corporation | ORCL | 1 |
-| 13 | Anthropic | — | 1 |
-| 14 | General Motors Company | GM | 1 |
-| 15 | Microsoft Corporation | MSFT | 1 |
-| 16 | Meta Platforms, Inc. | META | 1 |
-| 17 | Amazon.com, Inc. | AMZN | 1 |
-| 18 | Advanced Micro Devices, Inc. | AMD | 1 |
-| 19 | The Coca-Cola Company | KO | 1 |
-| 20 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 1 |
+| 6 | Alphabet Inc. (Google) | GOOGL | 3 |
+| 7 | United States Steel Corporation | X | 3 |
+| 8 | Lockheed Martin Corporation | LMT | 2 |
+| 9 | General Motors Company | GM | 2 |
+| 10 | Nippon Steel Corporation | 5401.T | 2 |
+| 11 | QUALCOMM Incorporated | QCOM | 1 |
+| 12 | Micron Technology, Inc. | MU | 1 |
+| 13 | Palantir Technologies Inc. | PLTR | 1 |
+| 14 | Oracle Corporation | ORCL | 1 |
+| 15 | Anthropic | — | 1 |
+| 16 | Microsoft Corporation | MSFT | 1 |
+| 17 | Meta Platforms, Inc. | META | 1 |
+| 18 | Amazon.com, Inc. | AMZN | 1 |
+| 19 | Advanced Micro Devices, Inc. | AMD | 1 |
+| 20 | The Coca-Cola Company | KO | 1 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 26 | 51% |
-| negative | 2 | 4% |
-| neutral | 21 | 41% |
-| mixed | 2 | 4% |
+| positive | 27 | 42% |
+| negative | 3 | 5% |
+| neutral | 33 | 51% |
+| mixed | 2 | 3% |
 
 ## 4. 主题分布 (theme_tags)
 
@@ -73,14 +76,15 @@
 | AI | 5 |
 | data_center | 1 |
 | defense | 11 |
-| energy | 2 |
-| manufacturing | 4 |
+| energy | 3 |
+| manufacturing | 7 |
 | semiconductor | 4 |
 | cloud | 1 |
-| aerospace | 9 |
+| auto | 1 |
+| aerospace | 10 |
 | infrastructure | 3 |
 | consumer | 2 |
-| other | 26 |
+| other | 35 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -90,7 +94,7 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 35 |
+| unknown | 49 |
 
 ## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-01)
 
@@ -122,8 +126,13 @@
 | 2025-12-08 | NVIDIA Corporation | NVDA | 5 | positive | national_security | I have informed President Xi, of China, that the United States will allow NVIDIA to ship … | [link](https://truthsocial.com/@realDonaldTrump/115686072737425841) |
 | 2025-08-11 | NVIDIA Corporation | NVDA | 5 | positive | unknown | And I deal with Jensen, who is a great guy, and Nvidia. | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272) |
 | 2025-07-10 | NVIDIA Corporation | NVDA | 5 | positive | tariff | NVIDIA IS UP 47% SINCE TRUMP TARIFFS. | [link](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html) |
+| 2025-05-04 | General Motors Company | GM | 5 | neutral | unknown | Plant, after plant, after plant: Toyota, Honda, Ford, General Motors, Stellantis, I mean,… | [link](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press) |
+| 2025-05-04 | Apple Inc. | AAPL | 5 | neutral | unknown | Now, that's Apple building $500 billion worth of plants. | [link](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press) |
 | 2025-03-03 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 5 | positive | manufacturing_reshoring | Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billi… | [link](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/) |
 | 2025-02-24 | Apple Inc. | AAPL | 5 | positive | manufacturing_reshoring | APPLE HAS JUST ANNOUNCED A RECORD 500 BILLION DOLLAR INVESTMENT IN THE UNITED STATES OF A… | [link](https://www.axios.com/2025/02/24/apple-investment-trump-tim-cook) |
+| 2025-02-14 | The Boeing Company | BA | 5 | neutral | unknown | I mean, they're actually in default—Boeing. | [link](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show) |
+| 2025-02-07 | United States Steel Corporation | X | 5 | neutral | unknown | And U.S. Steel will make products which will contribute not only to the United States and… | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan) |
+| 2025-02-07 | Nippon Steel Corporation | 5401.T | 5 | neutral | unknown | On the economic field, there is the acquisition of U.S. Steel by Nippon Steel. | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan) |
 | 2024-12-02 | United States Steel Corporation | X | 5 | mixed | national_security | I am totally against the once great and powerful U.S. Steel being bought by a foreign com… | [link](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html) |
 | 2024-12-02 | Nippon Steel Corporation | 5401.T | 5 | mixed | national_security | I am totally against the once great and powerful U.S. Steel being bought by a foreign com… | [link](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html) |
 | 2016-12-06 | The Boeing Company | BA | 5 | negative | government_contract | Boeing is building a brand new 747 Air Force One for future presidents, but costs are out… | [link](https://www.politifact.com/factchecks/2016/dec/06/donald-trump/fact-checking-donald-trumps-tweet-air-force-one-bo/) |
@@ -132,39 +141,39 @@
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：12 次，2025-02-24 ～ 2026-05-13
+- **提及次数 / 时间**：15 次，2024-10-25 ～ 2026-05-13
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
 - **风险**：项目延期、成本超支与固定价合同亏损风险；言论对基本面影响有限，多为短期情绪/公关层面；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
+  - 2024-10-25：「If you had money in Europe, like Apple, Apple had many billions of dollars outside.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
   - 2025-02-24：「APPLE HAS JUST ANNOUNCED A RECORD 500 BILLION DOLLAR INVESTMENT IN THE UNITED STATES OF AMERICA.」 — [来源](https://www.axios.com/2025/02/24/apple-investment-trump-tim-cook)
-  - 2025-12-08：「Too much work, not enough time, and her ideas are, NOW, really BAD - She sort of reminds me of a Rotten Apple!」 — [来源](https://truthsocial.com/@realDonaldTrump/115684406134734247)
-  - 2026-01-13：「As soon as we went in, Apple went in, Nvidia went in, a lot of smart people went in.」 — [来源](https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in)
+  - 2025-04-29：「Apple's putting up $500 billion, but that's only one of many companies.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-terry-moran-abc-news-the-first-100-days)
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：6 次，2016-12-06 ～ 2026-05-13
+- **提及次数 / 时间**：8 次，2016-12-06 ～ 2026-05-13
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
 - **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；商品价格波动与政策反复风险；依赖立法拨款与执行节奏；投资含义需进一步确认
 - **代表性原话**：
   - 2016-12-06：「Boeing is building a brand new 747 Air Force One for future presidents, but costs are out of control, more than $4 billion.」 — [来源](https://www.politifact.com/factchecks/2016/dec/06/donald-trump/fact-checking-donald-trumps-tweet-air-force-one-bo/)
-  - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
-  - 2026-03-27：「Boeing is selling dozens of 737 airplanes in a deal valued at $4.8 billion and supporting approximately 20,000 U.S. jobs.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2025-02-14：「I mean, they're actually in default—Boeing.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
+  - 2025-05-16：「People knew I was angry at Boeing.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
 
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：5 次，2025-12-08 ～ 2026-04-29
+- **提及次数 / 时间**：6 次，2025-12-08 ～ 2026-04-29
 - **语境与情绪**：neutral、positive；主题 other、semiconductor
 - **政策含义**：暂不明确
 - **可能投资线索**：提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
 - **风险**：投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
+  - 2026-01-07：「The chairman of the board of Intel looked at me, says, 'You have a deal.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-zolan-kanno-youngs-tyler-pager-katie-rogers-and-david-e-sanger-the-new-york)
   - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
-  - 2026-01-13：「Intel came to see me; they needed help.」 — [来源](https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in)
 
 ### NVIDIA Corporation　（NVDA，public）
 
@@ -192,14 +201,38 @@
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
-- **提及次数 / 时间**：2 次，2026-03-27 ～ 2026-04-16
-- **语境与情绪**：neutral；主题 defense、manufacturing、other
+- **提及次数 / 时间**：3 次，2024-10-25 ～ 2026-04-16
+- **语境与情绪**：neutral、positive；主题 defense、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
 - **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
+  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
   - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
   - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
+
+### United States Steel Corporation　（X，public）
+
+- **提及次数 / 时间**：3 次，2024-12-02 ～ 2026-02-01
+- **语境与情绪**：mixed、neutral；主题 AI、data_center、manufacturing、other
+- **政策含义**：国家安全、关税
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
+  - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
+  - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
+
+### General Motors Company　（GM，public）
+
+- **提及次数 / 时间**：2 次，2025-05-04 ～ 2026-01-23
+- **语境与情绪**：neutral；主题 auto、manufacturing、other
+- **政策含义**：暂不明确
+- **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：需求周期性、价格战与补贴退坡风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-05-04：「Plant, after plant, after plant: Toyota, Honda, Ford, General Motors, Stellantis, I mean, nobody's ever seen anything like it.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press)
+  - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
 
 ### Lockheed Martin Corporation　（LMT，public）
 
@@ -212,16 +245,16 @@
   - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
   - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
 
-### United States Steel Corporation　（X，public）
+### Nippon Steel Corporation　（5401.T，public）
 
-- **提及次数 / 时间**：2 次，2024-12-02 ～ 2026-02-01
-- **语境与情绪**：mixed、neutral；主题 AI、data_center、other
-- **政策含义**：国家安全、关税
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；投资含义需进一步确认
+- **提及次数 / 时间**：2 次，2024-12-02 ～ 2025-02-07
+- **语境与情绪**：mixed、neutral；主题 energy、other
+- **政策含义**：国家安全
+- **可能投资线索**：能源生产、电网、核能与传统油气；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：商品价格波动与政策反复风险；投资含义需进一步确认
 - **代表性原话**：
   - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
-  - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
+  - 2025-02-07：「On the economic field, there is the acquisition of U.S. Steel by Nippon Steel.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
 
 ### Advanced Micro Devices, Inc.　（AMD，public）
 
@@ -253,15 +286,15 @@
 - **代表性原话**：
   - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
 
-### General Motors Company　（GM，public）
+### International Business Machines (IBM)　（IBM，public）
 
-- **提及次数 / 时间**：1 次，2026-01-23 ～ 2026-01-23
+- **提及次数 / 时间**：1 次，2025-05-16 ～ 2025-05-16
 - **语境与情绪**：neutral；主题 other
 - **政策含义**：暂不明确
 - **可能投资线索**：提及本身代表政策注意力（最高相关性评分 2/5）
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
-  - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
+  - 2025-05-16：「Where do they get this lawyer that would represent IBM and would represent ExxonMobil?」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
 
 ### Meta Platforms, Inc.　（META，public）
 
@@ -293,16 +326,6 @@
 - **代表性原话**：
   - 2026-01-12：「First up is Microsoft, who my team has been working with, and which will make major changes beginning this week to ensure that Americans don't "pick up the tab…」 — [来源](https://truthsocial.com/@realDonaldTrump/115884759090137876)
 
-### Nippon Steel Corporation　（5401.T，public）
-
-- **提及次数 / 时间**：1 次，2024-12-02 ～ 2024-12-02
-- **语境与情绪**：mixed；主题 other
-- **政策含义**：国家安全
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
-
 ### Oracle Corporation　（ORCL，public）
 
 - **提及次数 / 时间**：1 次，2026-03-27 ～ 2026-03-27
@@ -333,6 +356,26 @@
 - **代表性原话**：
   - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
 
+### SoftBank Group Corp.　（9984.T，public）
+
+- **提及次数 / 时间**：1 次，2025-02-07 ～ 2025-02-07
+- **语境与情绪**：neutral；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 2/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-07：「As a result of our victory in 2024, the Presidential election, the Japanese investment and technology giant SoftBank announced plans to invest between $100 and…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
+
+### SpaceX　（未上市/未知，private）
+
+- **提及次数 / 时间**：1 次，2025-02-14 ～ 2025-02-14
+- **语境与情绪**：neutral；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 2/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
+
 ### Taiwan Semiconductor Manufacturing Company (TSMC)　（TSM，public）
 
 - **提及次数 / 时间**：1 次，2025-03-03 ～ 2025-03-03
@@ -342,6 +385,16 @@
 - **风险**：补贴依赖、用工成本与达产不及预期风险；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2025-03-03：「Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billion in new capital in the United States over the next short period of t…」 — [来源](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/)
+
+### Tesla, Inc.　（TSLA，public）
+
+- **提及次数 / 时间**：1 次，2025-02-14 ～ 2025-02-14
+- **语境与情绪**：neutral；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 2/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-14：「In other words, because you do business—it was funny, when it came out the other day, that there was going to be, I think, $400 million—billion—I don't know if…」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
 
 ### The Coca-Cola Company　（KO，public）
 
