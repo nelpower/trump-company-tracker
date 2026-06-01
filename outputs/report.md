@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-01 09:47　|　记录总数：**46***
+*生成时间：2026-06-01 09:56　|　记录总数：**49***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 2 |
 | 2025 | 10 |
-| 2026 | 33 |
+| 2026 | 36 |
 
 **按月份：**
 
@@ -25,7 +25,7 @@
 | 2025-03 | 1 |
 | 2025-07 | 2 |
 | 2025-12 | 6 |
-| 2026-01 | 4 |
+| 2026-01 | 7 |
 | 2026-02 | 8 |
 | 2026-03 | 7 |
 | 2026-04 | 8 |
@@ -35,11 +35,11 @@
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | Apple Inc. | AAPL | 11 |
+| 1 | Apple Inc. | AAPL | 12 |
 | 2 | The Boeing Company | BA | 6 |
-| 3 | Dell Technologies Inc. | DELL | 4 |
-| 4 | NVIDIA Corporation | NVDA | 3 |
-| 5 | Intel Corporation | INTC | 3 |
+| 3 | NVIDIA Corporation | NVDA | 4 |
+| 4 | Dell Technologies Inc. | DELL | 4 |
+| 5 | Intel Corporation | INTC | 4 |
 | 6 | Alphabet Inc. (Google) | GOOGL | 2 |
 | 7 | Lockheed Martin Corporation | LMT | 2 |
 | 8 | United States Steel Corporation | X | 2 |
@@ -60,9 +60,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 23 | 50% |
+| positive | 25 | 51% |
 | negative | 2 | 4% |
-| neutral | 19 | 41% |
+| neutral | 20 | 41% |
 | mixed | 2 | 4% |
 
 ## 4. 主题分布 (theme_tags)
@@ -79,7 +79,7 @@
 | aerospace | 9 |
 | infrastructure | 3 |
 | consumer | 2 |
-| other | 23 |
+| other | 26 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -89,7 +89,7 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 30 |
+| unknown | 33 |
 
 ## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-01)
 
@@ -129,7 +129,7 @@
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：11 次，2025-02-24 ～ 2026-05-13
+- **提及次数 / 时间**：12 次，2025-02-24 ～ 2026-05-13
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -137,7 +137,7 @@
 - **代表性原话**：
   - 2025-02-24：「APPLE HAS JUST ANNOUNCED A RECORD 500 BILLION DOLLAR INVESTMENT IN THE UNITED STATES OF AMERICA.」 — [来源](https://www.axios.com/2025/02/24/apple-investment-trump-tim-cook)
   - 2025-12-08：「Too much work, not enough time, and her ideas are, NOW, really BAD - She sort of reminds me of a Rotten Apple!」 — [来源](https://truthsocial.com/@realDonaldTrump/115684406134734247)
-  - 2026-02-11：「Apple News promotes left-leaning media outlets — as it shuts out conservative sites entirely: study: https://nypost.com/2026/02/10/business/apple-news-promotes…」 — [来源](https://truthsocial.com/@realDonaldTrump/116050559055597383)
+  - 2026-01-13：「As soon as we went in, Apple went in, Nvidia went in, a lot of smart people went in.」 — [来源](https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in)
 
 ### The Boeing Company　（BA，public）
 
@@ -165,19 +165,19 @@
 
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：3 次，2025-12-08 ～ 2026-04-29
-- **语境与情绪**：positive；主题 other、semiconductor
+- **提及次数 / 时间**：4 次，2025-12-08 ～ 2026-04-29
+- **语境与情绪**：neutral、positive；主题 other、semiconductor
 - **政策含义**：暂不明确
 - **可能投资线索**：提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
 - **风险**：投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
   - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
-  - 2026-04-29：「Congratulations to Intel on doing such a great job and, more importantly, congratulations to the People of the United States for making such a good investment!」 — [来源](https://truthsocial.com/@realDonaldTrump/116490320065457761)
+  - 2026-01-13：「Intel came to see me; they needed help.」 — [来源](https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in)
 
 ### NVIDIA Corporation　（NVDA，public）
 
-- **提及次数 / 时间**：3 次，2025-07-10 ～ 2026-05-13
+- **提及次数 / 时间**：4 次，2025-07-10 ～ 2026-05-13
 - **语境与情绪**：positive；主题 aerospace、defense、other
 - **政策含义**：政府采购/合同、国家安全、关税
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -185,7 +185,7 @@
 - **代表性原话**：
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-  - 2026-05-13：「RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was not invited to the incredible gathering of the World's Greatest Busine…」 — [来源](https://truthsocial.com/@realDonaldTrump/116565073088871081)
+  - 2026-01-13：「As soon as we went in, Apple went in, Nvidia went in, a lot of smart people went in.」 — [来源](https://www.tomshardware.com/tech-industry/trumps-cryptic-remark-states-apple-has-invested-in-intel-tells-press-apple-went-in-nvidia-went-in-a-lot-of-smart-people-went-in)
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
