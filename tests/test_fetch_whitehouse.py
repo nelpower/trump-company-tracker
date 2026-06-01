@@ -60,7 +60,7 @@ def test_get_sources_skips_processed(monkeypatch, tmp_path):
            '<div class="field-docs-content">The President. Buy a Dell.</div>')
 
     def fake_get(url, timeout=30):
-        return listing if url.startswith(wh.LISTING) else doc
+        return listing if url.startswith(wh.LISTING_BASE) else doc
 
     monkeypatch.setattr(wh, "_get", fake_get)
     monkeypatch.setattr(wh, "STATE_PATH", tmp_path / "wh_state.json")

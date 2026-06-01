@@ -5,7 +5,8 @@ missed. The American Presidency Project (UCSB) maintains a clean, static,
 authoritative archive of presidential *Spoken Addresses and Remarks* with full
 transcripts — that is what we scrape here.
 
-    listing: presidency.ucsb.edu/documents/app-categories/presidential/spoken-addresses-and-remarks
+    listings: presidency.ucsb.edu/documents/app-categories/presidential/{
+              spoken-addresses-and-remarks, news-conferences}  (see CATEGORY_SLUGS)
     doc page: .field-docs-content (transcript), .field-docs-person (speaker),
               .date-display-single (date)
 
@@ -28,7 +29,16 @@ from pathlib import Path
 from src.config import DEFAULT_SPEAKER, PROCESSED_DIR
 
 BASE = "https://www.presidency.ucsb.edu"
-LISTING = BASE + "/documents/app-categories/presidential/spoken-addresses-and-remarks"
+LISTING_BASE = BASE + "/documents/app-categories/presidential/"
+# Categories with the clean "The President." / "Q." speaker format, so we can
+# safely keep ONLY Trump's words. (APP "interviews" use a "Name:" colon format
+# we can't reliably attribute, so they're intentionally excluded — curate
+# notable interviews by hand, like the Intel gaggle, until a dedicated
+# interview parser exists.)
+CATEGORY_SLUGS = [
+    "spoken-addresses-and-remarks",   # speeches, gaggles, exchanges with reporters
+    "news-conferences",               # formal press conferences
+]
 STATE_PATH = PROCESSED_DIR / "whitehouse_state.json"
 USER_AGENT = "Mozilla/5.0 (compatible; trump-company-tracker/0.3; research)"
 
@@ -75,26 +85,31 @@ def save_state(state: dict) -> None:
 
 
 def list_recent(max_items: int = 25) -> list[tuple[str, str, str]]:
-    """Return [(doc_url, date_iso, title), ...] newest first, or []."""
-    html = _get(f"{LISTING}?items_per_page={max_items}")
-    if not html:
-        return []
+    """Return [(doc_url, date_iso, title), ...] across all categories, or []."""
     try:
         from bs4 import BeautifulSoup
     except ImportError:
         print("[wh] beautifulsoup4 not installed; cannot parse listing")
         return []
-    soup = BeautifulSoup(html, "html.parser")
     out: list[tuple[str, str, str]] = []
-    for row in soup.select(".views-row"):
-        a = row.find("a", href=True)
-        if not a or "/documents/" not in a["href"]:
+    seen: set[str] = set()
+    for slug in CATEGORY_SLUGS:
+        html = _get(f"{LISTING_BASE}{slug}?items_per_page={max_items}")
+        if not html:
             continue
-        url = a["href"] if a["href"].startswith("http") else BASE + a["href"]
-        text = re.sub(r"\s+", " ", row.get_text(" ", strip=True))
-        m = _DATE_LEAD.match(text)
-        date_iso = _parse_date(m.group(1)) if m else ""
-        out.append((url, date_iso, a.get_text(" ", strip=True)))
+        soup = BeautifulSoup(html, "html.parser")
+        for row in soup.select(".views-row"):
+            a = row.find("a", href=True)
+            if not a or "/documents/" not in a["href"]:
+                continue
+            url = a["href"] if a["href"].startswith("http") else BASE + a["href"]
+            if url in seen:
+                continue
+            seen.add(url)
+            text = re.sub(r"\s+", " ", row.get_text(" ", strip=True))
+            m = _DATE_LEAD.match(text)
+            date_iso = _parse_date(m.group(1)) if m else ""
+            out.append((url, date_iso, a.get_text(" ", strip=True)))
     return out
 
 
