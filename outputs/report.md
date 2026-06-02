@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-01 10:44　|　记录总数：**64***
+*生成时间：2026-06-02 08:50　|　记录总数：**65***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 37 |
+| 2026 | 38 |
 
 **按月份：**
 
@@ -32,7 +32,7 @@
 | 2026-01 | 8 |
 | 2026-02 | 9 |
 | 2026-03 | 6 |
-| 2026-04 | 8 |
+| 2026-04 | 9 |
 | 2026-05 | 6 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -46,14 +46,14 @@
 | 5 | Dell Technologies Inc. | DELL | 4 |
 | 6 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 7 | United States Steel Corporation | X | 3 |
-| 8 | Lockheed Martin Corporation | LMT | 2 |
-| 9 | General Motors Company | GM | 2 |
-| 10 | Nippon Steel Corporation | 5401.T | 2 |
-| 11 | QUALCOMM Incorporated | QCOM | 1 |
-| 12 | Micron Technology, Inc. | MU | 1 |
-| 13 | Palantir Technologies Inc. | PLTR | 1 |
-| 14 | Oracle Corporation | ORCL | 1 |
-| 15 | Anthropic | — | 1 |
+| 8 | Anthropic | — | 2 |
+| 9 | Lockheed Martin Corporation | LMT | 2 |
+| 10 | General Motors Company | GM | 2 |
+| 11 | Nippon Steel Corporation | 5401.T | 2 |
+| 12 | QUALCOMM Incorporated | QCOM | 1 |
+| 13 | Micron Technology, Inc. | MU | 1 |
+| 14 | Palantir Technologies Inc. | PLTR | 1 |
+| 15 | Oracle Corporation | ORCL | 1 |
 | 16 | Microsoft Corporation | MSFT | 1 |
 | 17 | Meta Platforms, Inc. | META | 1 |
 | 18 | Amazon.com, Inc. | AMZN | 1 |
@@ -66,7 +66,7 @@
 | --- | --- | --- |
 | positive | 27 | 42% |
 | negative | 3 | 5% |
-| neutral | 32 | 50% |
+| neutral | 33 | 51% |
 | mixed | 2 | 3% |
 
 ## 4. 主题分布 (theme_tags)
@@ -84,7 +84,7 @@
 | aerospace | 10 |
 | infrastructure | 3 |
 | consumer | 2 |
-| other | 34 |
+| other | 35 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -94,9 +94,9 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 48 |
+| unknown | 49 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-01)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-02)
 
 | 公司 | 首次提及日期 |
 | --- | --- |
@@ -223,6 +223,17 @@
   - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
   - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
 
+### Anthropic　（未上市/未知，private）
+
+- **提及次数 / 时间**：2 次，2026-02-27 ～ 2026-04-17
+- **语境与情绪**：neutral；主题 AI、other
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
+  - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
+
 ### General Motors Company　（GM，public）
 
 - **提及次数 / 时间**：2 次，2025-05-04 ～ 2026-01-23
@@ -275,16 +286,6 @@
 - **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖立法拨款与执行节奏
 - **代表性原话**：
   - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
-
-### Anthropic　（未上市/未知，private）
-
-- **提及次数 / 时间**：1 次，2026-02-27 ～ 2026-02-27
-- **语境与情绪**：neutral；主题 AI
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定
-- **代表性原话**：
-  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
 
 ### International Business Machines (IBM)　（IBM，public）
 
