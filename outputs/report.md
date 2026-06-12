@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-11 08:57　|　记录总数：**68***
+*生成时间：2026-06-12 08:44　|　记录总数：**69***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 41 |
+| 2026 | 42 |
 
 **按月份：**
 
@@ -32,7 +32,7 @@
 | 2026-01 | 8 |
 | 2026-02 | 9 |
 | 2026-03 | 6 |
-| 2026-04 | 12 |
+| 2026-04 | 13 |
 | 2026-05 | 6 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -43,7 +43,7 @@
 | 2 | The Boeing Company | BA | 8 |
 | 3 | Intel Corporation | INTC | 7 |
 | 4 | NVIDIA Corporation | NVDA | 5 |
-| 5 | Dell Technologies Inc. | DELL | 4 |
+| 5 | Dell Technologies Inc. | DELL | 5 |
 | 6 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 7 | United States Steel Corporation | X | 3 |
 | 8 | Micron Technology, Inc. | MU | 2 |
@@ -64,9 +64,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 27 | 40% |
+| positive | 28 | 41% |
 | negative | 3 | 4% |
-| neutral | 36 | 53% |
+| neutral | 36 | 52% |
 | mixed | 2 | 3% |
 
 ## 4. 主题分布 (theme_tags)
@@ -84,7 +84,7 @@
 | aerospace | 10 |
 | infrastructure | 3 |
 | consumer | 2 |
-| other | 37 |
+| other | 38 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -94,9 +94,9 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 52 |
+| unknown | 53 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-11)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-12)
 
 | 公司 | 首次提及日期 |
 | --- | --- |
@@ -175,6 +175,18 @@
   - 2026-01-07：「The chairman of the board of Intel looked at me, says, 'You have a deal.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-zolan-kanno-youngs-tyler-pager-katie-rogers-and-david-e-sanger-the-new-york)
   - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
 
+### Dell Technologies Inc.　（DELL，public）
+
+- **提及次数 / 时间**：5 次，2025-12-02 ～ 2026-05-08
+- **语境与情绪**：positive；主题 defense、other
+- **政策含义**：政府采购/合同
+- **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
+  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
+  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
+
 ### NVIDIA Corporation　（NVDA，public）
 
 - **提及次数 / 时间**：5 次，2025-07-10 ～ 2026-05-13
@@ -186,18 +198,6 @@
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-
-### Dell Technologies Inc.　（DELL，public）
-
-- **提及次数 / 时间**：4 次，2025-12-02 ～ 2026-05-08
-- **语境与情绪**：positive；主题 defense、other
-- **政策含义**：政府采购/合同
-- **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
-- **代表性原话**：
-  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
-  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
-  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
