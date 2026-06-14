@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-13 08:00　|　记录总数：**69***
+*生成时间：2026-06-14 08:29　|　记录总数：**72***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 42 |
+| 2026 | 45 |
 
 **按月份：**
 
@@ -33,7 +33,7 @@
 | 2026-02 | 9 |
 | 2026-03 | 6 |
 | 2026-04 | 13 |
-| 2026-05 | 6 |
+| 2026-05 | 9 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -41,14 +41,14 @@
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 14 |
 | 2 | The Boeing Company | BA | 8 |
-| 3 | Intel Corporation | INTC | 7 |
-| 4 | NVIDIA Corporation | NVDA | 5 |
-| 5 | Dell Technologies Inc. | DELL | 5 |
-| 6 | Alphabet Inc. (Google) | GOOGL | 3 |
-| 7 | United States Steel Corporation | X | 3 |
-| 8 | Micron Technology, Inc. | MU | 2 |
-| 9 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
-| 10 | Anthropic | — | 2 |
+| 3 | Intel Corporation | INTC | 8 |
+| 4 | Dell Technologies Inc. | DELL | 6 |
+| 5 | NVIDIA Corporation | NVDA | 5 |
+| 6 | Anthropic | — | 3 |
+| 7 | Alphabet Inc. (Google) | GOOGL | 3 |
+| 8 | United States Steel Corporation | X | 3 |
+| 9 | Micron Technology, Inc. | MU | 2 |
+| 10 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
 | 11 | Lockheed Martin Corporation | LMT | 2 |
 | 12 | General Motors Company | GM | 2 |
 | 13 | Nippon Steel Corporation | 5401.T | 2 |
@@ -64,9 +64,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 28 | 41% |
+| positive | 29 | 40% |
 | negative | 3 | 4% |
-| neutral | 36 | 52% |
+| neutral | 38 | 53% |
 | mixed | 2 | 3% |
 
 ## 4. 主题分布 (theme_tags)
@@ -75,28 +75,29 @@
 | --- | --- |
 | AI | 5 |
 | data_center | 1 |
-| defense | 11 |
+| defense | 12 |
 | energy | 3 |
-| manufacturing | 7 |
+| manufacturing | 8 |
 | semiconductor | 5 |
 | cloud | 1 |
-| auto | 1 |
+| auto | 2 |
 | aerospace | 10 |
 | infrastructure | 3 |
 | consumer | 2 |
-| other | 38 |
+| other | 39 |
 
 ## 5. 政策角度分布 (policy_angle)
 
 | 政策角度 | 数量 |
 | --- | --- |
+| buy_american | 1 |
 | government_contract | 8 |
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 53 |
+| unknown | 55 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-13)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-14)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -106,6 +107,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-05-13 | NVIDIA Corporation | NVDA | 5 | positive | government_contract | RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was … | [link](https://truthsocial.com/@realDonaldTrump/116565073088871081) |
 | 2026-05-08 | Dell Technologies Inc. | DELL | 5 | positive | government_contract | And I want to thank the Dell family; it's a great family. | [link](https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/) |
+| 2026-05-01 | Dell Technologies Inc. | DELL | 5 | positive | buy_american | And we also created the brandnew Trump Accounts, along with a really fantastic family, th… | [link](https://www.presidency.ucsb.edu/documents/remarks-during-event-with-seniors-middleton-florida) |
+| 2026-05-01 | Anthropic | — | 5 | neutral | unknown | Anthropic Well, only that they had a very good meeting. | [link](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida) |
 | 2026-04-23 | Intel Corporation | INTC | 5 | neutral | unknown | And now—you know, Intel. | [link](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters) |
 | 2026-04-21 | The Boeing Company | BA | 5 | positive | government_contract | Barack Hussein Obama gave them 1.7 Billion Dollars in "Green" Cash, flown in by a Boeing … | [link](https://truthsocial.com/@realDonaldTrump/116445317344745621) |
 | 2026-04-20 | The Boeing Company | BA | 5 | neutral | unknown | They actually gave $1.7 Billion Dollars in "GREEN" Cash, loaded into a Boeing 757, and fl… | [link](https://truthsocial.com/@realDonaldTrump/116438239629407600) |
@@ -149,6 +152,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-02-24：「APPLE HAS JUST ANNOUNCED A RECORD 500 BILLION DOLLAR INVESTMENT IN THE UNITED STATES OF AMERICA.」 — [来源](https://www.axios.com/2025/02/24/apple-investment-trump-tim-cook)
   - 2025-04-29：「Apple's putting up $500 billion, but that's only one of many companies.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-terry-moran-abc-news-the-first-100-days)
 
+### Intel Corporation　（INTC，public）
+
+- **提及次数 / 时间**：8 次，2025-12-08 ～ 2026-05-01
+- **语境与情绪**：neutral、positive；主题 other、semiconductor
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **代表性原话**：
+  - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
+  - 2026-01-07：「The chairman of the board of Intel looked at me, says, 'You have a deal.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-zolan-kanno-youngs-tyler-pager-katie-rogers-and-david-e-sanger-the-new-york)
+  - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
+
 ### The Boeing Company　（BA，public）
 
 - **提及次数 / 时间**：8 次，2016-12-06 ～ 2026-05-13
@@ -161,25 +176,13 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-02-14：「I mean, they're actually in default—Boeing.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
   - 2025-05-16：「People knew I was angry at Boeing.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
 
-### Intel Corporation　（INTC，public）
-
-- **提及次数 / 时间**：7 次，2025-12-08 ～ 2026-04-29
-- **语境与情绪**：neutral、positive；主题 other、semiconductor
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
-- **代表性原话**：
-  - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-  - 2026-01-07：「The chairman of the board of Intel looked at me, says, 'You have a deal.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-zolan-kanno-youngs-tyler-pager-katie-rogers-and-david-e-sanger-the-new-york)
-  - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
-
 ### Dell Technologies Inc.　（DELL，public）
 
-- **提及次数 / 时间**：5 次，2025-12-02 ～ 2026-05-08
-- **语境与情绪**：positive；主题 defense、other
-- **政策含义**：政府采购/合同
-- **可能投资线索**：国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **提及次数 / 时间**：6 次，2025-12-02 ～ 2026-05-08
+- **语境与情绪**：positive；主题 auto、defense、manufacturing、other
+- **政策含义**：买美国货、政府采购/合同
+- **可能投资线索**：整车/零部件/电动化转型；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：需求周期性、价格战与补贴退坡风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
   - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
@@ -209,6 +212,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
   - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
+### Anthropic　（未上市/未知，private）
+
+- **提及次数 / 时间**：3 次，2026-02-27 ～ 2026-05-01
+- **语境与情绪**：neutral；主题 AI、defense、other
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
+  - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
+  - 2026-05-01：「Anthropic Well, only that they had a very good meeting.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida)
+
 ### United States Steel Corporation　（X，public）
 
 - **提及次数 / 时间**：3 次，2024-12-02 ～ 2026-02-01
@@ -220,17 +235,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
   - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
   - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
-
-### Anthropic　（未上市/未知，private）
-
-- **提及次数 / 时间**：2 次，2026-02-27 ～ 2026-04-17
-- **语境与情绪**：neutral；主题 AI、other
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；投资含义需进一步确认
-- **代表性原话**：
-  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
-  - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
 
 ### General Motors Company　（GM，public）
 
