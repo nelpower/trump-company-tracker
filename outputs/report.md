@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-16 09:38　|　记录总数：**72***
+*生成时间：2026-06-17 09:16　|　记录总数：**73***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 45 |
+| 2026 | 46 |
 
 **按月份：**
 
@@ -33,7 +33,7 @@
 | 2026-02 | 9 |
 | 2026-03 | 6 |
 | 2026-04 | 13 |
-| 2026-05 | 9 |
+| 2026-05 | 10 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -48,25 +48,25 @@
 | 7 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 8 | United States Steel Corporation | X | 3 |
 | 9 | Micron Technology, Inc. | MU | 2 |
-| 10 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
-| 11 | Lockheed Martin Corporation | LMT | 2 |
-| 12 | General Motors Company | GM | 2 |
-| 13 | Nippon Steel Corporation | 5401.T | 2 |
-| 14 | QUALCOMM Incorporated | QCOM | 1 |
-| 15 | Palantir Technologies Inc. | PLTR | 1 |
-| 16 | Oracle Corporation | ORCL | 1 |
-| 17 | Microsoft Corporation | MSFT | 1 |
-| 18 | Meta Platforms, Inc. | META | 1 |
-| 19 | Amazon.com, Inc. | AMZN | 1 |
-| 20 | Advanced Micro Devices, Inc. | AMD | 1 |
+| 10 | The Coca-Cola Company | KO | 2 |
+| 11 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
+| 12 | Lockheed Martin Corporation | LMT | 2 |
+| 13 | General Motors Company | GM | 2 |
+| 14 | Nippon Steel Corporation | 5401.T | 2 |
+| 15 | QUALCOMM Incorporated | QCOM | 1 |
+| 16 | Palantir Technologies Inc. | PLTR | 1 |
+| 17 | Oracle Corporation | ORCL | 1 |
+| 18 | Microsoft Corporation | MSFT | 1 |
+| 19 | Meta Platforms, Inc. | META | 1 |
+| 20 | Amazon.com, Inc. | AMZN | 1 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 29 | 40% |
+| positive | 30 | 41% |
 | negative | 3 | 4% |
-| neutral | 38 | 53% |
+| neutral | 38 | 52% |
 | mixed | 2 | 3% |
 
 ## 4. 主题分布 (theme_tags)
@@ -83,7 +83,7 @@
 | auto | 2 |
 | aerospace | 10 |
 | infrastructure | 3 |
-| consumer | 2 |
+| consumer | 3 |
 | other | 39 |
 
 ## 5. 政策角度分布 (policy_angle)
@@ -95,9 +95,9 @@
 | manufacturing_reshoring | 3 |
 | national_security | 3 |
 | tariff | 2 |
-| unknown | 55 |
+| unknown | 56 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-16)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-17)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -291,6 +291,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-03-03：「Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billion in new capital in the United States over the next short period of t…」 — [来源](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/)
   - 2026-04-23：「TSMC, $165 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
 
+### The Coca-Cola Company　（KO，public）
+
+- **提及次数 / 时间**：2 次，2025-07-16 ～ 2026-05-01
+- **语境与情绪**：neutral、positive；主题 consumer
+- **政策含义**：暂不明确
+- **可能投资线索**：品牌认知与消费需求边际变化（最高相关性评分 3/5）
+- **风险**：言论对基本面影响有限，多为短期情绪/公关层面
+- **代表性原话**：
+  - 2025-07-16：「I have been speaking to Coca-Cola about using REAL Cane Sugar in Coke in the United States, and they have agreed to do so.」 — [来源](https://www.cbsnews.com/news/trump-coca-cola-real-cane-sugar-in-us-cola/)
+  - 2026-05-01：「I actually did tell Coca-Cola: "Why aren't you using real sugar?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-forum-club-the-palm-beaches-dinner-west-palm)
+
 ### Advanced Micro Devices, Inc.　（AMD，public）
 
 - **提及次数 / 时间**：1 次，2025-12-08 ～ 2025-12-08
@@ -400,16 +411,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
   - 2025-02-14：「In other words, because you do business—it was funny, when it came out the other day, that there was going to be, I think, $400 million—billion—I don't know if…」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
-
-### The Coca-Cola Company　（KO，public）
-
-- **提及次数 / 时间**：1 次，2025-07-16 ～ 2025-07-16
-- **语境与情绪**：neutral；主题 consumer
-- **政策含义**：暂不明确
-- **可能投资线索**：品牌认知与消费需求边际变化（最高相关性评分 2/5）
-- **风险**：言论对基本面影响有限，多为短期情绪/公关层面
-- **代表性原话**：
-  - 2025-07-16：「I have been speaking to Coca-Cola about using REAL Cane Sugar in Coke in the United States, and they have agreed to do so.」 — [来源](https://www.cbsnews.com/news/trump-coca-cola-real-cane-sugar-in-us-cola/)
 
 ---
 
