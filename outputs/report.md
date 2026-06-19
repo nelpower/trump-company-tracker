@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-06-18 08:58　|　记录总数：**76***
+*生成时间：2026-06-19 09:17　|　记录总数：**79***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 49 |
+| 2026 | 52 |
 
 **按月份：**
 
@@ -33,7 +33,7 @@
 | 2026-02 | 9 |
 | 2026-03 | 6 |
 | 2026-04 | 13 |
-| 2026-05 | 10 |
+| 2026-05 | 13 |
 | 2026-06 | 3 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -41,23 +41,23 @@
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 15 |
-| 2 | Intel Corporation | INTC | 9 |
-| 3 | The Boeing Company | BA | 8 |
+| 2 | Intel Corporation | INTC | 10 |
+| 3 | The Boeing Company | BA | 9 |
 | 4 | NVIDIA Corporation | NVDA | 6 |
 | 5 | Dell Technologies Inc. | DELL | 6 |
 | 6 | Anthropic | — | 3 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 8 | United States Steel Corporation | X | 3 |
 | 9 | Micron Technology, Inc. | MU | 2 |
-| 10 | The Coca-Cola Company | KO | 2 |
-| 11 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
-| 12 | Lockheed Martin Corporation | LMT | 2 |
-| 13 | General Motors Company | GM | 2 |
-| 14 | Nippon Steel Corporation | 5401.T | 2 |
-| 15 | QUALCOMM Incorporated | QCOM | 1 |
-| 16 | Palantir Technologies Inc. | PLTR | 1 |
-| 17 | Oracle Corporation | ORCL | 1 |
-| 18 | Microsoft Corporation | MSFT | 1 |
+| 10 | Microsoft Corporation | MSFT | 2 |
+| 11 | The Coca-Cola Company | KO | 2 |
+| 12 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
+| 13 | Lockheed Martin Corporation | LMT | 2 |
+| 14 | General Motors Company | GM | 2 |
+| 15 | Nippon Steel Corporation | 5401.T | 2 |
+| 16 | QUALCOMM Incorporated | QCOM | 1 |
+| 17 | Palantir Technologies Inc. | PLTR | 1 |
+| 18 | Oracle Corporation | ORCL | 1 |
 | 19 | Meta Platforms, Inc. | META | 1 |
 | 20 | Amazon.com, Inc. | AMZN | 1 |
 
@@ -65,9 +65,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 30 | 39% |
-| negative | 3 | 4% |
-| neutral | 41 | 54% |
+| positive | 30 | 38% |
+| negative | 4 | 5% |
+| neutral | 43 | 54% |
 | mixed | 2 | 3% |
 
 ## 4. 主题分布 (theme_tags)
@@ -79,13 +79,13 @@
 | defense | 12 |
 | energy | 3 |
 | manufacturing | 11 |
-| semiconductor | 8 |
+| semiconductor | 9 |
 | cloud | 1 |
 | auto | 2 |
-| aerospace | 10 |
+| aerospace | 11 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 39 |
+| other | 40 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -95,10 +95,10 @@
 | government_contract | 8 |
 | manufacturing_reshoring | 6 |
 | national_security | 3 |
-| tariff | 2 |
-| unknown | 56 |
+| tariff | 3 |
+| unknown | 58 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-18)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-06-19)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -111,6 +111,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-06-18 | Apple Inc. | AAPL | 5 | neutral | manufacturing_reshoring | And, finally, Apple has agreed to work with Intel to design and build its Chips in Americ… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-05-13 | NVIDIA Corporation | NVDA | 5 | positive | government_contract | RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was … | [link](https://truthsocial.com/@realDonaldTrump/116565073088871081) |
 | 2026-05-08 | Dell Technologies Inc. | DELL | 5 | positive | government_contract | And I want to thank the Dell family; it's a great family. | [link](https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/) |
+| 2026-05-05 | The Boeing Company | BA | 5 | neutral | unknown | They took out all the cash from the banks, they put it into a plane—a Boeing 757 packed w… | [link](https://www.presidency.ucsb.edu/documents/remarks-signing-proclamation-national-physical-fitness-and-sports-month-and-exchange-with) |
+| 2026-05-04 | Intel Corporation | INTC | 5 | negative | tariff | And you know, I made a investment—Intel, a chipmaker, the biggest in the world—and then i… | [link](https://www.presidency.ucsb.edu/documents/remarks-the-white-house-small-business-summit) |
 | 2026-05-01 | Dell Technologies Inc. | DELL | 5 | positive | buy_american | And we also created the brandnew Trump Accounts, along with a really fantastic family, th… | [link](https://www.presidency.ucsb.edu/documents/remarks-during-event-with-seniors-middleton-florida) |
 | 2026-05-01 | Anthropic | — | 5 | neutral | unknown | Anthropic Well, only that they had a very good meeting. | [link](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida) |
 | 2026-04-23 | Intel Corporation | INTC | 5 | neutral | unknown | And now—you know, Intel. | [link](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters) |
@@ -158,9 +160,9 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：9 次，2025-12-08 ～ 2026-06-18
-- **语境与情绪**：neutral、positive；主题 manufacturing、other、semiconductor
-- **政策含义**：制造业回流
+- **提及次数 / 时间**：10 次，2025-12-08 ～ 2026-06-18
+- **语境与情绪**：negative、neutral、positive；主题 manufacturing、other、semiconductor
+- **政策含义**：制造业回流、关税
 - **可能投资线索**：美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
 - **风险**：补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
@@ -170,7 +172,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：8 次，2016-12-06 ～ 2026-05-13
+- **提及次数 / 时间**：9 次，2016-12-06 ～ 2026-05-13
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -273,6 +275,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
   - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
 
+### Microsoft Corporation　（MSFT，public）
+
+- **提及次数 / 时间**：2 次，2026-01-12 ～ 2026-05-04
+- **语境与情绪**：neutral；主题 AI、other
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-01-12：「First up is Microsoft, who my team has been working with, and which will make major changes beginning this week to ensure that Americans don't "pick up the tab…」 — [来源](https://truthsocial.com/@realDonaldTrump/115884759090137876)
+  - 2026-05-04：「He sold it for a billion dollars to Microsoft.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-white-house-small-business-summit)
+
 ### Nippon Steel Corporation　（5401.T，public）
 
 - **提及次数 / 时间**：2 次，2024-12-02 ～ 2025-02-07
@@ -345,16 +358,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
   - 2026-01-12：「Congratulations to DINA POWELL MCCORMICK, WHO HAS JUST BEEN NAMED THE NEW PRESIDENT OF META.」 — [来源](https://truthsocial.com/@realDonaldTrump/115882511750475574)
-
-### Microsoft Corporation　（MSFT，public）
-
-- **提及次数 / 时间**：1 次，2026-01-12 ～ 2026-01-12
-- **语境与情绪**：neutral；主题 AI
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定
-- **代表性原话**：
-  - 2026-01-12：「First up is Microsoft, who my team has been working with, and which will make major changes beginning this week to ensure that Americans don't "pick up the tab…」 — [来源](https://truthsocial.com/@realDonaldTrump/115884759090137876)
 
 ### Oracle Corporation　（ORCL，public）
 
