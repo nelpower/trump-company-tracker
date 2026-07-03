@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-07-02 07:48　|　记录总数：**84***
+*生成时间：2026-07-03 07:43　|　记录总数：**87***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 57 |
+| 2026 | 60 |
 
 **按月份：**
 
@@ -33,42 +33,42 @@
 | 2026-02 | 9 |
 | 2026-03 | 6 |
 | 2026-04 | 13 |
-| 2026-05 | 17 |
+| 2026-05 | 19 |
 | 2026-06 | 3 |
-| 2026-07 | 1 |
+| 2026-07 | 2 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 15 |
-| 2 | The Boeing Company | BA | 11 |
+| 2 | The Boeing Company | BA | 12 |
 | 3 | Intel Corporation | INTC | 10 |
 | 4 | NVIDIA Corporation | NVDA | 7 |
 | 5 | Dell Technologies Inc. | DELL | 7 |
-| 6 | Micron Technology, Inc. | MU | 3 |
+| 6 | Micron Technology, Inc. | MU | 4 |
 | 7 | Anthropic | — | 3 |
 | 8 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 9 | United States Steel Corporation | X | 3 |
-| 10 | Microsoft Corporation | MSFT | 2 |
-| 11 | The Coca-Cola Company | KO | 2 |
-| 12 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
-| 13 | Lockheed Martin Corporation | LMT | 2 |
-| 14 | General Motors Company | GM | 2 |
-| 15 | Nippon Steel Corporation | 5401.T | 2 |
-| 16 | QUALCOMM Incorporated | QCOM | 1 |
-| 17 | Palantir Technologies Inc. | PLTR | 1 |
-| 18 | Oracle Corporation | ORCL | 1 |
-| 19 | Meta Platforms, Inc. | META | 1 |
-| 20 | Amazon.com, Inc. | AMZN | 1 |
+| 10 | Amazon.com, Inc. | AMZN | 2 |
+| 11 | Microsoft Corporation | MSFT | 2 |
+| 12 | The Coca-Cola Company | KO | 2 |
+| 13 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
+| 14 | Lockheed Martin Corporation | LMT | 2 |
+| 15 | General Motors Company | GM | 2 |
+| 16 | Nippon Steel Corporation | 5401.T | 2 |
+| 17 | QUALCOMM Incorporated | QCOM | 1 |
+| 18 | Palantir Technologies Inc. | PLTR | 1 |
+| 19 | Oracle Corporation | ORCL | 1 |
+| 20 | Meta Platforms, Inc. | META | 1 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 34 | 40% |
+| positive | 37 | 43% |
 | negative | 4 | 5% |
-| neutral | 44 | 52% |
+| neutral | 44 | 51% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -86,7 +86,7 @@
 | aerospace | 12 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 43 |
+| other | 46 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -97,9 +97,9 @@
 | manufacturing_reshoring | 6 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 62 |
+| unknown | 65 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-02)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-03)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -163,7 +163,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：11 次，2016-12-06 ～ 2026-05-15
+- **提及次数 / 时间**：12 次，2016-12-06 ～ 2026-05-19
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -209,6 +209,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
 
+### Micron Technology, Inc.　（MU，public）
+
+- **提及次数 / 时间**：4 次，2026-04-23 ～ 2026-07-02
+- **语境与情绪**：neutral、positive；主题 aerospace、defense、other
+- **政策含义**：政府采购/合同
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
+  - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
+  - 2026-07-01：「Micron, a truly GREAT American Company, and one of the "HOTTEST" anywhere in the World, has announced a HISTORIC $250 MILLION Investment in TRUMP ACCOUNTS.」 — [来源](https://truthsocial.com/@realDonaldTrump/116845625781087003)
+
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
 - **提及次数 / 时间**：3 次，2024-10-25 ～ 2026-04-16
@@ -233,18 +245,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
   - 2026-05-01：「Anthropic Well, only that they had a very good meeting.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida)
 
-### Micron Technology, Inc.　（MU，public）
-
-- **提及次数 / 时间**：3 次，2026-04-23 ～ 2026-07-01
-- **语境与情绪**：neutral、positive；主题 aerospace、defense、other
-- **政策含义**：政府采购/合同
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
-- **代表性原话**：
-  - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
-  - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
-  - 2026-07-01：「Micron, a truly GREAT American Company, and one of the "HOTTEST" anywhere in the World, has announced a HISTORIC $250 MILLION Investment in TRUMP ACCOUNTS.」 — [来源](https://truthsocial.com/@realDonaldTrump/116845625781087003)
-
 ### United States Steel Corporation　（X，public）
 
 - **提及次数 / 时间**：3 次，2024-12-02 ～ 2026-02-01
@@ -256,6 +256,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
   - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
   - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
+
+### Amazon.com, Inc.　（AMZN，public）
+
+- **提及次数 / 时间**：2 次，2025-12-30 ～ 2026-05-18
+- **语境与情绪**：neutral、positive；主题 AI、infrastructure、other
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖立法拨款与执行节奏；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
+  - 2026-05-18：「At Amazon Pharmacy, it's been our mission to build a pharmacy with price transparency from day one, and it's been our mission to make sure that Americans who n…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters-0)
 
 ### General Motors Company　（GM，public）
 
@@ -332,16 +343,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-
-### Amazon.com, Inc.　（AMZN，public）
-
-- **提及次数 / 时间**：1 次，2025-12-30 ～ 2025-12-30
-- **语境与情绪**：neutral；主题 AI、infrastructure
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；基建相关材料/工程/设备（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖立法拨款与执行节奏
-- **代表性原话**：
-  - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
 
 ### International Business Machines (IBM)　（IBM，public）
 
