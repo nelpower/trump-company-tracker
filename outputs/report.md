@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-07-08 06:42　|　记录总数：**87***
+*生成时间：2026-07-09 07:58　|　记录总数：**88***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 60 |
+| 2026 | 61 |
 
 **按月份：**
 
@@ -35,7 +35,7 @@
 | 2026-04 | 13 |
 | 2026-05 | 19 |
 | 2026-06 | 3 |
-| 2026-07 | 2 |
+| 2026-07 | 3 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -50,25 +50,25 @@
 | 7 | Anthropic | — | 3 |
 | 8 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 9 | United States Steel Corporation | X | 3 |
-| 10 | Amazon.com, Inc. | AMZN | 2 |
-| 11 | Microsoft Corporation | MSFT | 2 |
-| 12 | The Coca-Cola Company | KO | 2 |
-| 13 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
-| 14 | Lockheed Martin Corporation | LMT | 2 |
-| 15 | General Motors Company | GM | 2 |
-| 16 | Nippon Steel Corporation | 5401.T | 2 |
-| 17 | QUALCOMM Incorporated | QCOM | 1 |
-| 18 | Palantir Technologies Inc. | PLTR | 1 |
-| 19 | Oracle Corporation | ORCL | 1 |
-| 20 | Meta Platforms, Inc. | META | 1 |
+| 10 | SpaceX | — | 2 |
+| 11 | Amazon.com, Inc. | AMZN | 2 |
+| 12 | Microsoft Corporation | MSFT | 2 |
+| 13 | The Coca-Cola Company | KO | 2 |
+| 14 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
+| 15 | Lockheed Martin Corporation | LMT | 2 |
+| 16 | General Motors Company | GM | 2 |
+| 17 | Nippon Steel Corporation | 5401.T | 2 |
+| 18 | QUALCOMM Incorporated | QCOM | 1 |
+| 19 | Palantir Technologies Inc. | PLTR | 1 |
+| 20 | Oracle Corporation | ORCL | 1 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 37 | 43% |
+| positive | 38 | 43% |
 | negative | 4 | 5% |
-| neutral | 44 | 51% |
+| neutral | 44 | 50% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -86,7 +86,7 @@
 | aerospace | 12 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 46 |
+| other | 47 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -97,9 +97,9 @@
 | manufacturing_reshoring | 6 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 65 |
+| unknown | 66 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-08)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-09)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -312,6 +312,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
   - 2025-02-07：「On the economic field, there is the acquisition of U.S. Steel by Nippon Steel.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
 
+### SpaceX　（未上市/未知，private）
+
+- **提及次数 / 时间**：2 次，2025-02-14 ～ 2026-07-09
+- **语境与情绪**：neutral、positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
+  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
+
 ### Taiwan Semiconductor Manufacturing Company (TSMC)　（TSM，public）
 
 - **提及次数 / 时间**：2 次，2025-03-03 ～ 2026-04-23
@@ -403,16 +414,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
   - 2025-02-07：「As a result of our victory in 2024, the Presidential election, the Japanese investment and technology giant SoftBank announced plans to invest between $100 and…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
-
-### SpaceX　（未上市/未知，private）
-
-- **提及次数 / 时间**：1 次，2025-02-14 ～ 2025-02-14
-- **语境与情绪**：neutral；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 2/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
 
 ### Tesla, Inc.　（TSLA，public）
 
