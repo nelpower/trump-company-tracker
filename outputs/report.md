@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-07-10 07:56　|　记录总数：**88***
+*生成时间：2026-07-11 06:30　|　记录总数：**92***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 61 |
+| 2026 | 65 |
 
 **按月份：**
 
@@ -35,18 +35,18 @@
 | 2026-04 | 13 |
 | 2026-05 | 19 |
 | 2026-06 | 3 |
-| 2026-07 | 3 |
+| 2026-07 | 7 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | Apple Inc. | AAPL | 15 |
+| 1 | Apple Inc. | AAPL | 16 |
 | 2 | The Boeing Company | BA | 12 |
 | 3 | Intel Corporation | INTC | 10 |
-| 4 | NVIDIA Corporation | NVDA | 7 |
-| 5 | Dell Technologies Inc. | DELL | 7 |
-| 6 | Micron Technology, Inc. | MU | 4 |
+| 4 | Micron Technology, Inc. | MU | 7 |
+| 5 | NVIDIA Corporation | NVDA | 7 |
+| 6 | Dell Technologies Inc. | DELL | 7 |
 | 7 | Anthropic | — | 3 |
 | 8 | Alphabet Inc. (Google) | GOOGL | 3 |
 | 9 | United States Steel Corporation | X | 3 |
@@ -66,9 +66,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 38 | 43% |
-| negative | 4 | 5% |
-| neutral | 44 | 50% |
+| positive | 39 | 42% |
+| negative | 4 | 4% |
+| neutral | 47 | 51% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -79,8 +79,8 @@
 | data_center | 1 |
 | defense | 12 |
 | energy | 4 |
-| manufacturing | 11 |
-| semiconductor | 9 |
+| manufacturing | 13 |
+| semiconductor | 12 |
 | cloud | 1 |
 | auto | 2 |
 | aerospace | 12 |
@@ -93,13 +93,14 @@
 | 政策角度 | 数量 |
 | --- | --- |
 | buy_american | 1 |
+| deregulation | 1 |
 | government_contract | 9 |
 | manufacturing_reshoring | 6 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 66 |
+| unknown | 69 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-10)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-11)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -107,6 +108,10 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-07-11 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/116898473019365022) |
+| 2026-07-10 | Micron Technology, Inc. | MU | 5 | positive | unknown | "Last week, I shared with President Trump that, because of his leadership and policies, M… | [link](https://truthsocial.com/@realDonaldTrump/116898302549383361) |
+| 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | unknown | Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab: https://invest… | [link](https://truthsocial.com/@realDonaldTrump/116898307111920626) |
+| 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | deregulation | Micron is accelerating its U.S. spending to a MASSIVE 250 BILLION DOLLARS to build Memory… | [link](https://truthsocial.com/@realDonaldTrump/116898300053530163) |
 | 2026-06-18 | NVIDIA Corporation | NVDA | 5 | neutral | manufacturing_reshoring | First, we helped bring in Nvidia, and they agreed to build their first level Chips with I… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Intel Corporation | INTC | 5 | neutral | manufacturing_reshoring | Next, Elon agreed to build his TerraFab, the largest Chip Factory in the World, designed … | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Apple Inc. | AAPL | 5 | neutral | manufacturing_reshoring | And, finally, Apple has agreed to work with Intel to design and build its Chips in Americ… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
@@ -151,7 +156,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：15 次，2024-10-25 ～ 2026-06-18
+- **提及次数 / 时间**：16 次，2024-10-25 ～ 2026-07-11
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -197,6 +202,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
   - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
+### Micron Technology, Inc.　（MU，public）
+
+- **提及次数 / 时间**：7 次，2026-04-23 ～ 2026-07-10
+- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other、semiconductor
+- **政策含义**：放松管制、政府采购/合同
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **代表性原话**：
+  - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
+  - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
+  - 2026-07-01：「Micron, a truly GREAT American Company, and one of the "HOTTEST" anywhere in the World, has announced a HISTORIC $250 MILLION Investment in TRUMP ACCOUNTS.」 — [来源](https://truthsocial.com/@realDonaldTrump/116845625781087003)
+
 ### NVIDIA Corporation　（NVDA，public）
 
 - **提及次数 / 时间**：7 次，2025-07-10 ～ 2026-06-18
@@ -208,18 +225,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
-
-### Micron Technology, Inc.　（MU，public）
-
-- **提及次数 / 时间**：4 次，2026-04-23 ～ 2026-07-02
-- **语境与情绪**：neutral、positive；主题 aerospace、defense、other
-- **政策含义**：政府采购/合同
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
-- **代表性原话**：
-  - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
-  - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
-  - 2026-07-01：「Micron, a truly GREAT American Company, and one of the "HOTTEST" anywhere in the World, has announced a HISTORIC $250 MILLION Investment in TRUMP ACCOUNTS.」 — [来源](https://truthsocial.com/@realDonaldTrump/116845625781087003)
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
