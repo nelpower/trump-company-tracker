@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-07-15 06:32　|　记录总数：**92***
+*生成时间：2026-07-16 06:37　|　记录总数：**94***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 65 |
+| 2026 | 67 |
 
 **按月份：**
 
@@ -33,7 +33,7 @@
 | 2026-02 | 9 |
 | 2026-03 | 6 |
 | 2026-04 | 13 |
-| 2026-05 | 19 |
+| 2026-05 | 21 |
 | 2026-06 | 3 |
 | 2026-07 | 7 |
 
@@ -44,19 +44,19 @@
 | 1 | Apple Inc. | AAPL | 16 |
 | 2 | The Boeing Company | BA | 12 |
 | 3 | Intel Corporation | INTC | 10 |
-| 4 | Micron Technology, Inc. | MU | 7 |
+| 4 | Micron Technology, Inc. | MU | 8 |
 | 5 | NVIDIA Corporation | NVDA | 7 |
 | 6 | Dell Technologies Inc. | DELL | 7 |
-| 7 | Anthropic | — | 3 |
-| 8 | Alphabet Inc. (Google) | GOOGL | 3 |
-| 9 | United States Steel Corporation | X | 3 |
-| 10 | SpaceX | — | 2 |
-| 11 | Amazon.com, Inc. | AMZN | 2 |
-| 12 | Microsoft Corporation | MSFT | 2 |
-| 13 | The Coca-Cola Company | KO | 2 |
-| 14 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
-| 15 | Lockheed Martin Corporation | LMT | 2 |
-| 16 | General Motors Company | GM | 2 |
+| 7 | General Motors Company | GM | 3 |
+| 8 | Anthropic | — | 3 |
+| 9 | Alphabet Inc. (Google) | GOOGL | 3 |
+| 10 | United States Steel Corporation | X | 3 |
+| 11 | SpaceX | — | 2 |
+| 12 | Amazon.com, Inc. | AMZN | 2 |
+| 13 | Microsoft Corporation | MSFT | 2 |
+| 14 | The Coca-Cola Company | KO | 2 |
+| 15 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
+| 16 | Lockheed Martin Corporation | LMT | 2 |
 | 17 | Nippon Steel Corporation | 5401.T | 2 |
 | 18 | QUALCOMM Incorporated | QCOM | 1 |
 | 19 | Palantir Technologies Inc. | PLTR | 1 |
@@ -66,9 +66,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 39 | 42% |
+| positive | 40 | 43% |
 | negative | 4 | 4% |
-| neutral | 47 | 51% |
+| neutral | 48 | 51% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -79,14 +79,14 @@
 | data_center | 1 |
 | defense | 12 |
 | energy | 4 |
-| manufacturing | 13 |
+| manufacturing | 14 |
 | semiconductor | 12 |
 | cloud | 1 |
 | auto | 2 |
 | aerospace | 12 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 47 |
+| other | 48 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -98,9 +98,9 @@
 | manufacturing_reshoring | 6 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 69 |
+| unknown | 71 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-15)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-16)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -115,6 +115,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-06-18 | NVIDIA Corporation | NVDA | 5 | neutral | manufacturing_reshoring | First, we helped bring in Nvidia, and they agreed to build their first level Chips with I… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Intel Corporation | INTC | 5 | neutral | manufacturing_reshoring | Next, Elon agreed to build his TerraFab, the largest Chip Factory in the World, designed … | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Apple Inc. | AAPL | 5 | neutral | manufacturing_reshoring | And, finally, Apple has agreed to work with Intel to design and build its Chips in Americ… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
+| 2026-05-22 | General Motors Company | GM | 5 | neutral | unknown | And last year, General Motors announced a new manufacturing investment of a billion dolla… | [link](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york) |
 | 2026-05-15 | The Boeing Company | BA | 5 | positive | government_contract | Made a lot of great trade deals, including over 200 planes for Boeing, with a promise of … | [link](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-aboard-air-force-one-en-route-anchorage-alaska) |
 | 2026-05-13 | NVIDIA Corporation | NVDA | 5 | positive | government_contract | RT @realDonaldTrumpCNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was … | [link](https://truthsocial.com/@realDonaldTrump/116565073088871081) |
 | 2026-05-08 | Dell Technologies Inc. | DELL | 5 | positive | government_contract | And I want to thank the Dell family; it's a great family. | [link](https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-luncheon-mothers-day-white-house-may-8-2026/) |
@@ -190,6 +191,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-01-07：「The chairman of the board of Intel looked at me, says, 'You have a deal.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-zolan-kanno-youngs-tyler-pager-katie-rogers-and-david-e-sanger-the-new-york)
   - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
 
+### Micron Technology, Inc.　（MU，public）
+
+- **提及次数 / 时间**：8 次，2026-04-23 ～ 2026-07-10
+- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other、semiconductor
+- **政策含义**：放松管制、政府采购/合同
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **代表性原话**：
+  - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
+  - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
+  - 2026-05-22：「And Micron—boy, Micron is great.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
+
 ### Dell Technologies Inc.　（DELL，public）
 
 - **提及次数 / 时间**：7 次，2025-12-02 ～ 2026-05-08
@@ -201,18 +214,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
   - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
-
-### Micron Technology, Inc.　（MU，public）
-
-- **提及次数 / 时间**：7 次，2026-04-23 ～ 2026-07-10
-- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other、semiconductor
-- **政策含义**：放松管制、政府采购/合同
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
-- **代表性原话**：
-  - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
-  - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
-  - 2026-07-01：「Micron, a truly GREAT American Company, and one of the "HOTTEST" anywhere in the World, has announced a HISTORIC $250 MILLION Investment in TRUMP ACCOUNTS.」 — [来源](https://truthsocial.com/@realDonaldTrump/116845625781087003)
 
 ### NVIDIA Corporation　（NVDA，public）
 
@@ -250,6 +251,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
   - 2026-05-01：「Anthropic Well, only that they had a very good meeting.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida)
 
+### General Motors Company　（GM，public）
+
+- **提及次数 / 时间**：3 次，2025-05-04 ～ 2026-05-22
+- **语境与情绪**：neutral；主题 auto、manufacturing、other
+- **政策含义**：暂不明确
+- **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：需求周期性、价格战与补贴退坡风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-05-04：「Plant, after plant, after plant: Toyota, Honda, Ford, General Motors, Stellantis, I mean, nobody's ever seen anything like it.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press)
+  - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
+  - 2026-05-22：「And last year, General Motors announced a new manufacturing investment of a billion dollars in Upstate New York to produce V8 engines, which they never would'v…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
+
 ### United States Steel Corporation　（X，public）
 
 - **提及次数 / 时间**：3 次，2024-12-02 ～ 2026-02-01
@@ -272,17 +285,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **代表性原话**：
   - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
   - 2026-05-18：「At Amazon Pharmacy, it's been our mission to build a pharmacy with price transparency from day one, and it's been our mission to make sure that Americans who n…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters-0)
-
-### General Motors Company　（GM，public）
-
-- **提及次数 / 时间**：2 次，2025-05-04 ～ 2026-01-23
-- **语境与情绪**：neutral；主题 auto、manufacturing、other
-- **政策含义**：暂不明确
-- **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：需求周期性、价格战与补贴退坡风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2025-05-04：「Plant, after plant, after plant: Toyota, Honda, Ford, General Motors, Stellantis, I mean, nobody's ever seen anything like it.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press)
-  - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
 
 ### Lockheed Martin Corporation　（LMT，public）
 
