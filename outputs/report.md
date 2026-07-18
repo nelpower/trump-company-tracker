@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-07-17 06:32　|　记录总数：**94***
+*生成时间：2026-07-18 06:24　|　记录总数：**96***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 67 |
+| 2026 | 69 |
 
 **按月份：**
 
@@ -34,28 +34,28 @@
 | 2026-03 | 6 |
 | 2026-04 | 13 |
 | 2026-05 | 21 |
-| 2026-06 | 3 |
-| 2026-07 | 7 |
+| 2026-06 | 4 |
+| 2026-07 | 8 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 16 |
-| 2 | The Boeing Company | BA | 12 |
+| 2 | The Boeing Company | BA | 13 |
 | 3 | Intel Corporation | INTC | 10 |
 | 4 | Micron Technology, Inc. | MU | 8 |
 | 5 | NVIDIA Corporation | NVDA | 7 |
 | 6 | Dell Technologies Inc. | DELL | 7 |
-| 7 | General Motors Company | GM | 3 |
-| 8 | Anthropic | — | 3 |
-| 9 | Alphabet Inc. (Google) | GOOGL | 3 |
-| 10 | United States Steel Corporation | X | 3 |
-| 11 | SpaceX | — | 2 |
-| 12 | Amazon.com, Inc. | AMZN | 2 |
-| 13 | Microsoft Corporation | MSFT | 2 |
-| 14 | The Coca-Cola Company | KO | 2 |
-| 15 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 2 |
+| 7 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
+| 8 | General Motors Company | GM | 3 |
+| 9 | Anthropic | — | 3 |
+| 10 | Alphabet Inc. (Google) | GOOGL | 3 |
+| 11 | United States Steel Corporation | X | 3 |
+| 12 | SpaceX | — | 2 |
+| 13 | Amazon.com, Inc. | AMZN | 2 |
+| 14 | Microsoft Corporation | MSFT | 2 |
+| 15 | The Coca-Cola Company | KO | 2 |
 | 16 | Lockheed Martin Corporation | LMT | 2 |
 | 17 | Nippon Steel Corporation | 5401.T | 2 |
 | 18 | QUALCOMM Incorporated | QCOM | 1 |
@@ -66,9 +66,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 40 | 43% |
+| positive | 41 | 43% |
 | negative | 4 | 4% |
-| neutral | 48 | 51% |
+| neutral | 49 | 51% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -79,14 +79,14 @@
 | data_center | 1 |
 | defense | 12 |
 | energy | 4 |
-| manufacturing | 14 |
-| semiconductor | 12 |
+| manufacturing | 15 |
+| semiconductor | 13 |
 | cloud | 1 |
 | auto | 2 |
 | aerospace | 12 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 48 |
+| other | 49 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -95,12 +95,12 @@
 | buy_american | 1 |
 | deregulation | 1 |
 | government_contract | 9 |
-| manufacturing_reshoring | 6 |
+| manufacturing_reshoring | 7 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 71 |
+| unknown | 72 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-17)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-18)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -108,6 +108,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-07-17 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 5 | positive | manufacturing_reshoring | Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has ann… | [link](https://truthsocial.com/@realDonaldTrump/116936972968744613) |
 | 2026-07-11 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/116898473019365022) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | positive | unknown | "Last week, I shared with President Trump that, because of his leadership and policies, M… | [link](https://truthsocial.com/@realDonaldTrump/116898302549383361) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | unknown | Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab: https://invest… | [link](https://truthsocial.com/@realDonaldTrump/116898307111920626) |
@@ -169,7 +170,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：12 次，2016-12-06 ～ 2026-05-19
+- **提及次数 / 时间**：13 次，2016-12-06 ～ 2026-06-03
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -263,6 +264,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
   - 2026-05-22：「And last year, General Motors announced a new manufacturing investment of a billion dollars in Upstate New York to produce V8 engines, which they never would'v…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
 
+### Taiwan Semiconductor Manufacturing Company (TSMC)　（TSM，public）
+
+- **提及次数 / 时间**：3 次，2025-03-03 ～ 2026-07-17
+- **语境与情绪**：neutral、positive；主题 manufacturing、other、semiconductor
+- **政策含义**：制造业回流
+- **可能投资线索**：美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **代表性原话**：
+  - 2025-03-03：「Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billion in new capital in the United States over the next short period of t…」 — [来源](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/)
+  - 2026-04-23：「TSMC, $165 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
+  - 2026-07-17：「Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has announced an additional 100 Billion Dollar Investment in their Semiconduc…」 — [来源](https://truthsocial.com/@realDonaldTrump/116936972968744613)
+
 ### United States Steel Corporation　（X，public）
 
 - **提及次数 / 时间**：3 次，2024-12-02 ～ 2026-02-01
@@ -329,17 +342,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **代表性原话**：
   - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
   - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
-
-### Taiwan Semiconductor Manufacturing Company (TSMC)　（TSM，public）
-
-- **提及次数 / 时间**：2 次，2025-03-03 ～ 2026-04-23
-- **语境与情绪**：neutral、positive；主题 manufacturing、other、semiconductor
-- **政策含义**：制造业回流
-- **可能投资线索**：美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
-- **代表性原话**：
-  - 2025-03-03：「Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billion in new capital in the United States over the next short period of t…」 — [来源](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/)
-  - 2026-04-23：「TSMC, $165 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
 
 ### The Coca-Cola Company　（KO，public）
 
