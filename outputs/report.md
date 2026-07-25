@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-07-24 06:42　|　记录总数：**98***
+*生成时间：2026-07-25 06:33　|　记录总数：**102***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 71 |
+| 2026 | 75 |
 
 **按月份：**
 
@@ -35,40 +35,40 @@
 | 2026-04 | 13 |
 | 2026-05 | 21 |
 | 2026-06 | 6 |
-| 2026-07 | 8 |
+| 2026-07 | 12 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | Apple Inc. | AAPL | 16 |
+| 1 | Apple Inc. | AAPL | 17 |
 | 2 | The Boeing Company | BA | 13 |
 | 3 | Intel Corporation | INTC | 10 |
 | 4 | Micron Technology, Inc. | MU | 8 |
 | 5 | NVIDIA Corporation | NVDA | 7 |
 | 6 | Dell Technologies Inc. | DELL | 7 |
-| 7 | General Motors Company | GM | 4 |
-| 8 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
-| 9 | Microsoft Corporation | MSFT | 3 |
-| 10 | Anthropic | — | 3 |
-| 11 | Alphabet Inc. (Google) | GOOGL | 3 |
-| 12 | United States Steel Corporation | X | 3 |
-| 13 | SpaceX | — | 2 |
-| 14 | Amazon.com, Inc. | AMZN | 2 |
-| 15 | The Coca-Cola Company | KO | 2 |
-| 16 | Lockheed Martin Corporation | LMT | 2 |
-| 17 | Nippon Steel Corporation | 5401.T | 2 |
-| 18 | QUALCOMM Incorporated | QCOM | 1 |
-| 19 | Palantir Technologies Inc. | PLTR | 1 |
-| 20 | Oracle Corporation | ORCL | 1 |
+| 7 | Alphabet Inc. (Google) | GOOGL | 4 |
+| 8 | General Motors Company | GM | 4 |
+| 9 | Amazon.com, Inc. | AMZN | 3 |
+| 10 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
+| 11 | Microsoft Corporation | MSFT | 3 |
+| 12 | Anthropic | — | 3 |
+| 13 | United States Steel Corporation | X | 3 |
+| 14 | Meta Platforms, Inc. | META | 2 |
+| 15 | SpaceX | — | 2 |
+| 16 | The Coca-Cola Company | KO | 2 |
+| 17 | Lockheed Martin Corporation | LMT | 2 |
+| 18 | Nippon Steel Corporation | 5401.T | 2 |
+| 19 | QUALCOMM Incorporated | QCOM | 1 |
+| 20 | Palantir Technologies Inc. | PLTR | 1 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 42 | 43% |
+| positive | 46 | 45% |
 | negative | 4 | 4% |
-| neutral | 50 | 51% |
+| neutral | 50 | 49% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -86,7 +86,7 @@
 | aerospace | 12 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 50 |
+| other | 54 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -98,9 +98,9 @@
 | manufacturing_reshoring | 7 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 74 |
+| unknown | 78 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-24)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-07-25)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -159,7 +159,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：16 次，2024-10-25 ～ 2026-07-11
+- **提及次数 / 时间**：17 次，2024-10-25 ～ 2026-07-24
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -229,6 +229,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
 
+### Alphabet Inc. (Google)　（GOOGL，public）
+
+- **提及次数 / 时间**：4 次，2024-10-25 ～ 2026-07-24
+- **语境与情绪**：neutral、positive；主题 defense、manufacturing、other
+- **政策含义**：暂不明确
+- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
+  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
+
 ### General Motors Company　（GM，public）
 
 - **提及次数 / 时间**：4 次，2025-05-04 ～ 2026-06-04
@@ -241,17 +253,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
   - 2026-05-22：「And last year, General Motors announced a new manufacturing investment of a billion dollars in Upstate New York to produce V8 engines, which they never would'v…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
 
-### Alphabet Inc. (Google)　（GOOGL，public）
+### Amazon.com, Inc.　（AMZN，public）
 
-- **提及次数 / 时间**：3 次，2024-10-25 ～ 2026-04-16
-- **语境与情绪**：neutral、positive；主题 defense、manufacturing、other
+- **提及次数 / 时间**：3 次，2025-12-30 ～ 2026-07-24
+- **语境与情绪**：neutral、positive；主题 AI、infrastructure、other
 - **政策含义**：暂不明确
-- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖立法拨款与执行节奏；投资含义需进一步确认
 - **代表性原话**：
-  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
-  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
-  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
+  - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
+  - 2026-05-18：「At Amazon Pharmacy, it's been our mission to build a pharmacy with price transparency from day one, and it's been our mission to make sure that Americans who n…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters-0)
+  - 2026-07-24：「After having fined Apple, for no reason at all, 15 Billion Dollars, Meta, 3 Billion Dollars, Amazon 2.5 Billion Dollars, and many others, we have just been inf…」 — [来源](https://truthsocial.com/@realDonaldTrump/116976043318889040)
 
 ### Anthropic　（未上市/未知，private）
 
@@ -301,17 +313,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
   - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
 
-### Amazon.com, Inc.　（AMZN，public）
-
-- **提及次数 / 时间**：2 次，2025-12-30 ～ 2026-05-18
-- **语境与情绪**：neutral、positive；主题 AI、infrastructure、other
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖立法拨款与执行节奏；投资含义需进一步确认
-- **代表性原话**：
-  - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
-  - 2026-05-18：「At Amazon Pharmacy, it's been our mission to build a pharmacy with price transparency from day one, and it's been our mission to make sure that Americans who n…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters-0)
-
 ### Lockheed Martin Corporation　（LMT，public）
 
 - **提及次数 / 时间**：2 次，2026-03-06 ～ 2026-03-19
@@ -322,6 +323,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **代表性原话**：
   - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
   - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
+
+### Meta Platforms, Inc.　（META，public）
+
+- **提及次数 / 时间**：2 次，2026-01-12 ～ 2026-07-24
+- **语境与情绪**：positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2026-01-12：「Congratulations to DINA POWELL MCCORMICK, WHO HAS JUST BEEN NAMED THE NEW PRESIDENT OF META.」 — [来源](https://truthsocial.com/@realDonaldTrump/115882511750475574)
+  - 2026-07-24：「After having fined Apple, for no reason at all, 15 Billion Dollars, Meta, 3 Billion Dollars, Amazon 2.5 Billion Dollars, and many others, we have just been inf…」 — [来源](https://truthsocial.com/@realDonaldTrump/116976043318889040)
 
 ### Nippon Steel Corporation　（5401.T，public）
 
@@ -375,16 +387,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **风险**：投资含义需进一步确认
 - **代表性原话**：
   - 2025-05-16：「Where do they get this lawyer that would represent IBM and would represent ExxonMobil?」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
-
-### Meta Platforms, Inc.　（META，public）
-
-- **提及次数 / 时间**：1 次，2026-01-12 ～ 2026-01-12
-- **语境与情绪**：positive；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2026-01-12：「Congratulations to DINA POWELL MCCORMICK, WHO HAS JUST BEEN NAMED THE NEW PRESIDENT OF META.」 — [来源](https://truthsocial.com/@realDonaldTrump/115882511750475574)
 
 ### Oracle Corporation　（ORCL，public）
 
