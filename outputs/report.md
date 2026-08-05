@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-04 06:46　|　记录总数：**104***
+*生成时间：2026-08-05 07:06　|　记录总数：**105***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 77 |
+| 2026 | 78 |
 
 **按月份：**
 
@@ -36,6 +36,7 @@
 | 2026-05 | 21 |
 | 2026-06 | 6 |
 | 2026-07 | 14 |
+| 2026-08 | 1 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -47,13 +48,13 @@
 | 4 | NVIDIA Corporation | NVDA | 9 |
 | 5 | Micron Technology, Inc. | MU | 8 |
 | 6 | Dell Technologies Inc. | DELL | 7 |
-| 7 | Alphabet Inc. (Google) | GOOGL | 4 |
-| 8 | General Motors Company | GM | 4 |
-| 9 | Amazon.com, Inc. | AMZN | 3 |
-| 10 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
-| 11 | Microsoft Corporation | MSFT | 3 |
-| 12 | Anthropic | — | 3 |
-| 13 | United States Steel Corporation | X | 3 |
+| 7 | United States Steel Corporation | X | 4 |
+| 8 | Alphabet Inc. (Google) | GOOGL | 4 |
+| 9 | General Motors Company | GM | 4 |
+| 10 | Amazon.com, Inc. | AMZN | 3 |
+| 11 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
+| 12 | Microsoft Corporation | MSFT | 3 |
+| 13 | Anthropic | — | 3 |
 | 14 | Meta Platforms, Inc. | META | 2 |
 | 15 | SpaceX | — | 2 |
 | 16 | The Coca-Cola Company | KO | 2 |
@@ -68,7 +69,7 @@
 | --- | --- | --- |
 | positive | 46 | 44% |
 | negative | 4 | 4% |
-| neutral | 52 | 50% |
+| neutral | 53 | 50% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -86,7 +87,7 @@
 | aerospace | 12 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 56 |
+| other | 57 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -98,9 +99,9 @@
 | manufacturing_reshoring | 7 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 80 |
+| unknown | 81 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-04)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-05)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -253,6 +254,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
   - 2026-05-22：「And last year, General Motors announced a new manufacturing investment of a billion dollars in Upstate New York to produce V8 engines, which they never would'v…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
 
+### United States Steel Corporation　（X，public）
+
+- **提及次数 / 时间**：4 次，2024-12-02 ～ 2026-08-04
+- **语境与情绪**：mixed、neutral；主题 AI、data_center、manufacturing、other
+- **政策含义**：国家安全、关税
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
+  - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
+  - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
+
 ### Amazon.com, Inc.　（AMZN，public）
 
 - **提及次数 / 时间**：3 次，2025-12-30 ～ 2026-07-24
@@ -300,18 +313,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-03-03：「Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billion in new capital in the United States over the next short period of t…」 — [来源](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/)
   - 2026-04-23：「TSMC, $165 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
   - 2026-07-17：「Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has announced an additional 100 Billion Dollar Investment in their Semiconduc…」 — [来源](https://truthsocial.com/@realDonaldTrump/116936972968744613)
-
-### United States Steel Corporation　（X，public）
-
-- **提及次数 / 时间**：3 次，2024-12-02 ～ 2026-02-01
-- **语境与情绪**：mixed、neutral；主题 AI、data_center、manufacturing、other
-- **政策含义**：国家安全、关税
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
-  - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
-  - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
 
 ### Lockheed Martin Corporation　（LMT，public）
 
