@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-09 05:26　|　记录总数：**105***
+*生成时间：2026-08-10 05:49　|　记录总数：**112***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 78 |
+| 2026 | 85 |
 
 **按月份：**
 
@@ -34,8 +34,8 @@
 | 2026-03 | 6 |
 | 2026-04 | 13 |
 | 2026-05 | 21 |
-| 2026-06 | 6 |
-| 2026-07 | 14 |
+| 2026-06 | 11 |
+| 2026-07 | 16 |
 | 2026-08 | 1 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -43,33 +43,33 @@
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | Apple Inc. | AAPL | 17 |
-| 2 | The Boeing Company | BA | 13 |
-| 3 | Intel Corporation | INTC | 10 |
+| 2 | The Boeing Company | BA | 14 |
+| 3 | Intel Corporation | INTC | 11 |
 | 4 | NVIDIA Corporation | NVDA | 9 |
 | 5 | Micron Technology, Inc. | MU | 8 |
 | 6 | Dell Technologies Inc. | DELL | 7 |
-| 7 | United States Steel Corporation | X | 4 |
-| 8 | Alphabet Inc. (Google) | GOOGL | 4 |
-| 9 | General Motors Company | GM | 4 |
+| 7 | United States Steel Corporation | X | 5 |
+| 8 | Alphabet Inc. (Google) | GOOGL | 5 |
+| 9 | General Motors Company | GM | 5 |
 | 10 | Amazon.com, Inc. | AMZN | 3 |
 | 11 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
 | 12 | Microsoft Corporation | MSFT | 3 |
 | 13 | Anthropic | — | 3 |
 | 14 | Meta Platforms, Inc. | META | 2 |
 | 15 | SpaceX | — | 2 |
-| 16 | The Coca-Cola Company | KO | 2 |
-| 17 | Lockheed Martin Corporation | LMT | 2 |
-| 18 | Nippon Steel Corporation | 5401.T | 2 |
-| 19 | QUALCOMM Incorporated | QCOM | 1 |
-| 20 | Palantir Technologies Inc. | PLTR | 1 |
+| 16 | International Business Machines (IBM) | IBM | 2 |
+| 17 | The Coca-Cola Company | KO | 2 |
+| 18 | Lockheed Martin Corporation | LMT | 2 |
+| 19 | Nippon Steel Corporation | 5401.T | 2 |
+| 20 | Nokia Corporation | NOK | 1 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 46 | 44% |
+| positive | 51 | 46% |
 | negative | 4 | 4% |
-| neutral | 53 | 50% |
+| neutral | 55 | 49% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -80,14 +80,14 @@
 | data_center | 1 |
 | defense | 12 |
 | energy | 5 |
-| manufacturing | 15 |
-| semiconductor | 13 |
+| manufacturing | 17 |
+| semiconductor | 15 |
 | cloud | 1 |
 | auto | 2 |
-| aerospace | 12 |
+| aerospace | 13 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 57 |
+| other | 60 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -99,9 +99,9 @@
 | manufacturing_reshoring | 7 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 81 |
+| unknown | 88 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-09)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-10)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -114,6 +114,10 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | positive | unknown | "Last week, I shared with President Trump that, because of his leadership and policies, M… | [link](https://truthsocial.com/@realDonaldTrump/116898302549383361) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | unknown | Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab: https://invest… | [link](https://truthsocial.com/@realDonaldTrump/116898307111920626) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | deregulation | Micron is accelerating its U.S. spending to a MASSIVE 250 BILLION DOLLARS to build Memory… | [link](https://truthsocial.com/@realDonaldTrump/116898300053530163) |
+| 2026-07-01 | The Boeing Company | BA | 5 | positive | unknown | So the head of Boeing said this is considered the best 747 they've ever built. | [link](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-joint-base-andrews-maryland-14) |
+| 2026-07-01 | Intel Corporation | INTC | 5 | neutral | unknown | And then I got as a gift—another gift—I said to Intel, "Give the United States of"—they n… | [link](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-joint-base-andrews-maryland-14) |
+| 2026-06-23 | Nokia Corporation | NOK | 5 | positive | unknown | Nokia is investing $30 million to expand its semiconductor testing and packaging operatio… | [link](https://www.presidency.ucsb.edu/documents/remarks-affordability-macungie-pennsylvania) |
+| 2026-06-22 | General Motors Company | GM | 5 | positive | unknown | But I know General Motors is all excited about building weapons now. | [link](https://www.presidency.ucsb.edu/documents/remarks-signing-executive-orders-quantum-technologies-and-exchange-with-reporters) |
 | 2026-06-18 | NVIDIA Corporation | NVDA | 5 | neutral | manufacturing_reshoring | First, we helped bring in Nvidia, and they agreed to build their first level Chips with I… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Intel Corporation | INTC | 5 | neutral | manufacturing_reshoring | Next, Elon agreed to build his TerraFab, the largest Chip Factory in the World, designed … | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Apple Inc. | AAPL | 5 | neutral | manufacturing_reshoring | And, finally, Apple has agreed to work with Intel to design and build its Chips in Americ… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
@@ -172,7 +176,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：13 次，2016-12-06 ～ 2026-06-03
+- **提及次数 / 时间**：14 次，2016-12-06 ～ 2026-07-01
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -184,7 +188,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：10 次，2025-12-08 ～ 2026-06-18
+- **提及次数 / 时间**：11 次，2025-12-08 ～ 2026-07-01
 - **语境与情绪**：negative、neutral、positive；主题 manufacturing、other、semiconductor
 - **政策含义**：制造业回流、关税
 - **可能投资线索**：美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -232,7 +236,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
-- **提及次数 / 时间**：4 次，2024-10-25 ～ 2026-07-24
+- **提及次数 / 时间**：5 次，2024-10-25 ～ 2026-07-24
 - **语境与情绪**：neutral、positive；主题 defense、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -244,7 +248,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### General Motors Company　（GM，public）
 
-- **提及次数 / 时间**：4 次，2025-05-04 ～ 2026-06-04
+- **提及次数 / 时间**：5 次，2025-05-04 ～ 2026-06-22
 - **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -256,8 +260,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### United States Steel Corporation　（X，public）
 
-- **提及次数 / 时间**：4 次，2024-12-02 ～ 2026-08-04
-- **语境与情绪**：mixed、neutral；主题 AI、data_center、manufacturing、other
+- **提及次数 / 时间**：5 次，2024-12-02 ～ 2026-08-04
+- **语境与情绪**：mixed、neutral、positive；主题 AI、data_center、manufacturing、other
 - **政策含义**：国家安全、关税
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
 - **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
@@ -313,6 +317,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-03-03：「Today, Taiwan Semiconductor is announcing that they will be investing at least $100 billion in new capital in the United States over the next short period of t…」 — [来源](https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/)
   - 2026-04-23：「TSMC, $165 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
   - 2026-07-17：「Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has announced an additional 100 Billion Dollar Investment in their Semiconduc…」 — [来源](https://truthsocial.com/@realDonaldTrump/116936972968744613)
+
+### International Business Machines (IBM)　（IBM，public）
+
+- **提及次数 / 时间**：2 次，2025-05-16 ～ 2026-06-22
+- **语境与情绪**：neutral、positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-05-16：「Where do they get this lawyer that would represent IBM and would represent ExxonMobil?」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
+  - 2026-06-22：「IBM CEO Arvind Krishna, who's a great man, who's done a really great job.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-signing-executive-orders-quantum-technologies-and-exchange-with-reporters)
 
 ### Lockheed Martin Corporation　（LMT，public）
 
@@ -379,15 +394,15 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
 
-### International Business Machines (IBM)　（IBM，public）
+### Nokia Corporation　（NOK，public）
 
-- **提及次数 / 时间**：1 次，2025-05-16 ～ 2025-05-16
-- **语境与情绪**：neutral；主题 other
+- **提及次数 / 时间**：1 次，2026-06-23 ～ 2026-06-23
+- **语境与情绪**：positive；主题 manufacturing、semiconductor
 - **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 2/5）
-- **风险**：投资含义需进一步确认
+- **可能投资线索**：美国本土制造、回流与配套设备/建设；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：补贴依赖、用工成本与达产不及预期风险；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
-  - 2025-05-16：「Where do they get this lawyer that would represent IBM and would represent ExxonMobil?」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
+  - 2026-06-23：「Nokia is investing $30 million to expand its semiconductor testing and packaging operations.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-affordability-macungie-pennsylvania)
 
 ### Oracle Corporation　（ORCL，public）
 
