@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-10 05:49　|　记录总数：**112***
+*生成时间：2026-08-11 05:31　|　记录总数：**120***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 85 |
+| 2026 | 93 |
 
 **按月份：**
 
@@ -34,27 +34,27 @@
 | 2026-03 | 6 |
 | 2026-04 | 13 |
 | 2026-05 | 21 |
-| 2026-06 | 11 |
+| 2026-06 | 17 |
 | 2026-07 | 16 |
-| 2026-08 | 1 |
+| 2026-08 | 3 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | Apple Inc. | AAPL | 17 |
-| 2 | The Boeing Company | BA | 14 |
+| 1 | Apple Inc. | AAPL | 18 |
+| 2 | The Boeing Company | BA | 18 |
 | 3 | Intel Corporation | INTC | 11 |
 | 4 | NVIDIA Corporation | NVDA | 9 |
 | 5 | Micron Technology, Inc. | MU | 8 |
-| 6 | Dell Technologies Inc. | DELL | 7 |
-| 7 | United States Steel Corporation | X | 5 |
-| 8 | Alphabet Inc. (Google) | GOOGL | 5 |
+| 6 | Alphabet Inc. (Google) | GOOGL | 7 |
+| 7 | Dell Technologies Inc. | DELL | 7 |
+| 8 | United States Steel Corporation | X | 5 |
 | 9 | General Motors Company | GM | 5 |
-| 10 | Amazon.com, Inc. | AMZN | 3 |
-| 11 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
-| 12 | Microsoft Corporation | MSFT | 3 |
-| 13 | Anthropic | — | 3 |
+| 10 | Anthropic | — | 4 |
+| 11 | Amazon.com, Inc. | AMZN | 3 |
+| 12 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
+| 13 | Microsoft Corporation | MSFT | 3 |
 | 14 | Meta Platforms, Inc. | META | 2 |
 | 15 | SpaceX | — | 2 |
 | 16 | International Business Machines (IBM) | IBM | 2 |
@@ -67,9 +67,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 51 | 46% |
-| negative | 4 | 4% |
-| neutral | 55 | 49% |
+| positive | 55 | 46% |
+| negative | 4 | 3% |
+| neutral | 59 | 49% |
 | mixed | 2 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -84,10 +84,10 @@
 | semiconductor | 15 |
 | cloud | 1 |
 | auto | 2 |
-| aerospace | 13 |
+| aerospace | 15 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 60 |
+| other | 66 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -99,9 +99,9 @@
 | manufacturing_reshoring | 7 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 88 |
+| unknown | 96 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-10)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-11)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -121,6 +121,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-06-18 | NVIDIA Corporation | NVDA | 5 | neutral | manufacturing_reshoring | First, we helped bring in Nvidia, and they agreed to build their first level Chips with I… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Intel Corporation | INTC | 5 | neutral | manufacturing_reshoring | Next, Elon agreed to build his TerraFab, the largest Chip Factory in the World, designed … | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
 | 2026-06-18 | Apple Inc. | AAPL | 5 | neutral | manufacturing_reshoring | And, finally, Apple has agreed to work with Intel to design and build its Chips in Americ… | [link](https://truthsocial.com/@realDonaldTrump/116769225357410422) |
+| 2026-06-17 | The Boeing Company | BA | 5 | positive | unknown | It all went into a Boeing 757—a wonderful plane—and they flew it to Iran. | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-evian-les-bains-france) |
+| 2026-06-17 | The Boeing Company | BA | 5 | neutral | unknown | But he gave them $1.7 billion in cash—green cash from banks—into a Boeing 757 and flew it… | [link](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-president-abdelfattah-said-elsisi-egypt-and-exchange-with-3) |
 | 2026-06-04 | Microsoft Corporation | MSFT | 5 | neutral | unknown | Believe it or not, I used to think it was in energy, but he was successful in technology,… | [link](https://www.presidency.ucsb.edu/documents/remarks-coal-and-exchange-with-reporters) |
 | 2026-05-22 | General Motors Company | GM | 5 | neutral | unknown | And last year, General Motors announced a new manufacturing investment of a billion dolla… | [link](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york) |
 | 2026-05-15 | The Boeing Company | BA | 5 | positive | government_contract | Made a lot of great trade deals, including over 200 planes for Boeing, with a promise of … | [link](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-aboard-air-force-one-en-route-anchorage-alaska) |
@@ -164,7 +166,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：17 次，2024-10-25 ～ 2026-07-24
+- **提及次数 / 时间**：18 次，2024-10-25 ～ 2026-08-11
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -176,7 +178,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：14 次，2016-12-06 ～ 2026-07-01
+- **提及次数 / 时间**：18 次，2016-12-06 ～ 2026-07-01
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -222,6 +224,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
   - 2026-05-22：「And Micron—boy, Micron is great.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
 
+### Alphabet Inc. (Google)　（GOOGL，public）
+
+- **提及次数 / 时间**：7 次，2024-10-25 ～ 2026-08-11
+- **语境与情绪**：neutral、positive；主题 defense、manufacturing、other
+- **政策含义**：暂不明确
+- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
+  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
+
 ### Dell Technologies Inc.　（DELL，public）
 
 - **提及次数 / 时间**：7 次，2025-12-02 ～ 2026-05-08
@@ -233,18 +247,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
   - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
-
-### Alphabet Inc. (Google)　（GOOGL，public）
-
-- **提及次数 / 时间**：5 次，2024-10-25 ～ 2026-07-24
-- **语境与情绪**：neutral、positive；主题 defense、manufacturing、other
-- **政策含义**：暂不明确
-- **可能投资线索**：国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
-  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
-  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### General Motors Company　（GM，public）
 
@@ -270,6 +272,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
   - 2026-02-01：「US steel production exceeds Japan's for first time in 26 years: Trump tariffs, AI data center construction boom lifted industry in 2025: https://asia.nikkei.co…」 — [来源](https://truthsocial.com/@realDonaldTrump/115995786512051662)
 
+### Anthropic　（未上市/未知，private）
+
+- **提及次数 / 时间**：4 次，2026-02-27 ～ 2026-06-17
+- **语境与情绪**：neutral；主题 AI、defense、other
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
+  - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
+  - 2026-05-01：「Anthropic Well, only that they had a very good meeting.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida)
+
 ### Amazon.com, Inc.　（AMZN，public）
 
 - **提及次数 / 时间**：3 次，2025-12-30 ～ 2026-07-24
@@ -281,18 +295,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-12-30：「Amazon to invest up to $50B to build AI infrastructure for US government agencies: https://www.foxbusiness.com/markets/amazon-invest-up-50b-build-ai-infrastruc…」 — [来源](https://truthsocial.com/@realDonaldTrump/115810597668691530)
   - 2026-05-18：「At Amazon Pharmacy, it's been our mission to build a pharmacy with price transparency from day one, and it's been our mission to make sure that Americans who n…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters-0)
   - 2026-07-24：「After having fined Apple, for no reason at all, 15 Billion Dollars, Meta, 3 Billion Dollars, Amazon 2.5 Billion Dollars, and many others, we have just been inf…」 — [来源](https://truthsocial.com/@realDonaldTrump/116976043318889040)
-
-### Anthropic　（未上市/未知，private）
-
-- **提及次数 / 时间**：3 次，2026-02-27 ～ 2026-05-01
-- **语境与情绪**：neutral；主题 AI、defense、other
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；依赖政府预算与采购周期，政治不确定性高；投资含义需进一步确认
-- **代表性原话**：
-  - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
-  - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
-  - 2026-05-01：「Anthropic Well, only that they had a very good meeting.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida)
 
 ### Microsoft Corporation　（MSFT，public）
 
