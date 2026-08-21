@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-20 04:57　|　记录总数：**131***
+*生成时间：2026-08-21 04:58　|　记录总数：**134***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 104 |
+| 2026 | 107 |
 
 **按月份：**
 
@@ -35,42 +35,42 @@
 | 2026-04 | 13 |
 | 2026-05 | 21 |
 | 2026-06 | 17 |
-| 2026-07 | 26 |
+| 2026-07 | 29 |
 | 2026-08 | 4 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | The Boeing Company | BA | 20 |
+| 1 | The Boeing Company | BA | 21 |
 | 2 | Apple Inc. | AAPL | 18 |
 | 3 | Intel Corporation | INTC | 13 |
 | 4 | Micron Technology, Inc. | MU | 10 |
 | 5 | NVIDIA Corporation | NVDA | 9 |
 | 6 | Dell Technologies Inc. | DELL | 9 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 7 |
-| 8 | United States Steel Corporation | X | 5 |
-| 9 | General Motors Company | GM | 5 |
+| 8 | General Motors Company | GM | 6 |
+| 9 | United States Steel Corporation | X | 5 |
 | 10 | Anthropic | — | 4 |
 | 11 | Amazon.com, Inc. | AMZN | 3 |
 | 12 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
 | 13 | SpaceX | — | 3 |
-| 14 | International Business Machines (IBM) | IBM | 3 |
-| 15 | Microsoft Corporation | MSFT | 3 |
-| 16 | Meta Platforms, Inc. | META | 2 |
-| 17 | Advanced Micro Devices, Inc. | AMD | 2 |
-| 18 | The Coca-Cola Company | KO | 2 |
-| 19 | Lockheed Martin Corporation | LMT | 2 |
+| 14 | Lockheed Martin Corporation | LMT | 3 |
+| 15 | International Business Machines (IBM) | IBM | 3 |
+| 16 | Microsoft Corporation | MSFT | 3 |
+| 17 | Meta Platforms, Inc. | META | 2 |
+| 18 | Advanced Micro Devices, Inc. | AMD | 2 |
+| 19 | The Coca-Cola Company | KO | 2 |
 | 20 | Nippon Steel Corporation | 5401.T | 2 |
 
 ## 3. 情绪分布 (sentiment_toward_company)
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 59 | 45% |
+| positive | 62 | 46% |
 | negative | 4 | 3% |
-| neutral | 66 | 50% |
-| mixed | 2 | 2% |
+| neutral | 66 | 49% |
+| mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
 
@@ -78,16 +78,16 @@
 | --- | --- |
 | AI | 5 |
 | data_center | 1 |
-| defense | 12 |
+| defense | 13 |
 | energy | 5 |
-| manufacturing | 17 |
+| manufacturing | 18 |
 | semiconductor | 15 |
 | cloud | 1 |
 | auto | 2 |
 | aerospace | 15 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 77 |
+| other | 78 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -99,9 +99,10 @@
 | manufacturing_reshoring | 7 |
 | national_security | 3 |
 | tariff | 3 |
-| unknown | 107 |
+| tax_credit | 1 |
+| unknown | 109 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-20)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-21)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -114,6 +115,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | positive | unknown | "Last week, I shared with President Trump that, because of his leadership and policies, M… | [link](https://truthsocial.com/@realDonaldTrump/116898302549383361) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | unknown | Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab: https://invest… | [link](https://truthsocial.com/@realDonaldTrump/116898307111920626) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | deregulation | Micron is accelerating its U.S. spending to a MASSIVE 250 BILLION DOLLARS to build Memory… | [link](https://truthsocial.com/@realDonaldTrump/116898300053530163) |
+| 2026-07-08 | The Boeing Company | BA | 5 | positive | unknown | And, as you know, I had Lockheed and every one of the companies—all of the companies that… | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey) |
+| 2026-07-08 | Lockheed Martin Corporation | LMT | 5 | positive | tax_credit | And just today, at the summit, we announced $3 billion of new defense investments with U.… | [link](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey) |
 | 2026-07-01 | The Boeing Company | BA | 5 | positive | unknown | So the head of Boeing said this is considered the best 747 they've ever built. | [link](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-joint-base-andrews-maryland-14) |
 | 2026-07-01 | Intel Corporation | INTC | 5 | neutral | unknown | And then I got as a gift—another gift—I said to Intel, "Give the United States of"—they n… | [link](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-joint-base-andrews-maryland-14) |
 | 2026-06-23 | Nokia Corporation | NOK | 5 | positive | unknown | Nokia is investing $30 million to expand its semiconductor testing and packaging operatio… | [link](https://www.presidency.ucsb.edu/documents/remarks-affordability-macungie-pennsylvania) |
@@ -166,11 +169,11 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：20 次，2016-12-06 ～ 2026-07-08
-- **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、other
+- **提及次数 / 时间**：21 次，2016-12-06 ～ 2026-07-08
+- **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、manufacturing、other
 - **政策含义**：政府采购/合同
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；商品价格波动与政策反复风险；依赖立法拨款与执行节奏；投资含义需进一步确认
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；商品价格波动与政策反复风险；依赖立法拨款与执行节奏；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
   - 2016-12-06：「Boeing is building a brand new 747 Air Force One for future presidents, but costs are out of control, more than $4 billion.」 — [来源](https://www.politifact.com/factchecks/2016/dec/06/donald-trump/fact-checking-donald-trumps-tweet-air-force-one-bo/)
   - 2025-02-14：「I mean, they're actually in default—Boeing.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
@@ -250,7 +253,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### General Motors Company　（GM，public）
 
-- **提及次数 / 时间**：5 次，2025-05-04 ～ 2026-06-22
+- **提及次数 / 时间**：6 次，2025-05-04 ～ 2026-07-13
 - **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -308,6 +311,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-06-22：「IBM CEO Arvind Krishna, who's a great man, who's done a really great job.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-signing-executive-orders-quantum-technologies-and-exchange-with-reporters)
   - 2026-07-06：「And in some cases, they are adding them to the employee benefit packages, including Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, …」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-rose-garden-club-lunch)
 
+### Lockheed Martin Corporation　（LMT，public）
+
+- **提及次数 / 时间**：3 次，2026-03-06 ～ 2026-07-08
+- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing
+- **政策含义**：税收抵免/补贴
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险
+- **代表性原话**：
+  - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
+  - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
+  - 2026-07-08：「And just today, at the summit, we announced $3 billion of new defense investments with U.S. companies, and Lockheed Martin will establish a world-class Patriot…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey)
+
 ### Microsoft Corporation　（MSFT，public）
 
 - **提及次数 / 时间**：3 次，2026-01-12 ～ 2026-06-04
@@ -354,17 +369,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
   - 2026-07-06：「And in some cases, they are adding them to the employee benefit packages, including Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, …」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-rose-garden-club-lunch)
-
-### Lockheed Martin Corporation　（LMT，public）
-
-- **提及次数 / 时间**：2 次，2026-03-06 ～ 2026-03-19
-- **语境与情绪**：neutral；主题 aerospace、defense、manufacturing
-- **政策含义**：暂不明确
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险
-- **代表性原话**：
-  - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
-  - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
 
 ### Meta Platforms, Inc.　（META，public）
 
