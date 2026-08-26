@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-25 04:59　|　记录总数：**135***
+*生成时间：2026-08-26 05:00　|　记录总数：**139***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 108 |
+| 2026 | 112 |
 
 **按月份：**
 
@@ -35,30 +35,30 @@
 | 2026-04 | 13 |
 | 2026-05 | 21 |
 | 2026-06 | 17 |
-| 2026-07 | 29 |
+| 2026-07 | 33 |
 | 2026-08 | 5 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | The Boeing Company | BA | 21 |
+| 1 | The Boeing Company | BA | 22 |
 | 2 | Apple Inc. | AAPL | 18 |
 | 3 | Intel Corporation | INTC | 14 |
 | 4 | Micron Technology, Inc. | MU | 10 |
 | 5 | NVIDIA Corporation | NVDA | 9 |
 | 6 | Dell Technologies Inc. | DELL | 9 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 7 |
-| 8 | General Motors Company | GM | 6 |
-| 9 | United States Steel Corporation | X | 5 |
-| 10 | Anthropic | — | 4 |
-| 11 | Amazon.com, Inc. | AMZN | 3 |
-| 12 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
-| 13 | SpaceX | — | 3 |
-| 14 | Lockheed Martin Corporation | LMT | 3 |
-| 15 | International Business Machines (IBM) | IBM | 3 |
-| 16 | Microsoft Corporation | MSFT | 3 |
-| 17 | Meta Platforms, Inc. | META | 2 |
+| 8 | United States Steel Corporation | X | 6 |
+| 9 | General Motors Company | GM | 6 |
+| 10 | Lockheed Martin Corporation | LMT | 4 |
+| 11 | Anthropic | — | 4 |
+| 12 | Meta Platforms, Inc. | META | 3 |
+| 13 | Amazon.com, Inc. | AMZN | 3 |
+| 14 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
+| 15 | SpaceX | — | 3 |
+| 16 | International Business Machines (IBM) | IBM | 3 |
+| 17 | Microsoft Corporation | MSFT | 3 |
 | 18 | Advanced Micro Devices, Inc. | AMD | 2 |
 | 19 | The Coca-Cola Company | KO | 2 |
 | 20 | Nippon Steel Corporation | 5401.T | 2 |
@@ -67,9 +67,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 62 | 46% |
+| positive | 64 | 46% |
 | negative | 4 | 3% |
-| neutral | 67 | 50% |
+| neutral | 69 | 50% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -79,7 +79,7 @@
 | AI | 5 |
 | data_center | 1 |
 | defense | 13 |
-| energy | 5 |
+| energy | 6 |
 | manufacturing | 18 |
 | semiconductor | 15 |
 | cloud | 1 |
@@ -87,7 +87,7 @@
 | aerospace | 15 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 79 |
+| other | 82 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -100,9 +100,9 @@
 | national_security | 3 |
 | tariff | 3 |
 | tax_credit | 1 |
-| unknown | 110 |
+| unknown | 114 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-25)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-26)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -111,6 +111,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-07-17 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 5 | positive | manufacturing_reshoring | Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has ann… | [link](https://truthsocial.com/@realDonaldTrump/116936972968744613) |
+| 2026-07-15 | United States Steel Corporation | X | 5 | positive | unknown | We saved the great American company, U.S. Steel. | [link](https://www.presidency.ucsb.edu/documents/remarks-the-pennsylvania-defense-and-innovation-summit-carlisle-pennsylvania) |
 | 2026-07-11 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/116898473019365022) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | positive | unknown | "Last week, I shared with President Trump that, because of his leadership and policies, M… | [link](https://truthsocial.com/@realDonaldTrump/116898302549383361) |
 | 2026-07-10 | Micron Technology, Inc. | MU | 5 | neutral | unknown | Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab: https://invest… | [link](https://truthsocial.com/@realDonaldTrump/116898307111920626) |
@@ -169,7 +170,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：21 次，2016-12-06 ～ 2026-07-08
+- **提及次数 / 时间**：22 次，2016-12-06 ～ 2026-07-15
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、manufacturing、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -265,11 +266,11 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### United States Steel Corporation　（X，public）
 
-- **提及次数 / 时间**：5 次，2024-12-02 ～ 2026-08-04
-- **语境与情绪**：mixed、neutral、positive；主题 AI、data_center、manufacturing、other
+- **提及次数 / 时间**：6 次，2024-12-02 ～ 2026-08-04
+- **语境与情绪**：mixed、neutral、positive；主题 AI、data_center、energy、manufacturing、other
 - **政策含义**：国家安全、关税
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；能源生产、电网、核能与传统油气；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；电力/土地瓶颈与超额建设(overbuild)风险；商品价格波动与政策反复风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
   - 2024-12-02：「I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan.」 — [来源](https://www.cnn.com/2024/12/02/business/trump-block-us-nippon-steel-hnk-intl/index.html)
   - 2025-02-07：「And U.S. Steel will make products which will contribute not only to the United States and Japan, but also to the whole world.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-prime-minister-shigeru-ishiba-japan)
@@ -286,6 +287,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-02-27：「Anthropic better get their act together, and be helpful during this phase out period, or I will use the Full Power of the Presidency to make them comply, with …」 — [来源](https://truthsocial.com/@realDonaldTrump/116144552969293195)
   - 2026-04-17：「Anthropic Who?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-upon-arrival-phoenix-arizona-0)
   - 2026-05-01：「Anthropic Well, only that they had a very good meeting.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-middleton-florida)
+
+### Lockheed Martin Corporation　（LMT，public）
+
+- **提及次数 / 时间**：4 次，2026-03-06 ～ 2026-07-15
+- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other
+- **政策含义**：税收抵免/补贴
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
+  - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
+  - 2026-07-08：「And just today, at the summit, we announced $3 billion of new defense investments with U.S. companies, and Lockheed Martin will establish a world-class Patriot…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey)
 
 ### Amazon.com, Inc.　（AMZN，public）
 
@@ -311,17 +324,17 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-06-22：「IBM CEO Arvind Krishna, who's a great man, who's done a really great job.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-signing-executive-orders-quantum-technologies-and-exchange-with-reporters)
   - 2026-07-06：「And in some cases, they are adding them to the employee benefit packages, including Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, …」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-rose-garden-club-lunch)
 
-### Lockheed Martin Corporation　（LMT，public）
+### Meta Platforms, Inc.　（META，public）
 
-- **提及次数 / 时间**：3 次，2026-03-06 ～ 2026-07-08
-- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing
-- **政策含义**：税收抵免/补贴
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险
+- **提及次数 / 时间**：3 次，2026-01-12 ～ 2026-07-24
+- **语境与情绪**：positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
 - **代表性原话**：
-  - 2026-03-06：「The Companies represented were the CEOs of BAE Systems, Boeing, Honeywell Aerospace, L3Harris Missile Solutions, Lockheed Martin, Northrop Grumman, and Raytheo…」 — [来源](https://truthsocial.com/@realDonaldTrump/116184185735585906)
-  - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
-  - 2026-07-08：「And just today, at the summit, we announced $3 billion of new defense investments with U.S. companies, and Lockheed Martin will establish a world-class Patriot…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey)
+  - 2026-01-12：「Congratulations to DINA POWELL MCCORMICK, WHO HAS JUST BEEN NAMED THE NEW PRESIDENT OF META.」 — [来源](https://truthsocial.com/@realDonaldTrump/115882511750475574)
+  - 2026-07-15：「But Dina has been—she's been amazing—and she's gotten a very nice position as the president of Meta, working with a very good guy.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-pennsylvania-defense-and-innovation-summit-carlisle-pennsylvania)
+  - 2026-07-24：「After having fined Apple, for no reason at all, 15 Billion Dollars, Meta, 3 Billion Dollars, Amazon 2.5 Billion Dollars, and many others, we have just been inf…」 — [来源](https://truthsocial.com/@realDonaldTrump/116976043318889040)
 
 ### Microsoft Corporation　（MSFT，public）
 
@@ -369,17 +382,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
   - 2026-07-06：「And in some cases, they are adding them to the employee benefit packages, including Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, …」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-rose-garden-club-lunch)
-
-### Meta Platforms, Inc.　（META，public）
-
-- **提及次数 / 时间**：2 次，2026-01-12 ～ 2026-07-24
-- **语境与情绪**：positive；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2026-01-12：「Congratulations to DINA POWELL MCCORMICK, WHO HAS JUST BEEN NAMED THE NEW PRESIDENT OF META.」 — [来源](https://truthsocial.com/@realDonaldTrump/115882511750475574)
-  - 2026-07-24：「After having fined Apple, for no reason at all, 15 Billion Dollars, Meta, 3 Billion Dollars, Amazon 2.5 Billion Dollars, and many others, we have just been inf…」 — [来源](https://truthsocial.com/@realDonaldTrump/116976043318889040)
 
 ### Nippon Steel Corporation　（5401.T，public）
 
