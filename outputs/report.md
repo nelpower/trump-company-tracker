@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-26 05:00　|　记录总数：**139***
+*生成时间：2026-08-27 15:20　|　记录总数：**140***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 112 |
+| 2026 | 113 |
 
 **按月份：**
 
@@ -36,14 +36,14 @@
 | 2026-05 | 21 |
 | 2026-06 | 17 |
 | 2026-07 | 33 |
-| 2026-08 | 5 |
+| 2026-08 | 6 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | The Boeing Company | BA | 22 |
-| 2 | Apple Inc. | AAPL | 18 |
+| 2 | Apple Inc. | AAPL | 19 |
 | 3 | Intel Corporation | INTC | 14 |
 | 4 | Micron Technology, Inc. | MU | 10 |
 | 5 | NVIDIA Corporation | NVDA | 9 |
@@ -69,7 +69,7 @@
 | --- | --- | --- |
 | positive | 64 | 46% |
 | negative | 4 | 3% |
-| neutral | 69 | 50% |
+| neutral | 70 | 50% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -80,8 +80,8 @@
 | data_center | 1 |
 | defense | 13 |
 | energy | 6 |
-| manufacturing | 18 |
-| semiconductor | 15 |
+| manufacturing | 19 |
+| semiconductor | 16 |
 | cloud | 1 |
 | auto | 2 |
 | aerospace | 15 |
@@ -100,9 +100,9 @@
 | national_security | 3 |
 | tariff | 3 |
 | tax_credit | 1 |
-| unknown | 114 |
+| unknown | 115 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-26)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-27)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -110,6 +110,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-08-26 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/117162723145155748) |
 | 2026-07-17 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 5 | positive | manufacturing_reshoring | Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has ann… | [link](https://truthsocial.com/@realDonaldTrump/116936972968744613) |
 | 2026-07-15 | United States Steel Corporation | X | 5 | positive | unknown | We saved the great American company, U.S. Steel. | [link](https://www.presidency.ucsb.edu/documents/remarks-the-pennsylvania-defense-and-innovation-summit-carlisle-pennsylvania) |
 | 2026-07-11 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/116898473019365022) |
@@ -182,7 +183,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：18 次，2024-10-25 ～ 2026-08-11
+- **提及次数 / 时间**：19 次，2024-10-25 ～ 2026-08-26
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
