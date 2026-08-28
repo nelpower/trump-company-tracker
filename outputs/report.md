@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-27 15:20　|　记录总数：**140***
+*生成时间：2026-08-28 16:43　|　记录总数：**142***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 113 |
+| 2026 | 115 |
 
 **按月份：**
 
@@ -36,7 +36,7 @@
 | 2026-05 | 21 |
 | 2026-06 | 17 |
 | 2026-07 | 33 |
-| 2026-08 | 6 |
+| 2026-08 | 8 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -45,8 +45,8 @@
 | 1 | The Boeing Company | BA | 22 |
 | 2 | Apple Inc. | AAPL | 19 |
 | 3 | Intel Corporation | INTC | 14 |
-| 4 | Micron Technology, Inc. | MU | 10 |
-| 5 | NVIDIA Corporation | NVDA | 9 |
+| 4 | Micron Technology, Inc. | MU | 11 |
+| 5 | NVIDIA Corporation | NVDA | 10 |
 | 6 | Dell Technologies Inc. | DELL | 9 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 7 |
 | 8 | United States Steel Corporation | X | 6 |
@@ -67,16 +67,16 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 64 | 46% |
+| positive | 66 | 46% |
 | negative | 4 | 3% |
-| neutral | 70 | 50% |
+| neutral | 70 | 49% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
 
 | 主题 | 出现次数 |
 | --- | --- |
-| AI | 5 |
+| AI | 6 |
 | data_center | 1 |
 | defense | 13 |
 | energy | 6 |
@@ -87,7 +87,7 @@
 | aerospace | 15 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 82 |
+| other | 83 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -96,13 +96,13 @@
 | buy_american | 1 |
 | deregulation | 1 |
 | government_contract | 9 |
-| manufacturing_reshoring | 7 |
+| manufacturing_reshoring | 8 |
 | national_security | 3 |
 | tariff | 3 |
 | tax_credit | 1 |
-| unknown | 115 |
+| unknown | 116 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-27)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-28)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -110,6 +110,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-08-27 | Micron Technology, Inc. | MU | 5 | positive | manufacturing_reshoring | Micron, one of the "HOTTEST" Companies in the World, just announced a MASSIVE 10 BILLION … | [link](https://truthsocial.com/@realDonaldTrump/117168898896435158) |
 | 2026-08-26 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/117162723145155748) |
 | 2026-07-17 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 5 | positive | manufacturing_reshoring | Now, TSMC, the largest Leading Edge Semiconductor Chip Manufacturer in the World, has ann… | [link](https://truthsocial.com/@realDonaldTrump/116936972968744613) |
 | 2026-07-15 | United States Steel Corporation | X | 5 | positive | unknown | We saved the great American company, U.S. Steel. | [link](https://www.presidency.ucsb.edu/documents/remarks-the-pennsylvania-defense-and-innovation-summit-carlisle-pennsylvania) |
@@ -207,15 +208,27 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Micron Technology, Inc.　（MU，public）
 
-- **提及次数 / 时间**：10 次，2026-04-23 ～ 2026-07-10
-- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other、semiconductor
-- **政策含义**：放松管制、政府采购/合同
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **提及次数 / 时间**：11 次，2026-04-23 ～ 2026-08-27
+- **语境与情绪**：neutral、positive；主题 AI、aerospace、defense、manufacturing、other、semiconductor
+- **政策含义**：放松管制、政府采购/合同、制造业回流
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
   - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
   - 2026-05-22：「And Micron—boy, Micron is great.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
+
+### NVIDIA Corporation　（NVDA，public）
+
+- **提及次数 / 时间**：10 次，2025-07-10 ～ 2026-08-27
+- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other、semiconductor
+- **政策含义**：政府采购/合同、制造业回流、国家安全、关税
+- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **代表性原话**：
+  - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
+  - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
+  - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
 
 ### Dell Technologies Inc.　（DELL，public）
 
@@ -228,18 +241,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
   - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
-
-### NVIDIA Corporation　（NVDA，public）
-
-- **提及次数 / 时间**：9 次，2025-07-10 ～ 2026-07-27
-- **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other、semiconductor
-- **政策含义**：政府采购/合同、制造业回流、国家安全、关税
-- **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
-- **代表性原话**：
-  - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
-  - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
-  - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
