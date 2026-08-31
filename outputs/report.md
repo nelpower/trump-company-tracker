@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-08-30 09:59　|　记录总数：**146***
+*生成时间：2026-08-31 10:58　|　记录总数：**149***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 119 |
+| 2026 | 122 |
 
 **按月份：**
 
@@ -36,21 +36,21 @@
 | 2026-05 | 21 |
 | 2026-06 | 17 |
 | 2026-07 | 37 |
-| 2026-08 | 8 |
+| 2026-08 | 11 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | The Boeing Company | BA | 22 |
+| 1 | The Boeing Company | BA | 23 |
 | 2 | Apple Inc. | AAPL | 19 |
 | 3 | Intel Corporation | INTC | 15 |
 | 4 | Micron Technology, Inc. | MU | 11 |
 | 5 | NVIDIA Corporation | NVDA | 10 |
 | 6 | Dell Technologies Inc. | DELL | 10 |
-| 7 | Alphabet Inc. (Google) | GOOGL | 8 |
-| 8 | United States Steel Corporation | X | 6 |
-| 9 | General Motors Company | GM | 6 |
+| 7 | Alphabet Inc. (Google) | GOOGL | 9 |
+| 8 | General Motors Company | GM | 7 |
+| 9 | United States Steel Corporation | X | 6 |
 | 10 | Meta Platforms, Inc. | META | 4 |
 | 11 | Lockheed Martin Corporation | LMT | 4 |
 | 12 | Anthropic | — | 4 |
@@ -67,9 +67,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 68 | 47% |
+| positive | 69 | 46% |
 | negative | 4 | 3% |
-| neutral | 72 | 49% |
+| neutral | 74 | 50% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -80,14 +80,14 @@
 | data_center | 2 |
 | defense | 13 |
 | energy | 7 |
-| manufacturing | 19 |
+| manufacturing | 20 |
 | semiconductor | 16 |
 | cloud | 1 |
-| auto | 2 |
-| aerospace | 15 |
+| auto | 3 |
+| aerospace | 16 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 85 |
+| other | 86 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -95,14 +95,14 @@
 | --- | --- |
 | buy_american | 1 |
 | deregulation | 1 |
-| government_contract | 9 |
+| government_contract | 10 |
 | manufacturing_reshoring | 8 |
 | national_security | 3 |
 | tariff | 3 |
 | tax_credit | 1 |
-| unknown | 120 |
+| unknown | 122 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-30)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-08-31)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -110,6 +110,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-08-30 | The Boeing Company | BA | 5 | positive | government_contract | Just this week, President Trump and the Prime Minister of Bangladesh made another incredi… | [link](https://truthsocial.com/@realDonaldTrump/117185403938534473) |
+| 2026-08-30 | General Motors Company | GM | 5 | neutral | unknown | There are many other examples, for both Ford, General Motors, and others. | [link](https://truthsocial.com/@realDonaldTrump/117185823993660126) |
 | 2026-08-27 | Micron Technology, Inc. | MU | 5 | positive | manufacturing_reshoring | Micron, one of the "HOTTEST" Companies in the World, just announced a MASSIVE 10 BILLION … | [link](https://truthsocial.com/@realDonaldTrump/117168898896435158) |
 | 2026-08-26 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/117162723145155748) |
 | 2026-07-23 | Meta Platforms, Inc. | META | 5 | neutral | unknown | In Louisiana—there's a guy looks like he's from Louisiana, to me—[ Laughter ]—public scho… | [link](https://www.presidency.ucsb.edu/documents/remarks-roundtable-discussion-the-ratepayer-protection-pledge) |
@@ -174,7 +176,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：22 次，2016-12-06 ～ 2026-07-15
+- **提及次数 / 时间**：23 次，2016-12-06 ～ 2026-08-30
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、manufacturing、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -246,7 +248,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
-- **提及次数 / 时间**：8 次，2024-10-25 ～ 2026-08-11
+- **提及次数 / 时间**：9 次，2024-10-25 ～ 2026-08-30
 - **语境与情绪**：neutral、positive；主题 data_center、defense、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：数据中心、电力、冷却、网络与服务器供应链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -258,7 +260,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### General Motors Company　（GM，public）
 
-- **提及次数 / 时间**：6 次，2025-05-04 ～ 2026-07-13
+- **提及次数 / 时间**：7 次，2025-05-04 ～ 2026-08-30
 - **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
