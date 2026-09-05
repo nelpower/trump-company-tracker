@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-09-04 08:54　|　记录总数：**156***
+*生成时间：2026-09-05 08:25　|　记录总数：**160***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 129 |
+| 2026 | 133 |
 
 **按月份：**
 
@@ -35,31 +35,31 @@
 | 2026-04 | 13 |
 | 2026-05 | 21 |
 | 2026-06 | 17 |
-| 2026-07 | 40 |
+| 2026-07 | 41 |
 | 2026-08 | 11 |
-| 2026-09 | 4 |
+| 2026-09 | 7 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | The Boeing Company | BA | 24 |
-| 2 | Apple Inc. | AAPL | 20 |
+| 2 | Apple Inc. | AAPL | 21 |
 | 3 | Intel Corporation | INTC | 15 |
-| 4 | NVIDIA Corporation | NVDA | 12 |
-| 5 | Micron Technology, Inc. | MU | 11 |
-| 6 | Alphabet Inc. (Google) | GOOGL | 10 |
+| 4 | NVIDIA Corporation | NVDA | 13 |
+| 5 | Alphabet Inc. (Google) | GOOGL | 11 |
+| 6 | Micron Technology, Inc. | MU | 11 |
 | 7 | Dell Technologies Inc. | DELL | 10 |
 | 8 | General Motors Company | GM | 9 |
 | 9 | United States Steel Corporation | X | 6 |
-| 10 | Meta Platforms, Inc. | META | 4 |
-| 11 | Lockheed Martin Corporation | LMT | 4 |
-| 12 | Anthropic | — | 4 |
-| 13 | Amazon.com, Inc. | AMZN | 3 |
-| 14 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
-| 15 | SpaceX | — | 3 |
-| 16 | International Business Machines (IBM) | IBM | 3 |
-| 17 | Microsoft Corporation | MSFT | 3 |
+| 10 | Microsoft Corporation | MSFT | 4 |
+| 11 | Meta Platforms, Inc. | META | 4 |
+| 12 | Lockheed Martin Corporation | LMT | 4 |
+| 13 | Anthropic | — | 4 |
+| 14 | Amazon.com, Inc. | AMZN | 3 |
+| 15 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
+| 16 | SpaceX | — | 3 |
+| 17 | International Business Machines (IBM) | IBM | 3 |
 | 18 | Advanced Micro Devices, Inc. | AMD | 2 |
 | 19 | The Coca-Cola Company | KO | 2 |
 | 20 | Nippon Steel Corporation | 5401.T | 2 |
@@ -68,9 +68,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 72 | 46% |
-| negative | 4 | 3% |
-| neutral | 78 | 50% |
+| positive | 76 | 48% |
+| negative | 4 | 2% |
+| neutral | 78 | 49% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -82,13 +82,13 @@
 | defense | 13 |
 | energy | 7 |
 | manufacturing | 22 |
-| semiconductor | 16 |
+| semiconductor | 17 |
 | cloud | 1 |
 | auto | 3 |
 | aerospace | 16 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 90 |
+| other | 93 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -101,9 +101,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 127 |
+| unknown | 131 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-04)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-05)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -117,6 +117,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-08-30 | General Motors Company | GM | 5 | neutral | unknown | There are many other examples, for both Ford, General Motors, and others. | [link](https://truthsocial.com/@realDonaldTrump/117185823993660126) |
 | 2026-08-27 | Micron Technology, Inc. | MU | 5 | positive | manufacturing_reshoring | Micron, one of the "HOTTEST" Companies in the World, just announced a MASSIVE 10 BILLION … | [link](https://truthsocial.com/@realDonaldTrump/117168898896435158) |
 | 2026-08-26 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/117162723145155748) |
+| 2026-07-29 | NVIDIA Corporation | NVDA | 5 | positive | unknown | NVIDIA Corp. Founder, President, and Chief Executive Officer Jensen Huang . [ Inaudible ]… | [link](https://www.presidency.ucsb.edu/documents/remarks-efforts-renovate-washington-dulles-international-airport-and-exchange-with) |
 | 2026-07-27 | General Motors Company | GM | 5 | neutral | tariff | In 2026, GM increased truck and SUV production by 20 percent, and in the past 2 years, th… | [link](https://www.presidency.ucsb.edu/documents/remarks-the-united-states-automobile-industry-milford-michigan) |
 | 2026-07-27 | General Motors Company | GM | 5 | positive | tariff | It's amazing what tariffs will do for General Motors—right?—and what the election has don… | [link](https://www.presidency.ucsb.edu/documents/remarks-during-tour-the-general-motors-proving-ground-milford-michigan) |
 | 2026-07-23 | Meta Platforms, Inc. | META | 5 | neutral | unknown | In Louisiana—there's a guy looks like he's from Louisiana, to me—[ Laughter ]—public scho… | [link](https://www.presidency.ucsb.edu/documents/remarks-roundtable-discussion-the-ratepayer-protection-pledge) |
@@ -193,7 +194,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：20 次，2024-10-25 ～ 2026-09-02
+- **提及次数 / 时间**：21 次，2024-10-25 ～ 2026-09-04
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -217,7 +218,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### NVIDIA Corporation　（NVDA，public）
 
-- **提及次数 / 时间**：12 次，2025-07-10 ～ 2026-09-01
+- **提及次数 / 时间**：13 次，2025-07-10 ～ 2026-09-01
 - **语境与情绪**：neutral、positive；主题 AI、aerospace、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流、国家安全、关税
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -226,6 +227,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
   - 2025-12-08：「I have informed President Xi, of China, that the United States will allow NVIDIA to ship its H200 products to approved customers in China, and other Countries,…」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
+
+### Alphabet Inc. (Google)　（GOOGL，public）
+
+- **提及次数 / 时间**：11 次，2024-10-25 ～ 2026-09-04
+- **语境与情绪**：neutral、positive；主题 data_center、defense、manufacturing、other
+- **政策含义**：暂不明确
+- **可能投资线索**：数据中心、电力、冷却、网络与服务器供应链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：电力/土地瓶颈与超额建设(overbuild)风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
+  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
+  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### Micron Technology, Inc.　（MU，public）
 
@@ -238,18 +251,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
   - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
   - 2026-05-22：「And Micron—boy, Micron is great.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
-
-### Alphabet Inc. (Google)　（GOOGL，public）
-
-- **提及次数 / 时间**：10 次，2024-10-25 ～ 2026-09-02
-- **语境与情绪**：neutral、positive；主题 data_center、defense、manufacturing、other
-- **政策含义**：暂不明确
-- **可能投资线索**：数据中心、电力、冷却、网络与服务器供应链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：电力/土地瓶颈与超额建设(overbuild)风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2024-10-25：「But he said, "This McDonald's thing, I want to tell you, it's one of the biggest things we've ever had on Google.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-the-joe-rogan-experience)
-  - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
-  - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### Dell Technologies Inc.　（DELL，public）
 
@@ -323,6 +324,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-07-15：「But Dina has been—she's been amazing—and she's gotten a very nice position as the president of Meta, working with a very good guy.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-pennsylvania-defense-and-innovation-summit-carlisle-pennsylvania)
   - 2026-07-23：「In Louisiana—there's a guy looks like he's from Louisiana, to me—[ Laughter ]—public school teachers in Richard—so, think of that—Richland Parish are getting a…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-roundtable-discussion-the-ratepayer-protection-pledge)
 
+### Microsoft Corporation　（MSFT，public）
+
+- **提及次数 / 时间**：4 次，2026-01-12 ～ 2026-09-04
+- **语境与情绪**：neutral、positive；主题 AI、energy、other
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；能源生产、电网、核能与传统油气；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；商品价格波动与政策反复风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2026-01-12：「First up is Microsoft, who my team has been working with, and which will make major changes beginning this week to ensure that Americans don't "pick up the tab…」 — [来源](https://truthsocial.com/@realDonaldTrump/115884759090137876)
+  - 2026-05-04：「He sold it for a billion dollars to Microsoft.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-white-house-small-business-summit)
+  - 2026-06-04：「Believe it or not, I used to think it was in energy, but he was successful in technology, and he sold his company to, I think, Microsoft, right?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-coal-and-exchange-with-reporters)
+
 ### Amazon.com, Inc.　（AMZN，public）
 
 - **提及次数 / 时间**：3 次，2025-12-30 ～ 2026-07-24
@@ -346,18 +359,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-05-16：「Where do they get this lawyer that would represent IBM and would represent ExxonMobil?」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
   - 2026-06-22：「IBM CEO Arvind Krishna, who's a great man, who's done a really great job.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-signing-executive-orders-quantum-technologies-and-exchange-with-reporters)
   - 2026-07-06：「And in some cases, they are adding them to the employee benefit packages, including Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, …」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-rose-garden-club-lunch)
-
-### Microsoft Corporation　（MSFT，public）
-
-- **提及次数 / 时间**：3 次，2026-01-12 ～ 2026-06-04
-- **语境与情绪**：neutral；主题 AI、energy、other
-- **政策含义**：暂不明确
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；能源生产、电网、核能与传统油气；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；商品价格波动与政策反复风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2026-01-12：「First up is Microsoft, who my team has been working with, and which will make major changes beginning this week to ensure that Americans don't "pick up the tab…」 — [来源](https://truthsocial.com/@realDonaldTrump/115884759090137876)
-  - 2026-05-04：「He sold it for a billion dollars to Microsoft.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-white-house-small-business-summit)
-  - 2026-06-04：「Believe it or not, I used to think it was in energy, but he was successful in technology, and he sold his company to, I think, Microsoft, right?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-coal-and-exchange-with-reporters)
 
 ### SpaceX　（未上市/未知，private）
 
