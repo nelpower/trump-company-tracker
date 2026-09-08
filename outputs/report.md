@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-09-07 09:28　|　记录总数：**160***
+*生成时间：2026-09-08 08:56　|　记录总数：**162***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 133 |
+| 2026 | 135 |
 
 **按月份：**
 
@@ -37,17 +37,17 @@
 | 2026-06 | 17 |
 | 2026-07 | 41 |
 | 2026-08 | 11 |
-| 2026-09 | 7 |
+| 2026-09 | 9 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
 | 1 | The Boeing Company | BA | 24 |
-| 2 | Apple Inc. | AAPL | 21 |
+| 2 | Apple Inc. | AAPL | 22 |
 | 3 | Intel Corporation | INTC | 15 |
 | 4 | NVIDIA Corporation | NVDA | 13 |
-| 5 | Alphabet Inc. (Google) | GOOGL | 11 |
+| 5 | Alphabet Inc. (Google) | GOOGL | 12 |
 | 6 | Micron Technology, Inc. | MU | 11 |
 | 7 | Dell Technologies Inc. | DELL | 10 |
 | 8 | General Motors Company | GM | 9 |
@@ -68,9 +68,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 76 | 48% |
+| positive | 76 | 47% |
 | negative | 4 | 2% |
-| neutral | 78 | 49% |
+| neutral | 80 | 49% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -88,7 +88,7 @@
 | aerospace | 16 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 93 |
+| other | 95 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -101,9 +101,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 131 |
+| unknown | 133 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-07)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-08)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -194,7 +194,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Apple Inc.　（AAPL，public）
 
-- **提及次数 / 时间**：21 次，2024-10-25 ～ 2026-09-04
+- **提及次数 / 时间**：22 次，2024-10-25 ～ 2026-09-07
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、consumer、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流
 - **可能投资线索**：航空航天整机/分包/维修产业链；品牌认知与消费需求边际变化；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -230,7 +230,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
-- **提及次数 / 时间**：11 次，2024-10-25 ～ 2026-09-04
+- **提及次数 / 时间**：12 次，2024-10-25 ～ 2026-09-07
 - **语境与情绪**：neutral、positive；主题 data_center、defense、manufacturing、other
 - **政策含义**：暂不明确
 - **可能投资线索**：数据中心、电力、冷却、网络与服务器供应链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
