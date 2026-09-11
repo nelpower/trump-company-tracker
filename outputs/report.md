@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-09-10 09:00　|　记录总数：**162***
+*生成时间：2026-09-11 08:58　|　记录总数：**165***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 135 |
+| 2026 | 138 |
 
 **按月份：**
 
@@ -35,8 +35,8 @@
 | 2026-04 | 13 |
 | 2026-05 | 21 |
 | 2026-06 | 17 |
-| 2026-07 | 41 |
-| 2026-08 | 11 |
+| 2026-07 | 43 |
+| 2026-08 | 12 |
 | 2026-09 | 9 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -45,11 +45,11 @@
 | --- | --- | --- | --- |
 | 1 | The Boeing Company | BA | 24 |
 | 2 | Apple Inc. | AAPL | 22 |
-| 3 | Intel Corporation | INTC | 15 |
-| 4 | NVIDIA Corporation | NVDA | 13 |
+| 3 | Intel Corporation | INTC | 16 |
+| 4 | NVIDIA Corporation | NVDA | 14 |
 | 5 | Alphabet Inc. (Google) | GOOGL | 12 |
 | 6 | Micron Technology, Inc. | MU | 11 |
-| 7 | Dell Technologies Inc. | DELL | 10 |
+| 7 | Dell Technologies Inc. | DELL | 11 |
 | 8 | General Motors Company | GM | 9 |
 | 9 | United States Steel Corporation | X | 6 |
 | 10 | Microsoft Corporation | MSFT | 4 |
@@ -68,9 +68,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 76 | 47% |
+| positive | 76 | 46% |
 | negative | 4 | 2% |
-| neutral | 80 | 49% |
+| neutral | 83 | 50% |
 | mixed | 2 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -82,13 +82,13 @@
 | defense | 13 |
 | energy | 7 |
 | manufacturing | 22 |
-| semiconductor | 17 |
+| semiconductor | 18 |
 | cloud | 1 |
 | auto | 3 |
 | aerospace | 16 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 95 |
+| other | 97 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -101,9 +101,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 133 |
+| unknown | 136 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-10)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-11)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -117,6 +117,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-08-30 | General Motors Company | GM | 5 | neutral | unknown | There are many other examples, for both Ford, General Motors, and others. | [link](https://truthsocial.com/@realDonaldTrump/117185823993660126) |
 | 2026-08-27 | Micron Technology, Inc. | MU | 5 | positive | manufacturing_reshoring | Micron, one of the "HOTTEST" Companies in the World, just announced a MASSIVE 10 BILLION … | [link](https://truthsocial.com/@realDonaldTrump/117168898896435158) |
 | 2026-08-26 | Apple Inc. | AAPL | 5 | neutral | unknown | Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/a… | [link](https://truthsocial.com/@realDonaldTrump/117162723145155748) |
+| 2026-07-31 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | It's a little like Nvidia. | [link](https://www.presidency.ucsb.edu/documents/remarks-prior-cabinet-meeting-and-exchange-with-reporters-camp-david-maryland) |
 | 2026-07-29 | NVIDIA Corporation | NVDA | 5 | positive | unknown | NVIDIA Corp. Founder, President, and Chief Executive Officer Jensen Huang . [ Inaudible ]… | [link](https://www.presidency.ucsb.edu/documents/remarks-efforts-renovate-washington-dulles-international-airport-and-exchange-with) |
 | 2026-07-27 | General Motors Company | GM | 5 | neutral | tariff | In 2026, GM increased truck and SUV production by 20 percent, and in the past 2 years, th… | [link](https://www.presidency.ucsb.edu/documents/remarks-the-united-states-automobile-industry-milford-michigan) |
 | 2026-07-27 | General Motors Company | GM | 5 | positive | tariff | It's amazing what tariffs will do for General Motors—right?—and what the election has don… | [link](https://www.presidency.ucsb.edu/documents/remarks-during-tour-the-general-motors-proving-ground-milford-michigan) |
@@ -206,7 +207,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：15 次，2025-12-08 ～ 2026-08-24
+- **提及次数 / 时间**：16 次，2025-12-08 ～ 2026-08-24
 - **语境与情绪**：negative、neutral、positive；主题 manufacturing、other、semiconductor
 - **政策含义**：制造业回流、关税
 - **可能投资线索**：美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -218,7 +219,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### NVIDIA Corporation　（NVDA，public）
 
-- **提及次数 / 时间**：13 次，2025-07-10 ～ 2026-09-01
+- **提及次数 / 时间**：14 次，2025-07-10 ～ 2026-09-01
 - **语境与情绪**：neutral、positive；主题 AI、aerospace、defense、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流、国家安全、关税
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
@@ -240,6 +241,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-03-27：「We won the court case in about 1 hour, and Google Maps changed the name, and it's now the Gulf of America, which it should be, in all fairness.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-and-question-and-answer-session-the-future-investment-initiative-priority-miami)
   - 2026-04-16：「It was a little bit of a—you know, I mean, to be honest, it was a little tacky. [ Laughter ] You know, they come up with these crazy ideas, like McDonald's, al…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
+### Dell Technologies Inc.　（DELL，public）
+
+- **提及次数 / 时间**：11 次，2025-12-02 ～ 2026-07-31
+- **语境与情绪**：neutral、positive；主题 auto、defense、manufacturing、other
+- **政策含义**：买美国货、政府采购/合同
+- **可能投资线索**：整车/零部件/电动化转型；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：需求周期性、价格战与补贴退坡风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
+  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
+  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
+
 ### Micron Technology, Inc.　（MU，public）
 
 - **提及次数 / 时间**：11 次，2026-04-23 ～ 2026-08-27
@@ -251,18 +264,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-04-23：「We had Micron, $200 billion.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-health-care-costs-and-affordability-and-exchange-with-reporters)
   - 2026-05-13：「It is an Honor to have Jensen, Elon, Tim Apple, Larry Fink, Stephen Schwarzmann, Kelly Ortberg (Boeing), Brian Sikes (Cargill), Jane Fraser (Citi), Larry Culp …」 — [来源](https://truthsocial.com/@realDonaldTrump/116565066757116256)
   - 2026-05-22：「And Micron—boy, Micron is great.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
-
-### Dell Technologies Inc.　（DELL，public）
-
-- **提及次数 / 时间**：10 次，2025-12-02 ～ 2026-07-22
-- **语境与情绪**：positive；主题 auto、defense、manufacturing、other
-- **政策含义**：买美国货、政府采购/合同
-- **可能投资线索**：整车/零部件/电动化转型；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：需求周期性、价格战与补贴退坡风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
-  - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
-  - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
 
 ### General Motors Company　（GM，public）
 
