@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-09-26 09:25　|　记录总数：**180***
+*生成时间：2026-09-27 10:05　|　记录总数：**181***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 153 |
+| 2026 | 154 |
 
 **按月份：**
 
@@ -37,7 +37,7 @@
 | 2026-06 | 17 |
 | 2026-07 | 43 |
 | 2026-08 | 20 |
-| 2026-09 | 16 |
+| 2026-09 | 17 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -47,9 +47,9 @@
 | 2 | Apple Inc. | AAPL | 24 |
 | 3 | Intel Corporation | INTC | 19 |
 | 4 | NVIDIA Corporation | NVDA | 14 |
-| 5 | Alphabet Inc. (Google) | GOOGL | 13 |
-| 6 | Dell Technologies Inc. | DELL | 13 |
-| 7 | General Motors Company | GM | 12 |
+| 5 | General Motors Company | GM | 13 |
+| 6 | Alphabet Inc. (Google) | GOOGL | 13 |
+| 7 | Dell Technologies Inc. | DELL | 13 |
 | 8 | Micron Technology, Inc. | MU | 12 |
 | 9 | United States Steel Corporation | X | 6 |
 | 10 | Lockheed Martin Corporation | LMT | 5 |
@@ -68,7 +68,7 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 83 | 46% |
+| positive | 84 | 46% |
 | negative | 4 | 2% |
 | neutral | 90 | 50% |
 | mixed | 3 | 2% |
@@ -81,10 +81,10 @@
 | data_center | 2 |
 | defense | 13 |
 | energy | 7 |
-| manufacturing | 24 |
+| manufacturing | 25 |
 | semiconductor | 19 |
 | cloud | 1 |
-| auto | 3 |
+| auto | 4 |
 | aerospace | 16 |
 | infrastructure | 3 |
 | consumer | 3 |
@@ -97,13 +97,13 @@
 | buy_american | 1 |
 | deregulation | 1 |
 | government_contract | 10 |
-| manufacturing_reshoring | 9 |
+| manufacturing_reshoring | 10 |
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
 | unknown | 150 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-26)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-27)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -111,6 +111,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
 | 2026-09-14 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | manufacturing_reshoring | Google has recently stated that they want to build a massive Plant in Finland, all becaus… | [link](https://truthsocial.com/@realDonaldTrump/117270591511950591) |
 | 2026-09-01 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | Nvidia, Wall Street Firms Strike AI Financing Deal Targeting $500 Billion: https://www.ws… | [link](https://truthsocial.com/@realDonaldTrump/117197476591086616) |
@@ -258,9 +259,9 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### General Motors Company　（GM，public）
 
-- **提及次数 / 时间**：12 次，2025-05-04 ～ 2026-09-09
+- **提及次数 / 时间**：13 次，2025-05-04 ～ 2026-09-26
 - **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
-- **政策含义**：关税
+- **政策含义**：制造业回流、关税
 - **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
 - **风险**：需求周期性、价格战与补贴退坡风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
