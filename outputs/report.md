@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-09-30 10:34　|　记录总数：**182***
+*生成时间：2026-10-01 11:02　|　记录总数：**183***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 155 |
+| 2026 | 156 |
 
 **按月份：**
 
@@ -38,12 +38,13 @@
 | 2026-07 | 43 |
 | 2026-08 | 21 |
 | 2026-09 | 17 |
+| 2026-10 | 1 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | The Boeing Company | BA | 25 |
+| 1 | The Boeing Company | BA | 26 |
 | 2 | Apple Inc. | AAPL | 24 |
 | 3 | Intel Corporation | INTC | 19 |
 | 4 | Dell Technologies Inc. | DELL | 14 |
@@ -68,7 +69,7 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 85 | 47% |
+| positive | 86 | 47% |
 | negative | 4 | 2% |
 | neutral | 90 | 49% |
 | mixed | 3 | 2% |
@@ -85,7 +86,7 @@
 | semiconductor | 19 |
 | cloud | 1 |
 | auto | 4 |
-| aerospace | 16 |
+| aerospace | 17 |
 | infrastructure | 3 |
 | consumer | 3 |
 | other | 110 |
@@ -101,9 +102,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 151 |
+| unknown | 152 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-09-30)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-01)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -111,6 +112,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was … | [link](https://truthsocial.com/@realDonaldTrump/117363810994521058) |
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
 | 2026-09-14 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | manufacturing_reshoring | Google has recently stated that they want to build a massive Plant in Finland, all becaus… | [link](https://truthsocial.com/@realDonaldTrump/117270591511950591) |
@@ -187,7 +189,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：25 次，2016-12-06 ～ 2026-09-24
+- **提及次数 / 时间**：26 次，2016-12-06 ～ 2026-10-01
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、manufacturing、other
 - **政策含义**：政府采购/合同
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
