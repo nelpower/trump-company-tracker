@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-01 11:02　|　记录总数：**183***
+*生成时间：2026-10-02 10:35　|　记录总数：**184***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 156 |
+| 2026 | 157 |
 
 **按月份：**
 
@@ -36,7 +36,7 @@
 | 2026-05 | 21 |
 | 2026-06 | 17 |
 | 2026-07 | 43 |
-| 2026-08 | 21 |
+| 2026-08 | 22 |
 | 2026-09 | 17 |
 | 2026-10 | 1 |
 
@@ -56,10 +56,10 @@
 | 10 | Lockheed Martin Corporation | LMT | 5 |
 | 11 | Anthropic | — | 5 |
 | 12 | Microsoft Corporation | MSFT | 4 |
-| 13 | Meta Platforms, Inc. | META | 4 |
-| 14 | Amazon.com, Inc. | AMZN | 3 |
-| 15 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
-| 16 | SpaceX | — | 3 |
+| 13 | SpaceX | — | 4 |
+| 14 | Meta Platforms, Inc. | META | 4 |
+| 15 | Amazon.com, Inc. | AMZN | 3 |
+| 16 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
 | 17 | International Business Machines (IBM) | IBM | 3 |
 | 18 | Advanced Micro Devices, Inc. | AMD | 2 |
 | 19 | The Coca-Cola Company | KO | 2 |
@@ -71,7 +71,7 @@
 | --- | --- | --- |
 | positive | 86 | 47% |
 | negative | 4 | 2% |
-| neutral | 90 | 49% |
+| neutral | 91 | 49% |
 | mixed | 3 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -89,7 +89,7 @@
 | aerospace | 17 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 110 |
+| other | 111 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 152 |
+| unknown | 153 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-01)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-02)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -112,7 +112,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was … | [link](https://truthsocial.com/@realDonaldTrump/117363810994521058) |
+| 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | RT @realDonaldTrumpCongratulations to the GREAT Boeing Company for producing a plane, the… | [link](https://truthsocial.com/@realDonaldTrump/117366242139776153) |
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
 | 2026-09-14 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | manufacturing_reshoring | Google has recently stated that they want to build a massive Plant in Finland, all becaus… | [link](https://truthsocial.com/@realDonaldTrump/117270591511950591) |
@@ -343,6 +343,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-05-04：「He sold it for a billion dollars to Microsoft.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-white-house-small-business-summit)
   - 2026-06-04：「Believe it or not, I used to think it was in energy, but he was successful in technology, and he sold his company to, I think, Microsoft, right?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-coal-and-exchange-with-reporters)
 
+### SpaceX　（未上市/未知，private）
+
+- **提及次数 / 时间**：4 次，2025-02-14 ～ 2026-08-28
+- **语境与情绪**：neutral、positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
+  - 2026-07-06：「SpaceX Chief Executive Officer Elon R.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-trump-accounts-childrens-savings-program-and-exchange-with-reporters)
+  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
+
 ### Amazon.com, Inc.　（AMZN，public）
 
 - **提及次数 / 时间**：3 次，2025-12-30 ～ 2026-07-24
@@ -366,18 +378,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-05-16：「Where do they get this lawyer that would represent IBM and would represent ExxonMobil?」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-bret-baier-fox-news-0)
   - 2026-06-22：「IBM CEO Arvind Krishna, who's a great man, who's done a really great job.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-signing-executive-orders-quantum-technologies-and-exchange-with-reporters)
   - 2026-07-06：「And in some cases, they are adding them to the employee benefit packages, including Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, …」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-rose-garden-club-lunch)
-
-### SpaceX　（未上市/未知，private）
-
-- **提及次数 / 时间**：3 次，2025-02-14 ～ 2026-07-09
-- **语境与情绪**：neutral、positive；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
-  - 2026-07-06：「SpaceX Chief Executive Officer Elon R.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-trump-accounts-childrens-savings-program-and-exchange-with-reporters)
-  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
 
 ### Taiwan Semiconductor Manufacturing Company (TSMC)　（TSM，public）
 
