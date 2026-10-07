@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-06 11:22　|　记录总数：**184***
+*生成时间：2026-10-07 11:10　|　记录总数：**185***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 157 |
+| 2026 | 158 |
 
 **按月份：**
 
@@ -37,7 +37,7 @@
 | 2026-06 | 17 |
 | 2026-07 | 43 |
 | 2026-08 | 22 |
-| 2026-09 | 17 |
+| 2026-09 | 18 |
 | 2026-10 | 1 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -52,7 +52,7 @@
 | 6 | General Motors Company | GM | 13 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 13 |
 | 8 | Micron Technology, Inc. | MU | 12 |
-| 9 | United States Steel Corporation | X | 6 |
+| 9 | United States Steel Corporation | X | 7 |
 | 10 | Lockheed Martin Corporation | LMT | 5 |
 | 11 | Anthropic | — | 5 |
 | 12 | Microsoft Corporation | MSFT | 4 |
@@ -69,9 +69,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 86 | 47% |
+| positive | 86 | 46% |
 | negative | 4 | 2% |
-| neutral | 91 | 49% |
+| neutral | 92 | 50% |
 | mixed | 3 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -89,7 +89,7 @@
 | aerospace | 17 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 111 |
+| other | 112 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 153 |
+| unknown | 154 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-06)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-07)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -285,7 +285,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### United States Steel Corporation　（X，public）
 
-- **提及次数 / 时间**：6 次，2024-12-02 ～ 2026-08-04
+- **提及次数 / 时间**：7 次，2024-12-02 ～ 2026-09-08
 - **语境与情绪**：mixed、neutral、positive；主题 AI、data_center、energy、manufacturing、other
 - **政策含义**：国家安全、关税
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；能源生产、电网、核能与传统油气；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
