@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-13 11:56　|　记录总数：**188***
+*生成时间：2026-10-14 09:36　|　记录总数：**189***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 161 |
+| 2026 | 162 |
 
 **按月份：**
 
@@ -37,7 +37,7 @@
 | 2026-06 | 17 |
 | 2026-07 | 43 |
 | 2026-08 | 22 |
-| 2026-09 | 21 |
+| 2026-09 | 22 |
 | 2026-10 | 1 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -47,8 +47,8 @@
 | 1 | The Boeing Company | BA | 26 |
 | 2 | Apple Inc. | AAPL | 24 |
 | 3 | Intel Corporation | INTC | 20 |
-| 4 | Dell Technologies Inc. | DELL | 15 |
-| 5 | General Motors Company | GM | 14 |
+| 4 | General Motors Company | GM | 15 |
+| 5 | Dell Technologies Inc. | DELL | 15 |
 | 6 | NVIDIA Corporation | NVDA | 14 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 13 |
 | 8 | Micron Technology, Inc. | MU | 12 |
@@ -71,7 +71,7 @@
 | --- | --- | --- |
 | positive | 87 | 46% |
 | negative | 4 | 2% |
-| neutral | 94 | 50% |
+| neutral | 95 | 50% |
 | mixed | 3 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -82,7 +82,7 @@
 | data_center | 2 |
 | defense | 13 |
 | energy | 7 |
-| manufacturing | 25 |
+| manufacturing | 26 |
 | semiconductor | 19 |
 | cloud | 1 |
 | auto | 4 |
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 157 |
+| unknown | 158 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-13)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-14)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -116,6 +116,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
 | 2026-09-14 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | manufacturing_reshoring | Google has recently stated that they want to build a massive Plant in Finland, all becaus… | [link](https://truthsocial.com/@realDonaldTrump/117270591511950591) |
+| 2026-09-12 | General Motors Company | GM | 5 | neutral | unknown | General Motors and Ford are going wild, and they're all doing things that nobody ever tho… | [link](https://www.presidency.ucsb.edu/documents/remarks-united-states-embassy-personnel-and-business-leaders-dublin-ireland) |
 | 2026-09-01 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | Nvidia, Wall Street Firms Strike AI Financing Deal Targeting $500 Billion: https://www.ws… | [link](https://truthsocial.com/@realDonaldTrump/117197476591086616) |
 | 2026-09-01 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | NVIDIA AI Factory Compute Is Becoming an Investable Asset Class: https://x.com/JensenHuan… | [link](https://truthsocial.com/@realDonaldTrump/117197476129988516) |
 | 2026-08-30 | The Boeing Company | BA | 5 | positive | government_contract | Just this week, President Trump and the Prime Minister of Bangladesh made another incredi… | [link](https://truthsocial.com/@realDonaldTrump/117185403938534473) |
@@ -237,7 +238,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### General Motors Company　（GM，public）
 
-- **提及次数 / 时间**：14 次，2025-05-04 ～ 2026-09-26
+- **提及次数 / 时间**：15 次，2025-05-04 ～ 2026-09-26
 - **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
 - **政策含义**：制造业回流、关税
 - **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
