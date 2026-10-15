@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-14 09:36　|　记录总数：**189***
+*生成时间：2026-10-15 09:14　|　记录总数：**191***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 162 |
+| 2026 | 164 |
 
 **按月份：**
 
@@ -37,8 +37,8 @@
 | 2026-06 | 17 |
 | 2026-07 | 43 |
 | 2026-08 | 22 |
-| 2026-09 | 22 |
-| 2026-10 | 1 |
+| 2026-09 | 23 |
+| 2026-10 | 2 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -46,8 +46,8 @@
 | --- | --- | --- | --- |
 | 1 | The Boeing Company | BA | 26 |
 | 2 | Apple Inc. | AAPL | 24 |
-| 3 | Intel Corporation | INTC | 20 |
-| 4 | General Motors Company | GM | 15 |
+| 3 | Intel Corporation | INTC | 21 |
+| 4 | General Motors Company | GM | 16 |
 | 5 | Dell Technologies Inc. | DELL | 15 |
 | 6 | NVIDIA Corporation | NVDA | 14 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 13 |
@@ -69,9 +69,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 87 | 46% |
+| positive | 88 | 46% |
 | negative | 4 | 2% |
-| neutral | 95 | 50% |
+| neutral | 96 | 50% |
 | mixed | 3 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -81,9 +81,9 @@
 | AI | 10 |
 | data_center | 2 |
 | defense | 13 |
-| energy | 7 |
-| manufacturing | 26 |
-| semiconductor | 19 |
+| energy | 8 |
+| manufacturing | 27 |
+| semiconductor | 20 |
 | cloud | 1 |
 | auto | 4 |
 | aerospace | 17 |
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 5 |
 | tax_credit | 1 |
-| unknown | 158 |
+| unknown | 160 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-14)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-15)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -112,11 +112,13 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-14 | Intel Corporation | INTC | 5 | positive | unknown | These are TRANSFORMATIONAL AND GENERATIONAL DEALS FOR AMERICA — More Semiconductors, more… | [link](https://truthsocial.com/@realDonaldTrump/117440248541514637) |
 | 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | RT @realDonaldTrumpCongratulations to the GREAT Boeing Company for producing a plane, the… | [link](https://truthsocial.com/@realDonaldTrump/117366242139776153) |
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
 | 2026-09-14 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | manufacturing_reshoring | Google has recently stated that they want to build a massive Plant in Finland, all becaus… | [link](https://truthsocial.com/@realDonaldTrump/117270591511950591) |
 | 2026-09-12 | General Motors Company | GM | 5 | neutral | unknown | General Motors and Ford are going wild, and they're all doing things that nobody ever tho… | [link](https://www.presidency.ucsb.edu/documents/remarks-united-states-embassy-personnel-and-business-leaders-dublin-ireland) |
+| 2026-09-10 | General Motors Company | GM | 5 | neutral | unknown | General Motors just announced a massive plant. | [link](https://www.presidency.ucsb.edu/documents/remarks-signing-the-hershel-woody-williams-national-medal-honor-monument-location-act) |
 | 2026-09-01 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | Nvidia, Wall Street Firms Strike AI Financing Deal Targeting $500 Billion: https://www.ws… | [link](https://truthsocial.com/@realDonaldTrump/117197476591086616) |
 | 2026-09-01 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | NVIDIA AI Factory Compute Is Becoming an Investable Asset Class: https://x.com/JensenHuan… | [link](https://truthsocial.com/@realDonaldTrump/117197476129988516) |
 | 2026-08-30 | The Boeing Company | BA | 5 | positive | government_contract | Just this week, President Trump and the Prime Minister of Bangladesh made another incredi… | [link](https://truthsocial.com/@realDonaldTrump/117185403938534473) |
@@ -214,15 +216,27 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Intel Corporation　（INTC，public）
 
-- **提及次数 / 时间**：20 次，2025-12-08 ～ 2026-09-09
-- **语境与情绪**：negative、neutral、positive；主题 manufacturing、other、semiconductor
+- **提及次数 / 时间**：21 次，2025-12-08 ～ 2026-10-14
+- **语境与情绪**：negative、neutral、positive；主题 energy、manufacturing、other、semiconductor
 - **政策含义**：制造业回流、关税
-- **可能投资线索**：美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **可能投资线索**：能源生产、电网、核能与传统油气；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：商品价格波动与政策反复风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2025-12-08：「The Department of Commerce is finalizing the details, and the same approach will apply to AMD, Intel, and other GREAT American Companies.」 — [来源](https://truthsocial.com/@realDonaldTrump/115686072737425841)
   - 2026-01-07：「The chairman of the board of Intel looked at me, says, 'You have a deal.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-zolan-kanno-youngs-tyler-pager-katie-rogers-and-david-e-sanger-the-new-york)
   - 2026-01-08：「Intel just launched the first SUB 2 NANOMETER CPU PROCESSOR designed, built, and packaged right here in the U.S.A. The United States Government is proud to be …」 — [来源](https://truthsocial.com/@realDonaldTrump/115861537483492504)
+
+### General Motors Company　（GM，public）
+
+- **提及次数 / 时间**：16 次，2025-05-04 ～ 2026-09-26
+- **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
+- **政策含义**：制造业回流、关税
+- **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
+- **风险**：需求周期性、价格战与补贴退坡风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
+- **代表性原话**：
+  - 2025-05-04：「Plant, after plant, after plant: Toyota, Honda, Ford, General Motors, Stellantis, I mean, nobody's ever seen anything like it.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press)
+  - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
+  - 2026-05-22：「And last year, General Motors announced a new manufacturing investment of a billion dollars in Upstate New York to produce V8 engines, which they never would'v…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
 
 ### Dell Technologies Inc.　（DELL，public）
 
@@ -235,18 +249,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2025-12-02：「I LOVE DELL!!!」 — [来源](https://truthsocial.com/@realDonaldTrump/115650314096956008)
   - 2026-02-08：「Great job by Michael and Susan Dell on https://InvestAmerica.org — These are truly spectacular people!」 — [来源](https://truthsocial.com/@realDonaldTrump/116037628806861509)
   - 2026-04-16：「We created the brandnew Trump Accounts with Michael and Susan Dell.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-during-roundtable-discussion-tax-code-reform-las-vegas-nevada)
-
-### General Motors Company　（GM，public）
-
-- **提及次数 / 时间**：15 次，2025-05-04 ～ 2026-09-26
-- **语境与情绪**：neutral、positive；主题 auto、manufacturing、other
-- **政策含义**：制造业回流、关税
-- **可能投资线索**：整车/零部件/电动化转型；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
-- **风险**：需求周期性、价格战与补贴退坡风险；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
-- **代表性原话**：
-  - 2025-05-04：「Plant, after plant, after plant: Toyota, Honda, Ford, General Motors, Stellantis, I mean, nobody's ever seen anything like it.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-kristin-welker-nbc-news-meet-the-press)
-  - 2026-01-23：「General Motors to move Buick Envision SUV production from China to the United States:https://www.cbsnews.com/news/buick-envision-general-motors-propduction-us-…」 — [来源](https://truthsocial.com/@realDonaldTrump/115946969970832896)
-  - 2026-05-22：「And last year, General Motors announced a new manufacturing investment of a billion dollars in Upstate New York to produce V8 engines, which they never would'v…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-suffern-new-york)
 
 ### NVIDIA Corporation　（NVDA，public）
 
