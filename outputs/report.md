@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-19 10:03　|　记录总数：**191***
+*生成时间：2026-10-20 09:30　|　记录总数：**193***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 164 |
+| 2026 | 166 |
 
 **按月份：**
 
@@ -38,13 +38,13 @@
 | 2026-07 | 43 |
 | 2026-08 | 22 |
 | 2026-09 | 23 |
-| 2026-10 | 2 |
+| 2026-10 | 4 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
 | # | 公司 | ticker | mentions |
 | --- | --- | --- | --- |
-| 1 | The Boeing Company | BA | 26 |
+| 1 | The Boeing Company | BA | 27 |
 | 2 | Apple Inc. | AAPL | 24 |
 | 3 | Intel Corporation | INTC | 21 |
 | 4 | General Motors Company | GM | 16 |
@@ -53,10 +53,10 @@
 | 7 | Alphabet Inc. (Google) | GOOGL | 13 |
 | 8 | Micron Technology, Inc. | MU | 12 |
 | 9 | United States Steel Corporation | X | 7 |
-| 10 | Lockheed Martin Corporation | LMT | 5 |
-| 11 | Anthropic | — | 5 |
-| 12 | Microsoft Corporation | MSFT | 4 |
-| 13 | SpaceX | — | 4 |
+| 10 | SpaceX | — | 5 |
+| 11 | Lockheed Martin Corporation | LMT | 5 |
+| 12 | Anthropic | — | 5 |
+| 13 | Microsoft Corporation | MSFT | 4 |
 | 14 | Meta Platforms, Inc. | META | 4 |
 | 15 | Amazon.com, Inc. | AMZN | 3 |
 | 16 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
@@ -69,7 +69,7 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 88 | 46% |
+| positive | 90 | 47% |
 | negative | 4 | 2% |
 | neutral | 96 | 50% |
 | mixed | 3 | 2% |
@@ -89,7 +89,7 @@
 | aerospace | 17 |
 | infrastructure | 3 |
 | consumer | 3 |
-| other | 115 |
+| other | 117 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -100,11 +100,11 @@
 | government_contract | 10 |
 | manufacturing_reshoring | 10 |
 | national_security | 3 |
-| tariff | 5 |
+| tariff | 6 |
 | tax_credit | 1 |
-| unknown | 160 |
+| unknown | 161 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-19)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-20)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -112,6 +112,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-20 | The Boeing Company | BA | 5 | positive | tariff | Here in Kansas, the pharmaceutical company, Merck, is investing nearly 1 Billion Dollars … | [link](https://truthsocial.com/@realDonaldTrump/117470533012557706) |
 | 2026-10-14 | Intel Corporation | INTC | 5 | positive | unknown | These are TRANSFORMATIONAL AND GENERATIONAL DEALS FOR AMERICA — More Semiconductors, more… | [link](https://truthsocial.com/@realDonaldTrump/117440248541514637) |
 | 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | RT @realDonaldTrumpCongratulations to the GREAT Boeing Company for producing a plane, the… | [link](https://truthsocial.com/@realDonaldTrump/117366242139776153) |
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
@@ -192,9 +193,9 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### The Boeing Company　（BA，public）
 
-- **提及次数 / 时间**：26 次，2016-12-06 ～ 2026-10-01
+- **提及次数 / 时间**：27 次，2016-12-06 ～ 2026-10-20
 - **语境与情绪**：negative、neutral、positive；主题 aerospace、defense、energy、infrastructure、manufacturing、other
-- **政策含义**：政府采购/合同
+- **政策含义**：政府采购/合同、关税
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；能源生产、电网、核能与传统油气；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
 - **风险**：项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；商品价格波动与政策反复风险；依赖立法拨款与执行节奏；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认
 - **代表性原话**：
@@ -322,6 +323,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
   - 2026-07-08：「And just today, at the summit, we announced $3 billion of new defense investments with U.S. companies, and Lockheed Martin will establish a world-class Patriot…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey)
 
+### SpaceX　（未上市/未知，private）
+
+- **提及次数 / 时间**：5 次，2025-02-14 ～ 2026-10-19
+- **语境与情绪**：neutral、positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
+  - 2026-07-06：「SpaceX Chief Executive Officer Elon R.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-trump-accounts-childrens-savings-program-and-exchange-with-reporters)
+  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
+
 ### Meta Platforms, Inc.　（META，public）
 
 - **提及次数 / 时间**：4 次，2026-01-12 ～ 2026-07-24
@@ -345,18 +358,6 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-01-12：「First up is Microsoft, who my team has been working with, and which will make major changes beginning this week to ensure that Americans don't "pick up the tab…」 — [来源](https://truthsocial.com/@realDonaldTrump/115884759090137876)
   - 2026-05-04：「He sold it for a billion dollars to Microsoft.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-white-house-small-business-summit)
   - 2026-06-04：「Believe it or not, I used to think it was in energy, but he was successful in technology, and he sold his company to, I think, Microsoft, right?」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-coal-and-exchange-with-reporters)
-
-### SpaceX　（未上市/未知，private）
-
-- **提及次数 / 时间**：4 次，2025-02-14 ～ 2026-08-28
-- **语境与情绪**：neutral、positive；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
-  - 2026-07-06：「SpaceX Chief Executive Officer Elon R.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-trump-accounts-childrens-savings-program-and-exchange-with-reporters)
-  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
 
 ### Amazon.com, Inc.　（AMZN，public）
 
