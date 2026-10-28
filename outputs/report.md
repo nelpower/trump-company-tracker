@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-27 09:54　|　记录总数：**194***
+*生成时间：2026-10-28 10:40　|　记录总数：**196***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 167 |
+| 2026 | 169 |
 
 **按月份：**
 
@@ -37,7 +37,7 @@
 | 2026-06 | 17 |
 | 2026-07 | 43 |
 | 2026-08 | 22 |
-| 2026-09 | 23 |
+| 2026-09 | 25 |
 | 2026-10 | 5 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -53,9 +53,9 @@
 | 7 | Alphabet Inc. (Google) | GOOGL | 13 |
 | 8 | Micron Technology, Inc. | MU | 12 |
 | 9 | United States Steel Corporation | X | 7 |
-| 10 | SpaceX | — | 5 |
-| 11 | Lockheed Martin Corporation | LMT | 5 |
-| 12 | Anthropic | — | 5 |
+| 10 | Lockheed Martin Corporation | LMT | 6 |
+| 11 | Anthropic | — | 6 |
+| 12 | SpaceX | — | 5 |
 | 13 | Microsoft Corporation | MSFT | 4 |
 | 14 | Meta Platforms, Inc. | META | 4 |
 | 15 | Amazon.com, Inc. | AMZN | 3 |
@@ -69,9 +69,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 90 | 46% |
+| positive | 91 | 46% |
 | negative | 4 | 2% |
-| neutral | 97 | 50% |
+| neutral | 98 | 50% |
 | mixed | 3 | 2% |
 
 ## 4. 主题分布 (theme_tags)
@@ -80,7 +80,7 @@
 | --- | --- |
 | AI | 10 |
 | data_center | 2 |
-| defense | 13 |
+| defense | 14 |
 | energy | 8 |
 | manufacturing | 28 |
 | semiconductor | 20 |
@@ -89,7 +89,7 @@
 | aerospace | 17 |
 | infrastructure | 3 |
 | consumer | 4 |
-| other | 117 |
+| other | 118 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 6 |
 | tax_credit | 1 |
-| unknown | 162 |
+| unknown | 164 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-27)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-28)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -116,6 +116,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-10-20 | The Boeing Company | BA | 5 | positive | tariff | Here in Kansas, the pharmaceutical company, Merck, is investing nearly 1 Billion Dollars … | [link](https://truthsocial.com/@realDonaldTrump/117470533012557706) |
 | 2026-10-14 | Intel Corporation | INTC | 5 | positive | unknown | These are TRANSFORMATIONAL AND GENERATIONAL DEALS FOR AMERICA — More Semiconductors, more… | [link](https://truthsocial.com/@realDonaldTrump/117440248541514637) |
 | 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | RT @realDonaldTrumpCongratulations to the GREAT Boeing Company for producing a plane, the… | [link](https://truthsocial.com/@realDonaldTrump/117366242139776153) |
+| 2026-09-28 | Lockheed Martin Corporation | LMT | 5 | positive | unknown | I mean, Lockheed is building five. | [link](https://www.presidency.ucsb.edu/documents/remarks-announcing-the-siting-mesabi-metallics-steel-manufacturing-facility-southeastern) |
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
 | 2026-09-14 | Alphabet Inc. (Google) | GOOGL | 5 | neutral | manufacturing_reshoring | Google has recently stated that they want to build a massive Plant in Finland, all becaus… | [link](https://truthsocial.com/@realDonaldTrump/117270591511950591) |
@@ -302,7 +303,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Anthropic　（未上市/未知，private）
 
-- **提及次数 / 时间**：5 次，2026-02-27 ～ 2026-09-14
+- **提及次数 / 时间**：6 次，2026-02-27 ～ 2026-09-27
 - **语境与情绪**：mixed、neutral；主题 AI、defense、other
 - **政策含义**：暂不明确
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；国防订单与防务预算受益方；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -314,7 +315,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Lockheed Martin Corporation　（LMT，public）
 
-- **提及次数 / 时间**：5 次，2026-03-06 ～ 2026-09-21
+- **提及次数 / 时间**：6 次，2026-03-06 ～ 2026-09-28
 - **语境与情绪**：neutral、positive；主题 aerospace、defense、manufacturing、other
 - **政策含义**：税收抵免/补贴
 - **可能投资线索**：航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
