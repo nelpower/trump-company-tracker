@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-10-29 10:58　|　记录总数：**196***
+*生成时间：2026-10-30 10:56　|　记录总数：**201***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 169 |
+| 2026 | 174 |
 
 **按月份：**
 
@@ -37,7 +37,7 @@
 | 2026-06 | 17 |
 | 2026-07 | 43 |
 | 2026-08 | 22 |
-| 2026-09 | 25 |
+| 2026-09 | 30 |
 | 2026-10 | 5 |
 
 ## 2. 被提及最多的公司 (Top 20)
@@ -48,16 +48,16 @@
 | 2 | Apple Inc. | AAPL | 25 |
 | 3 | Intel Corporation | INTC | 21 |
 | 4 | General Motors Company | GM | 16 |
-| 5 | Dell Technologies Inc. | DELL | 15 |
-| 6 | NVIDIA Corporation | NVDA | 14 |
+| 5 | NVIDIA Corporation | NVDA | 15 |
+| 6 | Dell Technologies Inc. | DELL | 15 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 13 |
 | 8 | Micron Technology, Inc. | MU | 12 |
 | 9 | United States Steel Corporation | X | 7 |
-| 10 | Lockheed Martin Corporation | LMT | 6 |
-| 11 | Anthropic | — | 6 |
-| 12 | SpaceX | — | 5 |
-| 13 | Microsoft Corporation | MSFT | 4 |
-| 14 | Meta Platforms, Inc. | META | 4 |
+| 10 | SpaceX | — | 6 |
+| 11 | Meta Platforms, Inc. | META | 6 |
+| 12 | Lockheed Martin Corporation | LMT | 6 |
+| 13 | Anthropic | — | 6 |
+| 14 | Microsoft Corporation | MSFT | 4 |
 | 15 | Amazon.com, Inc. | AMZN | 3 |
 | 16 | Taiwan Semiconductor Manufacturing Company (TSMC) | TSM | 3 |
 | 17 | International Business Machines (IBM) | IBM | 3 |
@@ -69,16 +69,16 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 91 | 46% |
+| positive | 92 | 46% |
 | negative | 4 | 2% |
-| neutral | 98 | 50% |
-| mixed | 3 | 2% |
+| neutral | 102 | 51% |
+| mixed | 3 | 1% |
 
 ## 4. 主题分布 (theme_tags)
 
 | 主题 | 出现次数 |
 | --- | --- |
-| AI | 10 |
+| AI | 11 |
 | data_center | 2 |
 | defense | 14 |
 | energy | 8 |
@@ -87,9 +87,9 @@
 | cloud | 1 |
 | auto | 4 |
 | aerospace | 17 |
-| infrastructure | 3 |
+| infrastructure | 4 |
 | consumer | 4 |
-| other | 118 |
+| other | 121 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 6 |
 | tax_credit | 1 |
-| unknown | 164 |
+| unknown | 169 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-29)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-10-30)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -116,6 +116,8 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-10-20 | The Boeing Company | BA | 5 | positive | tariff | Here in Kansas, the pharmaceutical company, Merck, is investing nearly 1 Billion Dollars … | [link](https://truthsocial.com/@realDonaldTrump/117470533012557706) |
 | 2026-10-14 | Intel Corporation | INTC | 5 | positive | unknown | These are TRANSFORMATIONAL AND GENERATIONAL DEALS FOR AMERICA — More Semiconductors, more… | [link](https://truthsocial.com/@realDonaldTrump/117440248541514637) |
 | 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | RT @realDonaldTrumpCongratulations to the GREAT Boeing Company for producing a plane, the… | [link](https://truthsocial.com/@realDonaldTrump/117366242139776153) |
+| 2026-09-29 | OpenAI | — | 5 | neutral | unknown | We—so we build artificial intelligence because—— This is OpenAI. | [link](https://www.presidency.ucsb.edu/documents/remarks-following-meeting-artificial-intelligence-and-exchange-with-reporters) |
+| 2026-09-29 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | And so—— [ Several reporters spoke at once. ] No, as an example—as an example, NVIDIA. | [link](https://www.presidency.ucsb.edu/documents/remarks-following-meeting-artificial-intelligence-and-exchange-with-reporters) |
 | 2026-09-28 | Lockheed Martin Corporation | LMT | 5 | positive | unknown | I mean, Lockheed is building five. | [link](https://www.presidency.ucsb.edu/documents/remarks-announcing-the-siting-mesabi-metallics-steel-manufacturing-facility-southeastern) |
 | 2026-09-26 | General Motors Company | GM | 5 | positive | manufacturing_reshoring | Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to b… | [link](https://truthsocial.com/@realDonaldTrump/117338936999613227) |
 | 2026-09-14 | Anthropic | — | 5 | mixed | unknown | The Trump Administration has stopped AI "people" from doing bad, or potentially bad, "thi… | [link](https://truthsocial.com/@realDonaldTrump/117269745153543631) |
@@ -255,11 +257,11 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### NVIDIA Corporation　（NVDA，public）
 
-- **提及次数 / 时间**：14 次，2025-07-10 ～ 2026-09-01
-- **语境与情绪**：neutral、positive；主题 AI、aerospace、defense、manufacturing、other、semiconductor
+- **提及次数 / 时间**：15 次，2025-07-10 ～ 2026-09-29
+- **语境与情绪**：neutral、positive；主题 AI、aerospace、defense、infrastructure、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流、国家安全、关税
-- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；航空航天整机/分包/维修产业链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
-- **风险**：估值已计入高增长预期，落地与变现节奏不确定；项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；航空航天整机/分包/维修产业链；国防订单与防务预算受益方；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定；项目延期、成本超支与固定价合同亏损风险；依赖政府预算与采购周期，政治不确定性高；依赖立法拨款与执行节奏；补贴依赖、用工成本与达产不及预期风险；投资含义需进一步确认；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2025-07-10：「NVIDIA IS UP 47% SINCE TRUMP TARIFFS.」 — [来源](https://www.cnbc.com/2025/07/10/nvidia-jensen-huang-donald-trump-4-trillion.html)
   - 2025-08-11：「And I deal with Jensen, who is a great guy, and Nvidia.」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1272)
@@ -325,21 +327,9 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-03-19：「Lockheed is building five or six factories.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-prior-meeting-with-prime-minister-takaichi-sanae-japan-and-exchange-with-reporters)
   - 2026-07-08：「And just today, at the summit, we announced $3 billion of new defense investments with U.S. companies, and Lockheed Martin will establish a world-class Patriot…」 — [来源](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-ankara-turkey)
 
-### SpaceX　（未上市/未知，private）
-
-- **提及次数 / 时间**：5 次，2025-02-14 ～ 2026-10-19
-- **语境与情绪**：neutral、positive；主题 other
-- **政策含义**：暂不明确
-- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
-- **风险**：投资含义需进一步确认
-- **代表性原话**：
-  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
-  - 2026-07-06：「SpaceX Chief Executive Officer Elon R.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-trump-accounts-childrens-savings-program-and-exchange-with-reporters)
-  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
-
 ### Meta Platforms, Inc.　（META，public）
 
-- **提及次数 / 时间**：4 次，2026-01-12 ～ 2026-07-24
+- **提及次数 / 时间**：6 次，2026-01-12 ～ 2026-09-29
 - **语境与情绪**：neutral、positive；主题 energy、other
 - **政策含义**：暂不明确
 - **可能投资线索**：能源生产、电网、核能与传统油气；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -348,6 +338,18 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
   - 2026-01-12：「Congratulations to DINA POWELL MCCORMICK, WHO HAS JUST BEEN NAMED THE NEW PRESIDENT OF META.」 — [来源](https://truthsocial.com/@realDonaldTrump/115882511750475574)
   - 2026-07-15：「But Dina has been—she's been amazing—and she's gotten a very nice position as the president of Meta, working with a very good guy.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-pennsylvania-defense-and-innovation-summit-carlisle-pennsylvania)
   - 2026-07-23：「In Louisiana—there's a guy looks like he's from Louisiana, to me—[ Laughter ]—public school teachers in Richard—so, think of that—Richland Parish are getting a…」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-roundtable-discussion-the-ratepayer-protection-pledge)
+
+### SpaceX　（未上市/未知，private）
+
+- **提及次数 / 时间**：6 次，2025-02-14 ～ 2026-10-19
+- **语境与情绪**：neutral、positive；主题 other
+- **政策含义**：暂不明确
+- **可能投资线索**：提及本身代表政策注意力（最高相关性评分 3/5）
+- **风险**：投资含义需进一步确认
+- **代表性原话**：
+  - 2025-02-14：「Mr. Hannity. —— with PayPal and how you became involved in Tesla and SpaceX and Neuralink—and all these—— Senior Adviser Musk.」 — [来源](https://www.presidency.ucsb.edu/documents/interview-with-sean-hannity-the-fox-news-channels-sean-hannity-show)
+  - 2026-07-06：「SpaceX Chief Executive Officer Elon R.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-the-trump-accounts-childrens-savings-program-and-exchange-with-reporters)
+  - 2026-07-09：「Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all.」 — [来源](https://truthsocial.com/@realDonaldTrump/116887463214588151)
 
 ### Microsoft Corporation　（MSFT，public）
 
@@ -439,6 +441,16 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 - **风险**：补贴依赖、用工成本与达产不及预期风险；资本开支兑现周期长、产能爬坡与地缘出口管制风险
 - **代表性原话**：
   - 2026-06-23：「Nokia is investing $30 million to expand its semiconductor testing and packaging operations.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-affordability-macungie-pennsylvania)
+
+### OpenAI　（未上市/未知，private）
+
+- **提及次数 / 时间**：1 次，2026-09-29 ～ 2026-09-29
+- **语境与情绪**：neutral；主题 AI
+- **政策含义**：暂不明确
+- **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事（最高相关性评分 5/5）
+- **风险**：估值已计入高增长预期，落地与变现节奏不确定
+- **代表性原话**：
+  - 2026-09-29：「We—so we build artificial intelligence because—— This is OpenAI.」 — [来源](https://www.presidency.ucsb.edu/documents/remarks-following-meeting-artificial-intelligence-and-exchange-with-reporters)
 
 ### Oracle Corporation　（ORCL，public）
 
