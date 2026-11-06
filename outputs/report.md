@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-11-05 12:32　|　记录总数：**201***
+*生成时间：2026-11-06 12:15　|　记录总数：**203***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 174 |
+| 2026 | 176 |
 
 **按月份：**
 
@@ -38,7 +38,7 @@
 | 2026-07 | 43 |
 | 2026-08 | 22 |
 | 2026-09 | 30 |
-| 2026-10 | 5 |
+| 2026-10 | 7 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -50,9 +50,9 @@
 | 4 | General Motors Company | GM | 16 |
 | 5 | NVIDIA Corporation | NVDA | 15 |
 | 6 | Dell Technologies Inc. | DELL | 15 |
-| 7 | Alphabet Inc. (Google) | GOOGL | 13 |
+| 7 | Alphabet Inc. (Google) | GOOGL | 14 |
 | 8 | Micron Technology, Inc. | MU | 12 |
-| 9 | United States Steel Corporation | X | 7 |
+| 9 | United States Steel Corporation | X | 8 |
 | 10 | SpaceX | — | 6 |
 | 11 | Meta Platforms, Inc. | META | 6 |
 | 12 | Lockheed Martin Corporation | LMT | 6 |
@@ -69,9 +69,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 92 | 46% |
+| positive | 94 | 46% |
 | negative | 4 | 2% |
-| neutral | 102 | 51% |
+| neutral | 102 | 50% |
 | mixed | 3 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -82,14 +82,14 @@
 | data_center | 2 |
 | defense | 14 |
 | energy | 8 |
-| manufacturing | 28 |
+| manufacturing | 29 |
 | semiconductor | 20 |
 | cloud | 1 |
 | auto | 4 |
 | aerospace | 17 |
 | infrastructure | 4 |
 | consumer | 4 |
-| other | 121 |
+| other | 122 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -102,9 +102,9 @@
 | national_security | 3 |
 | tariff | 6 |
 | tax_credit | 1 |
-| unknown | 169 |
+| unknown | 171 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-11-05)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-11-06)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -115,6 +115,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 | 2026-10-22 | Apple Inc. | AAPL | 5 | neutral | unknown | TRUMP Apple commits up to $100 million for US titanium in domestic manufacturing push: ht… | [link](https://truthsocial.com/@realDonaldTrump/117482204261904691) |
 | 2026-10-20 | The Boeing Company | BA | 5 | positive | tariff | Here in Kansas, the pharmaceutical company, Merck, is investing nearly 1 Billion Dollars … | [link](https://truthsocial.com/@realDonaldTrump/117470533012557706) |
 | 2026-10-14 | Intel Corporation | INTC | 5 | positive | unknown | These are TRANSFORMATIONAL AND GENERATIONAL DEALS FOR AMERICA — More Semiconductors, more… | [link](https://truthsocial.com/@realDonaldTrump/117440248541514637) |
+| 2026-10-02 | United States Steel Corporation | X | 5 | positive | unknown | U.S. Steel is investing $475 million in its plant in Birmingham. | [link](https://www.presidency.ucsb.edu/documents/remarks-campaign-rally-for-alabama-republican-candidates-mobile-alabama) |
 | 2026-10-01 | The Boeing Company | BA | 5 | positive | unknown | RT @realDonaldTrumpCongratulations to the GREAT Boeing Company for producing a plane, the… | [link](https://truthsocial.com/@realDonaldTrump/117366242139776153) |
 | 2026-09-29 | OpenAI | — | 5 | neutral | unknown | We—so we build artificial intelligence because—— This is OpenAI. | [link](https://www.presidency.ucsb.edu/documents/remarks-following-meeting-artificial-intelligence-and-exchange-with-reporters) |
 | 2026-09-29 | NVIDIA Corporation | NVDA | 5 | neutral | unknown | And so—— [ Several reporters spoke at once. ] No, as an example—as an example, NVIDIA. | [link](https://www.presidency.ucsb.edu/documents/remarks-following-meeting-artificial-intelligence-and-exchange-with-reporters) |
@@ -269,7 +270,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### Alphabet Inc. (Google)　（GOOGL，public）
 
-- **提及次数 / 时间**：13 次，2024-10-25 ～ 2026-09-14
+- **提及次数 / 时间**：14 次，2024-10-25 ～ 2026-10-02
 - **语境与情绪**：neutral、positive；主题 AI、data_center、defense、manufacturing、other
 - **政策含义**：制造业回流
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；国防订单与防务预算受益方；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
@@ -293,7 +294,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### United States Steel Corporation　（X，public）
 
-- **提及次数 / 时间**：7 次，2024-12-02 ～ 2026-09-08
+- **提及次数 / 时间**：8 次，2024-12-02 ～ 2026-10-02
 - **语境与情绪**：mixed、neutral、positive；主题 AI、data_center、energy、manufacturing、other
 - **政策含义**：国家安全、关税
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；数据中心、电力、冷却、网络与服务器供应链；能源生产、电网、核能与传统油气；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力（最高相关性评分 5/5）
