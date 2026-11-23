@@ -1,6 +1,6 @@
 # Trump Company Mention Tracker — 研究报告
 
-*生成时间：2026-11-22 12:42　|　记录总数：**220***
+*生成时间：2026-11-23 14:59　|　记录总数：**223***
 
 > **重要声明 / Disclaimer**：本报告仅收集与整理特朗普公开言论中对具体公司的提及，用于投资研究的*注意力/政策线索*追踪。**特朗普的言论本身不构成任何买入或卖出建议**，言论与实际订单、合同、财报、估值之间往往存在巨大差距，且可能反复。任何投资决策必须结合公司财报、订单、现金流、估值与产业逻辑独立验证。数据由启发式规则自动抽取，可能存在误判，使用前请人工复核 `exact_quote` 与 `source_url`。
 
@@ -13,7 +13,7 @@
 | 2016 | 1 |
 | 2024 | 4 |
 | 2025 | 22 |
-| 2026 | 193 |
+| 2026 | 196 |
 
 **按月份：**
 
@@ -39,7 +39,7 @@
 | 2026-08 | 22 |
 | 2026-09 | 30 |
 | 2026-10 | 22 |
-| 2026-11 | 2 |
+| 2026-11 | 5 |
 
 ## 2. 被提及最多的公司 (Top 20)
 
@@ -48,7 +48,7 @@
 | 1 | The Boeing Company | BA | 28 |
 | 2 | Apple Inc. | AAPL | 27 |
 | 3 | Intel Corporation | INTC | 22 |
-| 4 | NVIDIA Corporation | NVDA | 18 |
+| 4 | NVIDIA Corporation | NVDA | 21 |
 | 5 | General Motors Company | GM | 17 |
 | 6 | Dell Technologies Inc. | DELL | 17 |
 | 7 | Alphabet Inc. (Google) | GOOGL | 15 |
@@ -70,9 +70,9 @@
 
 | 情绪 | 数量 | 占比 |
 | --- | --- | --- |
-| positive | 104 | 47% |
+| positive | 107 | 48% |
 | negative | 4 | 2% |
-| neutral | 109 | 50% |
+| neutral | 109 | 49% |
 | mixed | 3 | 1% |
 
 ## 4. 主题分布 (theme_tags)
@@ -90,7 +90,7 @@
 | aerospace | 17 |
 | infrastructure | 4 |
 | consumer | 5 |
-| other | 133 |
+| other | 136 |
 
 ## 5. 政策角度分布 (policy_angle)
 
@@ -98,14 +98,14 @@
 | --- | --- |
 | buy_american | 1 |
 | deregulation | 1 |
-| government_contract | 10 |
+| government_contract | 11 |
 | manufacturing_reshoring | 10 |
 | national_security | 3 |
 | tariff | 6 |
 | tax_credit | 1 |
-| unknown | 188 |
+| unknown | 190 |
 
-## 6. 最近 30 天新增公司 mentions (相对运行日 2026-11-22)
+## 6. 最近 30 天新增公司 mentions (相对运行日 2026-11-23)
 
 _最近 30 天内没有新提及的公司（样本数据多为历史记录，属预期）。_
 
@@ -113,6 +113,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 | 日期 | 公司 | ticker | 评分 | 情绪 | 政策角度 | 原话(节选) | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-23 | NVIDIA Corporation | NVDA | 5 | positive | government_contract | Separately, NVIDIA should continue its thorough internal investigation of the Company's c… | [link](https://truthsocial.com/@realDonaldTrump/117666141823845971) |
 | 2026-10-22 | Apple Inc. | AAPL | 5 | neutral | unknown | TRUMP Apple commits up to $100 million for US titanium in domestic manufacturing push: ht… | [link](https://truthsocial.com/@realDonaldTrump/117482204261904691) |
 | 2026-10-20 | The Boeing Company | BA | 5 | positive | tariff | Here in Kansas, the pharmaceutical company, Merck, is investing nearly 1 Billion Dollars … | [link](https://truthsocial.com/@realDonaldTrump/117470533012557706) |
 | 2026-10-14 | Intel Corporation | INTC | 5 | positive | unknown | These are TRANSFORMATIONAL AND GENERATIONAL DEALS FOR AMERICA — More Semiconductors, more… | [link](https://truthsocial.com/@realDonaldTrump/117440248541514637) |
@@ -241,7 +242,7 @@ _最近 30 天内没有新提及的公司（样本数据多为历史记录，属
 
 ### NVIDIA Corporation　（NVDA，public）
 
-- **提及次数 / 时间**：18 次，2025-07-10 ～ 2026-11-12
+- **提及次数 / 时间**：21 次，2025-07-10 ～ 2026-11-23
 - **语境与情绪**：neutral、positive；主题 AI、aerospace、defense、infrastructure、manufacturing、other、semiconductor
 - **政策含义**：政府采购/合同、制造业回流、国家安全、关税
 - **可能投资线索**：AI 算力、模型、应用及配套基础设施需求叙事；航空航天整机/分包/维修产业链；国防订单与防务预算受益方；基建相关材料/工程/设备；美国本土制造、回流与配套设备/建设；提及本身代表政策注意力；半导体制造/设备/材料/代工产业链关注度上升（最高相关性评分 5/5）
