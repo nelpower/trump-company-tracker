@@ -37,6 +37,7 @@
     "remarks-and-exchange-with-reporters-joint-base-andrews-maryland-13",
     "remarks-and-exchange-with-reporters-joint-base-andrews-maryland-14",
     "remarks-and-exchange-with-reporters-prior-departure-for-clarksville-tennessee",
+    "remarks-and-exchange-with-reporters-prior-departure-for-dalton-georgia",
     "remarks-and-exchange-with-reporters-prior-departure-for-grand-island-nebraska",
     "remarks-and-exchange-with-reporters-prior-departure-for-sparrows-point-maryland",
     "remarks-and-exchange-with-reporters-prior-departure-for-syracuse-new-york",
@@ -67,6 +68,8 @@
     "remarks-cabinet-meeting-and-exchange-with-reporters-16",
     "remarks-campaign-rally-for-alabama-republican-candidates-mobile-alabama",
     "remarks-campaign-rally-for-alaska-republican-candidates-wasilla-alaska",
+    "remarks-campaign-rally-for-arizona-republican-candidates-bullhead-city-arizona",
+    "remarks-campaign-rally-for-montana-republican-candidates-kalispell-montana",
     "remarks-campaign-rally-for-nebraska-republican-candidates-grand-island-nebraska",
     "remarks-campaign-rally-for-new-york-republican-candidates-syracuse-new-york",
     "remarks-campaign-rally-for-ohio-republican-candidates-vandalia-ohio",
@@ -97,11 +100,13 @@
     "remarks-during-telerally-for-alabama-republican-senatorial-candidate-representative-f",
     "remarks-during-telerally-for-georgia-republican-candidates",
     "remarks-during-telerally-for-georgia-republican-gubernatorial-candidate-lieutenant",
+    "remarks-during-telerally-for-iowa-republican-candidates",
     "remarks-during-telerally-for-kansas-republican-gubernatorial-candidate-state-senator-ty",
     "remarks-during-telerally-for-louisiana-republican-senatorial-candidate-representative",
     "remarks-during-telerally-for-nevada-republican-candidates",
     "remarks-during-telerally-for-north-carolina-republican-candidates",
     "remarks-during-telerally-for-oklahoma-republican-gubernatorial-candidate-mike-mazzei",
+    "remarks-during-telerally-for-south-carolina-republican-candidates",
     "remarks-during-telerally-for-south-carolina-republican-senatorial-candidate-senator",
     "remarks-during-telerally-for-south-carolina-republican-senatorial-candidate-senator-0",
     "remarks-during-telerally-for-south-carolina-republican-senatorial-candidate-senator-1",
@@ -207,6 +212,7 @@
     "remarks-receiving-doordash-order-and-exchange-with-reporters",
     "remarks-reception-for-united-states-olympic-and-paralympic-athletes-and-exchange-with",
     "remarks-reporters-prior-departure-for-medinah-illinois",
+    "remarks-reporters-prior-departure-from-missoula-montana",
     "remarks-reporters-upon-arrival-from-chicago-illinois",
     "remarks-rose-garden-club-dinner",
     "remarks-rose-garden-club-dinner-0",
@@ -297,5 +303,5 @@
     "the-presidents-news-conference-with-white-house-senior-adviser-elon-r-musk",
     "the-presidents-news-conference-woodside-california"
   ],
-  "updated_at": "2026-11-22T12:42:21Z"
+  "updated_at": "2026-11-25T14:38:49Z"
 }
